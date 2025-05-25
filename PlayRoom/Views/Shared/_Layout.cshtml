@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/assets/css/home/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    @RenderSection("css", required: false)
+</head>
+
+<body>
+    <header>
+        <div class="navbar-overlay">
+        </div>
+        <div class="navbar">
+            <div class="container-xxl">
+
+                <div class="row">
+                    <div class="col-lg-1 col-5 navbar-start">
+                        <div class="sidebar">
+                            <!-- Navigation -->
+                            <div class="b-nav">
+                                <li><a class="b-link" asp-controller="consoles" asp-action="index" target="_blank">Oyun konsolları</a></li>
+                                <li><a class="b-link" asp-controller="games" asp-action="index" target="_blank">Oyunlar</a></li>
+                                <li><a class="b-link" asp-controller="accessories" asp-action="index" target="_blank">Aksesuarlar</a></li>
+                                <li><a class="b-link" asp-controller="gamepads" asp-action="index" target="_blank">Oyun sükanları</a></li>
+                                <li><a class="b-link" href="" target="_blank">Şirkət haqqında</a></li>
+                                <li><a class="b-link" href="" target="_blank">Çatdırılma və ödəniş</a></li>
+                                <li><a class="b-link" href="" target="_blank">Zəmanət və təmir şərtləri</a></li>
+                                <li><a class="b-link" asp-controller="news" asp-action="index" target="_blank">Xəbərlər</a></li>
+                                <li><a class="b-link" href="" target="_blank">Məxfilik siyasəti</a></li>
+                                <li><a class="b-link" href="" target="_blank">Əlaqə</a></li>
+                            </div>
+                            <!-- Burger-Icon -->
+                            <div class="b-container">
+                                <div class="b-menu d-none">
+                                    <i class="fa-solid fa-bars"></i>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-overlay"></div>
+                            <!-- Burger-Icon -->
+                        </div>
+                        <div class="logo">
+                            <a asp-controller="home" asp-action="index"><img src="https://cdn.playroom.az/era_cms_assets/logolight.webp" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 navbar-links">
+                        <div class="game-consols">
+                            <a asp-controller="consoles" asp-action="index">Oyun konsolları</a>
+                        </div>
+                        <div class="games">
+                            <a asp-controller="games" asp-action="index">Oyunlar</a>
+                        </div>
+                        <div class="accessories">
+                            <a asp-controller="accessories" asp-action="index">Aksesuarlar</a>
+                        </div>
+                        <div class="gamepad">
+                            <a asp-controller="gamepads" asp-action="index">Oyun sükanları</a>
+                        </div>
+                        <div class="news">
+                            <a asp-controller="news" asp-action="index">Xəbərlər</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-7 navbar-end">
+                        <div class="search-like-basket">
+                            <div class="search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <div class="search-form d-none">
+                                <form class="search-wrapper" action="/search" method="GET">
+                                    <input type="text" name="q" placeholder="Axtar..." class="search-input" />
+                                </form>
+                            </div>
+                            <div class="favorites">
+                                <a href="./favorites.html"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="basket">
+                                <a href="./basket.html"><i class="fa-solid fa-basket-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="language">
+                            <div class="main-language">
+                                <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Faz.png&w=48&q=75"
+                                     alt=""><span>AZ</span>
+                                <i class="fa-solid fa-chevron-down open d-none"></i>
+                                <i class="fa-solid fa-chevron-up close"></i>
+                            </div>
+                            <div class="all-languages d-none">
+                                <ul>
+                                    <li class="azerbaijan">
+                                        <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Faz.png&w=48&q=75"
+                                             alt=""><span>AZ</span>
+                                    </li>
+                                    <li class="russian">
+                                        <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Fru.png&w=48&q=75"
+                                             alt=""><span>RU</span>
+                                    </li>
+                                    <li class="english">
+                                        <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Fuk.png&w=48&q=75"
+                                             alt=""><span>EN</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="./Register.html" class="login">
+                            <button>Daxil olun</button>
+                            <i class="fa-regular fa-user d-none"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+            @RenderBody()
+    <footer>
+        <section id="companies">
+            <div class="custom-container">
+                <div class="list">
+                    <div class="company col-3">
+                        <a href="">
+                            <img src="https://cdn.playroom.az/logos_img/130/23/playroom_img_65_1719619100.png.webp"
+                                 alt="">
+                        </a>
+                    </div>
+                    <div class="company col-3">
+                        <a href="">
+                            <img src="https://cdn.playroom.az/logos_img/130/24/playroom_img_42_1719619183.png.webp"
+                                 alt="">
+                        </a>
+                    </div>
+                    <div class="company col-3">
+                        <a href="">
+                            <img src="https://cdn.playroom.az/logos_img/130/28/playroom_img_41_1719619529.png.webp"
+                                 alt="">
+                        </a>
+                    </div>
+                    <div class="company col-3">
+                        <a href="">
+                            <img src="https://cdn.playroom.az/logos_img/130/35/playroom_img_68_1720016342.png.webp"
+                                 alt="">
+                        </a>
+                    </div>
+                    <div class="company col-3">
+                        <a href="">
+                            <img src="https://cdn.playroom.az/logos_img/130/31/playroom_img_85_1719619682.png.webp"
+                                 alt="">
+                        </a>
+                    </div>
+                    <div class="company col-3">
+                        <a href="">
+                            <img src="https://cdn.playroom.az/logos_img/130/33/playroom_img_72_1720022552.png.webp"
+                                 alt="">
+                        </a>
+                    </div>
+                    <div class="company col-3">
+                        <a href="">
+                            <img src="https://cdn.playroom.az/logos_img/130/36/playroom_img_76_1720016740.png.webp"
+                                 alt="">
+                        </a>
+                    </div>
+                    <div class="company col-3">
+                        <a href="">
+                            <img src="https://cdn.playroom.az/logos_img/130/26/playroom_img_36_1720022528.png.webp"
+                                 alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="subscribe">
+            <div class="section-backround">
+                <div class="container-xxl">
+                    <h3>Abunə ol</h3>
+                    <h4>Ən son xəbərləri, yenilikləri və xüsusi təklifləri əldə etmək üçün abunə olun.</h4>
+                    <form class="form-email">
+                        <input class="from-input" placeholder="E-poçtunuzu daxil edin" value="">
+                        <button type="submit">Abunə ol</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="footer-bottom">
+            <div class="container-xxl">
+                <div class="footer-parts">
+                    <div class="row">
+                        <div class="logo-social-media">
+                            <a href="" class="footer-logo">
+                                <img src="https://cdn.playroom.az/era_cms_assets/logodark.webp" alt="">
+                            </a>
+                            <div class="social-medias">
+                                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="footer-links">
+                            <div class="row" style="width: 100%;">
+                                <div class="col-3 item">
+                                    <a href="">Oyun konsolları</a>
+                                    <a href="">Playstation</a>
+                                    <a href="">Xbox</a>
+                                    <a href="">Nintendo</a>
+                                    <a href="">Oculus</a>
+                                </div>
+                                <div class="col-3 item">
+                                    <a href="">Oyunlar</a>
+                                    <a href="">Playstation 4</a>
+                                    <a href="">Playstation 5</a>
+                                    <a href="">Nintendo</a>
+                                </div>
+                                <div class="col-3 item">
+                                    <a href="">Aksesuarlar</a>
+                                    <a href="">Playstation</a>
+                                    <a href="">Xbox</a>
+                                    <a href="">Nintendo</a>
+                                </div>
+                                <div class="col-3 item">
+                                    <a href="">Oyun sükanları</a>
+                                    <a href="">Logitech</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-info">
+                        <div class="developed-by">
+                            <span>Developed by</span>
+                            <a href="">
+                                <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Ferasoft_logo.png&w=256&q=75"
+                                     alt="">
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="">Şirkət haqqında</a>
+                            <a href="">Çatdırılma və ödəniş</a>
+                            <a href="">Zəmanət və təmir şərtləri</a>
+                            <a href="">Xəbərlər</a>
+                            <a href="">Məxfilik siyasəti</a>
+                            <a href="">Əlaqə</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/0b00c03ef3.js" crossorigin="anonymous"></script>
+    <script src="~/assets/js/home.js"></script>
+    @RenderSection("js", required: false)
+</body>
+</html>

@@ -1,0 +1,11 @@
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Domain\obj\Debug\net8.0\ref\Domain.dll

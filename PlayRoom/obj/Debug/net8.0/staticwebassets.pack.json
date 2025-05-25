@@ -1,0 +1,429 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PlayRoom.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PlayRoom.fu54nflh9k.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\accessories\\accessories.css",
+      "PackagePath": "staticwebassets\\assets\\css\\accessories\\accessories.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\accessories\\accessories.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\accessories\\accessories.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\accessories\\accessories.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\accessories\\accessories.scss"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\basket\\basket.css",
+      "PackagePath": "staticwebassets\\assets\\css\\basket\\basket.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\basket\\basket.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\basket\\basket.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\basket\\basket.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\basket\\basket.scss"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\consoles\\console.css",
+      "PackagePath": "staticwebassets\\assets\\css\\consoles\\console.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\consoles\\console.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\consoles\\console.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\consoles\\console.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\consoles\\console.scss"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\favorites\\favorites.css",
+      "PackagePath": "staticwebassets\\assets\\css\\favorites\\favorites.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\favorites\\favorites.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\favorites\\favorites.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\favorites\\favorites.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\favorites\\favorites.scss"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\gamepads\\gamepads.css",
+      "PackagePath": "staticwebassets\\assets\\css\\gamepads\\gamepads.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\gamepads\\gamepads.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\gamepads\\gamepads.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\gamepads\\gamepads.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\gamepads\\gamepads.scss"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\games\\games.css",
+      "PackagePath": "staticwebassets\\assets\\css\\games\\games.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\games\\games.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\games\\games.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\games\\games.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\games\\games.scss"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\home\\home.css",
+      "PackagePath": "staticwebassets\\assets\\css\\home\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\home\\home.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\home\\home.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\home\\home.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\home\\home.scss"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\home\\partials\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\home\\partials\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\news\\news.css",
+      "PackagePath": "staticwebassets\\assets\\css\\news\\news.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\news\\news.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\news\\news.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\news\\news.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\news\\news.scss"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\productDetail\\productDetail.css",
+      "PackagePath": "staticwebassets\\assets\\css\\productDetail\\productDetail.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\productDetail\\productDetail.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\productDetail\\productDetail.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\productDetail\\productDetail.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\productDetail\\productDetail.scss"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\register\\register.css",
+      "PackagePath": "staticwebassets\\assets\\css\\register\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\register\\register.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\register\\register.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\register\\register.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\register\\register.scss"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\God-of-War-SG.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\God-of-War-SG.webp"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\home_main_backround-image.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\home_main_backround-image.webp"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\ps5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ps5.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\js\\accessories.js",
+      "PackagePath": "staticwebassets\\assets\\js\\accessories.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\js\\basket.js",
+      "PackagePath": "staticwebassets\\assets\\js\\basket.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\js\\consoles.js",
+      "PackagePath": "staticwebassets\\assets\\js\\consoles.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\js\\favorites.js",
+      "PackagePath": "staticwebassets\\assets\\js\\favorites.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\js\\gamepads.js",
+      "PackagePath": "staticwebassets\\assets\\js\\gamepads.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\js\\games.js",
+      "PackagePath": "staticwebassets\\assets\\js\\games.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\js\\home.js",
+      "PackagePath": "staticwebassets\\assets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\js\\news.js",
+      "PackagePath": "staticwebassets\\assets\\js\\news.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PlayRoom.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PlayRoom.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PlayRoom.props",
+      "PackagePath": "build\\PlayRoom.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PlayRoom.props",
+      "PackagePath": "buildMultiTargeting\\PlayRoom.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PlayRoom.props",
+      "PackagePath": "buildTransitive\\PlayRoom.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
