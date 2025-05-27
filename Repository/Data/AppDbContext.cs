@@ -8,5 +8,13 @@ namespace Repository.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<WelcomeBanner> WelcomeBanner { get; set; }
+        public DbSet<SpecialGameBanner> SpecialGameBanner { get; set; }
+        public DbSet<Game> Games { get; set; }
+        public DbSet<Discount> Discounts { get; set; }
+        public DbSet<GameCategory> GameCategories { get; set; }
+        public DbSet<GameDiscount> GameDiscounts { get; set; }
+        public DbSet<GameImage> GameImages { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Company> Companies { get; set; }
     }
 }

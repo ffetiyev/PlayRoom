@@ -1,0 +1,29 @@
+﻿@model WelcomeBannerVM
+
+<div class="table-responsive mt-5" style="display:inline; border-color:red">
+    <table class="table table-bordered" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Image</th>
+                <th>Option</th>
+
+            </tr>
+        </thead>
+        <tfoot>
+
+                <tr>
+                    <td>@Model.Title</td>
+                    <td>@Model.Description</td>
+                    <td><img src="~/assets/images/@Model.Image" alt="Alternate Text" style="width:230px;height:130px" /></td>
+                    <td class="d-flex" style="border:none; border-top:1px solid gray">
+                        <a asp-action="update" asp-route-id="@Model.Id" style="padding:5px 20px" class="btn btn-primary btn-icon-split ml-3">Edit</a>
+                    </td>
+                </tr>
+
+
+        </tfoot>
+
+    </table>
+</div>

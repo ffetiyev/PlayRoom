@@ -1,6 +1,6 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using PlayRoom.ViewModels;
+using Service.ViewModels;
 using Service.Service.Interfaces;
 
 namespace PlayRoom.Controllers;
@@ -9,19 +9,26 @@ public class HomeController : Controller
 {
 
     private readonly IWelcomeBannerService _welcomeBannerService;
-    private readonly IMapper _mapper;
+    private readonly IGameService _gameService;
+    private readonly ISpecialGameBannerService _specialGameBannerService;
     public HomeController(IWelcomeBannerService welcomeBannerService,
-                          IMapper mapper)
+                          IGameService gameService,
+                          ISpecialGameBannerService specialGameBannerService)
     {
-        _mapper= mapper;
         _welcomeBannerService = welcomeBannerService;
+        _gameService = gameService;
+        _specialGameBannerService = specialGameBannerService;
     }
     public async Task<IActionResult> Index()
     {
-        WelcomeBannerVM welcomeBanners = _mapper.Map<WelcomeBannerVM>(await _welcomeBannerService.GetAsync());
+        WelcomeBannerVM welcomeBanners = await _welcomeBannerService.GetAsync();
+        IEnumerable<GameVM> games = await _gameService.GetAllAsync();
+        IEnumerable<SpecialGameBannerVM> specialGameBanners = await _specialGameBannerService.GetAllAsync();
         HomeVM models = new()
         {
-            WelcomeBanner=welcomeBanners
+            WelcomeBanner=welcomeBanners,
+            Games=games,
+            SpecialGameBanners=specialGameBanners
         };
 
         return View(models);

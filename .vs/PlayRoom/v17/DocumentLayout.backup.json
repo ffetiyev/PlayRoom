@@ -3,36 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\areas\\admin\\views\\welcomebanner\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\areas\\admin\\views\\welcomebanner\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\areas\\admin\\views\\welcomebanner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\areas\\admin\\views\\welcomebanner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\areas\\admin\\controllers\\welcomebannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\areas\\admin\\controllers\\welcomebannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA222026-E72E-4517-ADCF-C635ED7B81D4}|Service\\Service.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\service\\service\\welcomebannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA222026-E72E-4517-ADCF-C635ED7B81D4}|Service\\Service.csproj|solutionrelative:service\\service\\welcomebannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0000A102-5236-4D9F-A9A2-72AD63B3D1B8}|Repository\\Repository.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\repository\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0000A102-5236-4D9F-A9A2-72AD63B3D1B8}|Repository\\Repository.csproj|solutionrelative:repository\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AD5B880-351E-4665-B8D2-B547ED7F7B70}|Domain\\Domain.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\domain\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AD5B880-351E-4665-B8D2-B547ED7F7B70}|Domain\\Domain.csproj|solutionrelative:domain\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AD5B880-351E-4665-B8D2-B547ED7F7B70}|Domain\\Domain.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\domain\\models\\specialgamebanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AD5B880-351E-4665-B8D2-B547ED7F7B70}|Domain\\Domain.csproj|solutionrelative:domain\\models\\specialgamebanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0000A102-5236-4D9F-A9A2-72AD63B3D1B8}|Repository\\Repository.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\repository\\repository\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0000A102-5236-4D9F-A9A2-72AD63B3D1B8}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\wwwroot\\assets\\css\\home\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\wwwroot\\assets\\css\\home\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0000A102-5236-4D9F-A9A2-72AD63B3D1B8}|Repository\\Repository.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\repository\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0000A102-5236-4D9F-A9A2-72AD63B3D1B8}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\wwwroot\\assets\\css\\home\\home.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\wwwroot\\assets\\css\\home\\home.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA222026-E72E-4517-ADCF-C635ED7B81D4}|Service\\Service.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\service\\service\\specialgamebannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA222026-E72E-4517-ADCF-C635ED7B81D4}|Service\\Service.csproj|solutionrelative:service\\service\\specialgamebannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,19 +66,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Views\\WelcomeBanner\\Update.cshtml",
+              "RelativeDocumentMoniker": "PlayRoom\\Areas\\Admin\\Views\\WelcomeBanner\\Update.cshtml",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Views\\WelcomeBanner\\Update.cshtml*",
+              "RelativeToolTip": "PlayRoom\\Areas\\Admin\\Views\\WelcomeBanner\\Update.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T15:31:51.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Views\\WelcomeBanner\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlayRoom\\Areas\\Admin\\Views\\WelcomeBanner\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Views\\WelcomeBanner\\Index.cshtml",
+              "RelativeToolTip": "PlayRoom\\Areas\\Admin\\Views\\WelcomeBanner\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T13:04:25.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IBaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Repository\\Repository\\Interfaces\\IBaseRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repository\\Interfaces\\IBaseRepository.cs",
-              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Repository\\Repository\\Interfaces\\IBaseRepository.cs",
-              "RelativeToolTip": "Repository\\Repository\\Interfaces\\IBaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Title": "WelcomeBannerController.cs",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Controllers\\WelcomeBannerController.cs",
+              "RelativeDocumentMoniker": "PlayRoom\\Areas\\Admin\\Controllers\\WelcomeBannerController.cs",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Controllers\\WelcomeBannerController.cs",
+              "RelativeToolTip": "PlayRoom\\Areas\\Admin\\Controllers\\WelcomeBannerController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T14:31:17.73Z",
+              "WhenOpened": "2025-05-27T13:04:04.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WelcomeBannerService.cs",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Service\\Service\\WelcomeBannerService.cs",
+              "RelativeDocumentMoniker": "Service\\Service\\WelcomeBannerService.cs",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Service\\Service\\WelcomeBannerService.cs",
+              "RelativeToolTip": "Service\\Service\\WelcomeBannerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T10:36:21.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PlayRoom\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PlayRoom\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAArwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T12:35:29.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "PlayRoom\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "PlayRoom\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:08:29.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Repository\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Repository\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Repository\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Repository\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:05:03.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Domain\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Company.cs",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Domain\\Models\\Company.cs",
+              "RelativeToolTip": "Domain\\Models\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:03:11.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SpecialGameBanner.cs",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Domain\\Models\\SpecialGameBanner.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\SpecialGameBanner.cs",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Domain\\Models\\SpecialGameBanner.cs",
+              "RelativeToolTip": "Domain\\Models\\SpecialGameBanner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T11:28:59.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlayRoom\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PlayRoom\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACABAAAAAAAAAAAAAGIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T11:17:50.716Z",
               "EditorCaption": ""
             },
             {
@@ -66,94 +207,59 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Program.cs",
-              "RelativeDocumentMoniker": "PlayRoom\\Program.cs",
-              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Program.cs",
-              "RelativeToolTip": "PlayRoom\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:11:20.245Z",
+              "DocumentIndex": 10,
+              "Title": "home.css",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\home\\home.css",
+              "RelativeDocumentMoniker": "PlayRoom\\wwwroot\\assets\\css\\home\\home.css",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\home\\home.css",
+              "RelativeToolTip": "PlayRoom\\wwwroot\\assets\\css\\home\\home.css",
+              "ViewState": "AgIAAKgBAAAAAAAAAAAuwLwBAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-27T11:22:20.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PlayRoom\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "PlayRoom\\Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-25T14:27:17.134Z",
+              "DocumentIndex": 11,
+              "Title": "home.scss",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\home\\home.scss",
+              "RelativeDocumentMoniker": "PlayRoom\\wwwroot\\assets\\css\\home\\home.scss",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\home\\home.scss",
+              "RelativeToolTip": "PlayRoom\\wwwroot\\assets\\css\\home\\home.scss",
+              "ViewState": "AgIAAPQBAAAAAAAAAAAuwAQCAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2025-05-27T11:21:52.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Repository\\Repository\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repository\\BaseRepository.cs",
-              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Repository\\Repository\\BaseRepository.cs",
-              "RelativeToolTip": "Repository\\Repository\\BaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T14:30:34.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "PlayRoom\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "PlayRoom\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-25T14:28:35.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Helpers\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "PlayRoom\\Helpers\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Helpers\\MappingProfile.cs",
-              "RelativeToolTip": "PlayRoom\\Helpers\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T14:00:01.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeVM.cs",
-              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\ViewModels\\HomeVM.cs",
-              "RelativeDocumentMoniker": "PlayRoom\\ViewModels\\HomeVM.cs",
-              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\ViewModels\\HomeVM.cs",
-              "RelativeToolTip": "PlayRoom\\ViewModels\\HomeVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T14:12:29.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PlayRoom\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Controllers\\HomeController.cs",
               "RelativeToolTip": "PlayRoom\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:39:51.446Z",
+              "WhenOpened": "2025-05-27T11:11:33.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SpecialGameBannerService.cs",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Service\\Service\\SpecialGameBannerService.cs",
+              "RelativeDocumentMoniker": "Service\\Service\\SpecialGameBannerService.cs",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Service\\Service\\SpecialGameBannerService.cs",
+              "RelativeToolTip": "Service\\Service\\SpecialGameBannerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T10:49:01.89Z",
               "EditorCaption": ""
             }
           ]

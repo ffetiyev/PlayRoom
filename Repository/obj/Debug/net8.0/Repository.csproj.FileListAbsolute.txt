@@ -15,3 +15,4 @@ C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Repository\obj\Debug\
 C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Repository\obj\Debug\net8.0\ref\Repository.dll
 C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
 C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\Repository\obj\Debug\net8.0\Repository.sourcelink.json

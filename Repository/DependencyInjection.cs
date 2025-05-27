@@ -1,11 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Repository.Repository.Interfaces;
 using Repository.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Repository.Repository.Interfaces;
 
 namespace Repository
 {
@@ -15,6 +10,8 @@ namespace Repository
         {
             services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
             services.AddScoped<IWelcomeBannerRepository, WelcomeBannerRepository>();
+            services.AddScoped<IGameRepository, GameRepository>();
+            services.AddScoped<ISpecialGameBannerRepository, SpecialGameBannerRepository>();
 
             return services;
         }

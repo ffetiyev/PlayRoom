@@ -1,0 +1,26 @@
+﻿@model WelcomeBannerUpdateVM
+
+<div class="container">
+
+    <form class="user" method="post" asp-action="Update" enctype="multipart/form-data">
+        <div class="form-group">
+            <input asp-for="Title" type="text" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="Enter slider new title...">
+        </div>
+        <div class="form-group">
+            <input asp-for="Description" type="text" class="form-control form-control-user" placeholder="Enter slider new desctiption...">
+        </div>
+        <div class="form-group">
+            <label asp-for="NewImage">Choose Image</label>
+            <input asp-for="NewImage" type="file" class="form-control-file" />
+        </div>
+
+
+        <button type="submit" class="btn btn-primary btn-user btn-block">
+            Submit
+        </button>
+        <a asp-action="index" class="btn btn-primary btn-user btn-block">
+            Cancel
+        </a>
+        <hr>
+    </form>
+</div>

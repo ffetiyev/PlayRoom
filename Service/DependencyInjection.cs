@@ -14,6 +14,8 @@ namespace Service
         public static IServiceCollection AddServiceLayer(this IServiceCollection services)
         {
             services.AddScoped<IWelcomeBannerService, WelcomeBannerService>();
+            services.AddScoped<IGameService, GameService>();
+            services.AddScoped<ISpecialGameBannerService, SpecialGameBannerService>();
             return services;
         }
     }

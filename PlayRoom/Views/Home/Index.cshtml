@@ -36,8 +36,8 @@
                     <div class="card-main">
                         <a href="">
                             <div class="card-title">
-                                <p>Oyun konsolları</p>
-                                <p>Oyun konsolları kolleksiyamızı kəşf edin</p>
+                                <p>Oyunlar</p>
+                                <p>Oyun kolleksiyamızı kəşf edin</p>
                             </div>
                             <div class="card-image">
                                 <img src="https://cdn.playroom.az/menu_icon/cat_icon_148.webp" alt="">
@@ -52,8 +52,8 @@
                     <div class="card-main">
                         <a href="">
                             <div class="card-title">
-                                <p>Oyun konsolları</p>
-                                <p>Oyun konsolları kolleksiyamızı kəşf edin</p>
+                                <p>Aksesuarlar</p>
+                                <p>Aksesuar kolleksiyamızı kəşf edin</p>
                             </div>
                             <div class="card-image">
                                 <img src="https://cdn.playroom.az/menu_icon/cat_icon_115.webp" alt="">
@@ -68,8 +68,8 @@
                     <div class="card-main">
                         <a href="">
                             <div class="card-title">
-                                <p>Oyun konsolları</p>
-                                <p>Oyun konsolları kolleksiyamızı kəşf edin</p>
+                                <p>Oyun sükanları</p>
+                                <p>Oyun sükanları kolleksiyamızı kəşf edin</p>
                             </div>
                             <div class="card-image">
                                 <img src="https://cdn.playroom.az/menu_icon/cat_icon_160.webp" alt="">
@@ -83,19 +83,21 @@
             </div>
         </div>
     </section>
+
     <section id="special-game">
-        <div class="backround-image">
+        <div class="backround-image" style="background-image:url('/assets/images/@Model.SpecialGameBanners.FirstOrDefault(m => m.IsActive == true).Image')">
             <div class="container-xxl">
                 <div class="game-info">
-                    <h3 class="game-name">God of War</h3>
+                    <h3 class="game-name">@Model.SpecialGameBanners.FirstOrDefault(m => m.IsActive == true).Name</h3>
                     <h4 class="game-description">
-                        Kratos və Atreusun macaraları haqqında daha çox məlumat əldə edin
+                        @Model.SpecialGameBanners.FirstOrDefault(m => m.IsActive == true).Description
                     </h4>
                     <a class="more-info" href="">DAHA ƏTRAFLI <i class="fa-solid fa-arrow-right-long"></i></a>
                 </div>
             </div>
         </div>
     </section>
+
     <section id="best-sellers">
         <div class="container-xxl">
             <h3 class="title ">Bizim bestsellerlərimiz</h3>
@@ -106,7 +108,7 @@
                             <div class="card-top">
                                 <a href="">
                                     <img src="https://cdn.playroom.az/productimg/158/597/playroom_img_23_1730803860.png.webp"
-                                         alt="">
+                                    alt="">
                                 </a>
                                 <div class="new">
                                     <span>YENI</span>
@@ -118,7 +120,7 @@
                                     <i class="fa-solid fa-heart"></i>
                                 </div>
                                 <!-- <div class="not-like">
-                                    <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-heart"></i>
                                 </div> -->
                             </div>
                             <div class="card-bottom">
@@ -142,7 +144,7 @@
                             <div class="card-top">
                                 <a href="">
                                     <img src="https://cdn.playroom.az/productimg/157/627/playroom_img_41_1744119114.jpg.webp"
-                                         alt="">
+                                    alt="">
                                 </a>
                                 <div class="new">
                                     <span>YENI</span>
@@ -175,7 +177,7 @@
                             <div class="card-top">
                                 <a href="">
                                     <img src="https://cdn.playroom.az/productimg/157/595/playroom_img_30_1730803041.jpg.webp"
-                                         alt="">
+                                    alt="">
                                 </a>
                                 <div class="new">
                                     <span>YENI</span>
@@ -208,7 +210,7 @@
                             <div class="card-top">
                                 <a href="">
                                     <img src="https://cdn.playroom.az/productimg/157/600/playroom_img_81_1744109859.jpg.webp"
-                                         alt="">
+                                    alt="">
                                 </a>
                                 <div class="new">
                                     <span>YENI</span>
@@ -244,144 +246,67 @@
             </div>
         </div>
     </section>
+
     <section id="recently-added">
         <div class="container-xxl">
             <h3 class="title ">Son əlavə olunanlar</h3>
             <div class="products">
                 <div class="row">
-                    <div class="col-lg-3 col-6 product">
-                        <div class="card-main">
-                            <div class="card-top">
-                                <a href="">
-                                    <img src="https://cdn.playroom.az/productimg/158/597/playroom_img_23_1730803860.png.webp"
-                                         alt="">
-                                </a>
-                                <div class="new">
-                                    <span>YENI</span>
-                                </div>
-                                <div class="discount">
-                                    <span>ENDIRIM</span>
-                                </div>
-                                <div class="like">
-                                    <i class="fa-solid fa-heart"></i>
-                                </div>
-                            </div>
-                            <div class="card-bottom">
-                                <div class="game-name">
+                    @foreach (var item in Model.Games.TakeLast(4))
+                    {
+                        <div class="col-lg-3 col-6 product">
+                            <div class="card-main">
+                                <div class="card-top">
                                     <a href="">
-                                        Call of Duty: Black Ops 6 (PS4)
+                                        <img src="~/assets/images/Game-Images/@item.GameImages.FirstOrDefault(m=>m.IsMain==true).Name"
+                                        alt="">
                                     </a>
+                                    @if (item.CreatedDate > DateTime.Now.AddYears(-1))
+                                    {
+                                        <div class="new">
+                                            <span>YENI</span>
+                                        </div>
+                                    }
+                                    @if (item.GameDiscounts != null && item.GameDiscounts.Any())
+                                    {
+                                        <div class="discount">
+                                            <span>ENDIRIM</span>
+                                        </div>
+                                    }
+                                    <div class="like">
+                                        <i class="fa-solid fa-heart"></i>
+                                    </div>
                                 </div>
-                                <div class="game-price mt-4">
-                                    <span class="old-price">149 ₼</span>
-                                    <span class="price">119 ₼</span>
-                                </div>
-                            </div>
-                            <div class="add-basket">
-                                <button>SƏBƏTƏ AT</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6 product">
-                        <div class="card-main">
-                            <div class="card-top">
-                                <a href="">
-                                    <img src="https://cdn.playroom.az/productimg/157/627/playroom_img_41_1744119114.jpg.webp"
-                                         alt="">
-                                </a>
-                                <div class="new">
-                                    <span>YENI</span>
-                                </div>
-                                <div class="discount">
-                                    <span>ENDIRIM</span>
-                                </div>
-                                <div class="like">
-                                    <i class="fa-solid fa-heart"></i>
-                                </div>
-                            </div>
-                            <div class="card-bottom">
-                                <div class="game-name">
-                                    <a href="">
-                                        Call of Duty: Black Ops 6 (PS4)
-                                    </a>
-                                </div>
-                                <div class="game-price mt-4">
-                                    <span class="old-price">149 ₼</span>
-                                    <span class="price">119 ₼</span>
-                                </div>
-                            </div>
-                            <div class="add-basket">
-                                <button>SƏBƏTƏ AT</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6 product">
-                        <div class="card-main">
-                            <div class="card-top">
-                                <a href="">
-                                    <img src="https://cdn.playroom.az/productimg/157/595/playroom_img_30_1730803041.jpg.webp"
-                                         alt="">
-                                </a>
-                                <div class="new">
-                                    <span>YENI</span>
-                                </div>
-                                <div class="discount">
-                                    <span>ENDIRIM</span>
-                                </div>
-                                <div class="like">
-                                    <i class="fa-solid fa-heart"></i>
-                                </div>
-                            </div>
-                            <div class="card-bottom">
-                                <div class="game-name">
-                                    <a href="">
-                                        Call of Duty: Black Ops 6 (PS4)
-                                    </a>
-                                </div>
-                                <div class="game-price mt-4">
-                                    <span class="old-price">149 ₼</span>
-                                    <span class="price">119 ₼</span>
-                                </div>
-                            </div>
-                            <div class="add-basket">
-                                <button>SƏBƏTƏ AT</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6 product">
-                        <div class="card-main">
-                            <div class="card-top">
-                                <a href="">
-                                    <img src="https://cdn.playroom.az/productimg/157/600/playroom_img_81_1744109859.jpg.webp"
-                                         alt="">
-                                </a>
-                                <div class="new">
-                                    <span>YENI</span>
-                                </div>
-                                <div class="discount">
-                                    <span>ENDIRIM</span>
-                                </div>
-                                <div class="like">
-                                    <i class="fa-solid fa-heart"></i>
-                                </div>
+                                <div class="card-bottom">
+                                    <div class="game-name">
+                                        <a href="">
+                                            @item.Name (@string.Join(", ", item.GameCategory.Select(c => c.Name)))
+                                        </a>
+                                    </div>
+                                    <div class="game-price mt-4">
+                                        @if (item.GameDiscounts != null && item.GameDiscounts.Any())
+                                        {
+                                            <span class="old-price">@item.Price.ToString("0.##") ₼</span>
+                                            <span class="price">
+                                                @((item.Price - item.GameDiscounts.Max(m => m.Value) * item.Price / 100).ToString("0.##")) ₼
+                                            </span>
+                                        }
+                                        else
+                                        {
+                                            <span class="price">@item.Price.ToString("0.##") ₼</span>
+                                        }
 
-                            </div>
-                            <div class="card-bottom">
-                                <div class="game-name">
-                                    <a href="">
-                                        Call of Duty: Black Ops 6 (PS4)
-                                    </a>
+
+
+                                    </div>
                                 </div>
-                                <div class="game-price mt-4">
-                                    <span class="old-price">149 ₼</span>
-                                    <span class="price">119 ₼</span>
+                                <div class="add-basket">
+                                    <button>SƏBƏTƏ AT</button>
                                 </div>
-                            </div>
-                            <div class="add-basket">
-                                <button>SƏBƏTƏ AT</button>
                             </div>
                         </div>
-                    </div>
+                    }
+               
                 </div>
             </div>
             <div class="see-all">
