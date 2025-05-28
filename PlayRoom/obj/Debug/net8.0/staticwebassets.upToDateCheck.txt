@@ -6,6 +6,7 @@ wwwroot\admin\img\undraw_profile_1.svg
 wwwroot\admin\img\undraw_profile_2.svg
 wwwroot\admin\img\undraw_profile_3.svg
 wwwroot\admin\img\undraw_rocket.svg
+wwwroot\admin\js\Custom.js
 wwwroot\admin\js\demo\chart-area-demo.js
 wwwroot\admin\js\demo\chart-bar-demo.js
 wwwroot\admin\js\demo\chart-pie-demo.js
@@ -1861,6 +1862,9 @@ wwwroot\assets\css\productDetail\productDetail.scss
 wwwroot\assets\css\register\register.css
 wwwroot\assets\css\register\register.css.map
 wwwroot\assets\css\register\register.scss
+wwwroot\assets\images\157f47e8-b91e-454e-8722-85a9fa94bad1-COD-BO6.png.webp
+wwwroot\assets\images\32e5fdf0-06bd-4b4a-aa73-1ac1fa031e8b-home_main_backround-image.webp
+wwwroot\assets\images\e23b2566-6e78-49d7-8244-40f47778e6da-home_main_backround-image.webp
 wwwroot\assets\images\Game-Images\COD-BO6.jpg
 wwwroot\assets\images\Game-Images\Cold-War.jpg
 wwwroot\assets\images\Game-Images\Silent-Hill.jpg

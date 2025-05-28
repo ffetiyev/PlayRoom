@@ -37,8 +37,6 @@
                 <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
             </a>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
@@ -57,16 +55,16 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link collapsed" asp-area="admin" asp-controller="WelcomeBanner" asp-action="index">
+                <a class="nav-link collapsed" asp-area="admin" asp-controller="discount" asp-action="index">
                     <i class="fas fa-fw fa-wrench"></i>
-                    <span>Utilities</span>
+                    <span>Discount</span>
                 </a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Pages</span>
+                    <span>Disco</span>
                 </a>
             </li>
 
@@ -129,7 +127,7 @@
 
     <!-- Page level custom scripts -->
     <script src="~/admin/js/demo/datatables-demo.js"></script>
-
+    @RenderSection("js", required: false)
 </body>
 
 </html>

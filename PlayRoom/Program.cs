@@ -2,12 +2,15 @@ using Microsoft.EntityFrameworkCore;
 using Repository;
 using Service;
 using Repository.Data;
+using FluentValidation.AspNetCore;
+using FluentValidation;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 
 var conString = builder.Configuration.GetConnectionString("BloggingDatabase") ??
      throw new InvalidOperationException("Connection string 'BloggingDatabase'" +
@@ -16,14 +19,14 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(conString));
 
 
-
-
-
 var assemblies = AppDomain.CurrentDomain.GetAssemblies();
 
 builder.Services.AddAutoMapper(assemblies);
 builder.Services.AddRepositoryLayer();
 builder.Services.AddServiceLayer();
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<Program>();
+
 
 var app = builder.Build();
 

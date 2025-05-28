@@ -1,24 +1,25 @@
 ﻿@model WelcomeBannerUpdateVM
 
 <div class="container">
-
-    <form class="user" method="post" asp-action="Update" enctype="multipart/form-data">
+    <img src="~/assets/images/@Model.Image" alt="Alternate Text" style="width:230px;height:130px" />
+    <form class="user mt-5" method="post" asp-action="Update" enctype="multipart/form-data">
         <div class="form-group">
-            <input asp-for="Title" type="text" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="Enter slider new title...">
+            <input asp-for="Title" type="text" class="form-control form-control-user" placeholder="Enter slider new title...">
+            <span asp-validation-for="Title"></span>
         </div>
         <div class="form-group">
             <input asp-for="Description" type="text" class="form-control form-control-user" placeholder="Enter slider new desctiption...">
+            <span asp-validation-for="Description"></span>
         </div>
         <div class="form-group">
             <label asp-for="NewImage">Choose Image</label>
             <input asp-for="NewImage" type="file" class="form-control-file" />
+            <span asp-validation-for="NewImage"></span>
         </div>
-
-
         <button type="submit" class="btn btn-primary btn-user btn-block">
             Submit
         </button>
-        <a asp-action="index" class="btn btn-primary btn-user btn-block">
+        <a asp-action="index" class="btn btn-danger btn-user btn-block">
             Cancel
         </a>
         <hr>

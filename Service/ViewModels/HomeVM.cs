@@ -1,5 +1,7 @@
 ﻿
 
+using Service.ViewModels.WelcomeBanner;
+
 namespace Service.ViewModels
 {
     public class HomeVM

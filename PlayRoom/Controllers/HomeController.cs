@@ -2,6 +2,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Service.ViewModels;
 using Service.Service.Interfaces;
+using Service.ViewModels.WelcomeBanner;
 
 namespace PlayRoom.Controllers;
 

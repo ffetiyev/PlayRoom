@@ -1,0 +1,17 @@
+﻿@model DiscountCreateVM
+
+<div class="container">
+    <form class="user mt-5" method="post" asp-action="Create" enctype="multipart/form-data">
+        <div class="form-group">
+            <input asp-for="Value" type="text" class="form-control form-control-user" placeholder="Enter discount value">
+            <span class="text-danger" asp-validation-for="Value"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-user btn-block">
+            Submit
+        </button>
+        <a asp-action="index" class="btn btn-danger btn-user btn-block">
+            Cancel
+        </a>
+        <hr>
+    </form>
+</div>

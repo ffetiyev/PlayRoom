@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Repository.Repository.Interfaces;
 using Service.Service.Interfaces;
-using Service.ViewModels;
+using Service.ViewModels.WelcomeBanner;
 
 namespace Service.Service
 {
@@ -18,6 +18,15 @@ namespace Service.Service
         public async Task<WelcomeBannerVM> GetAsync()
         {
             return _mapper.Map<WelcomeBannerVM>(await _welcomeRepo.GetAsync());
+        }
+
+        public async Task UpdateAsync(int id, WelcomeBannerUpdateVM request, string? image)
+        {
+            var existData = await _welcomeRepo.GetAsync();
+            if(image!=null) existData.Image = image;
+            if (request.Title != null) existData.Title = request.Title;
+            if (request.Description != null) existData.Description = request.Description;
+            await _welcomeRepo.UpdateAsync(existData);
         }
     }
 }

@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\admin\\img\\undraw_rocket.svg"
     },
     {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\admin\\js\\Custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\Custom.js"
+    },
+    {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\admin\\js\\demo\\chart-area-demo.js",
       "PackagePath": "staticwebassets\\admin\\js\\demo\\chart-area-demo.js"
     },
@@ -7457,6 +7461,14 @@
       "PackagePath": "staticwebassets\\assets\\css\\register\\register.scss"
     },
     {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\157f47e8-b91e-454e-8722-85a9fa94bad1-COD-BO6.png.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\157f47e8-b91e-454e-8722-85a9fa94bad1-COD-BO6.png.webp"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\32e5fdf0-06bd-4b4a-aa73-1ac1fa031e8b-home_main_backround-image.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\32e5fdf0-06bd-4b4a-aa73-1ac1fa031e8b-home_main_backround-image.webp"
+    },
+    {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\COD-BO6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\COD-BO6.jpg"
     },
@@ -7479,6 +7491,10 @@
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\God-of-War-SG.webp",
       "PackagePath": "staticwebassets\\assets\\images\\God-of-War-SG.webp"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\e23b2566-6e78-49d7-8244-40f47778e6da-home_main_backround-image.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\e23b2566-6e78-49d7-8244-40f47778e6da-home_main_backround-image.webp"
     },
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\home_main_backround-image.webp",

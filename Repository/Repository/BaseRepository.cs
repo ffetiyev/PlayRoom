@@ -21,7 +21,7 @@ namespace Repository.Repository
             _context = context ?? throw new ArgumentNullException(nameof(context));
             _entities = _context.Set<T>();
         }
-        public async Task CreateASync(T entity)
+        public async Task CreateAsync(T entity)
         {
             await _entities.AddAsync(entity);
             await _context.SaveChangesAsync();
