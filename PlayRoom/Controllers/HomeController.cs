@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Service.ViewModels;
 using Service.Service.Interfaces;
 using Service.ViewModels.WelcomeBanner;
+using Service.ViewModels.SpecialGameBanner;
 
 namespace PlayRoom.Controllers;
 

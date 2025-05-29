@@ -41,14 +41,15 @@ productLikeButton.forEach(element => {
 
 window.addEventListener('DOMContentLoaded', () => {
     const list = document.querySelector('#companies .list');
-    const companies = list.querySelectorAll('#companies .list .company');
+    const companies = list.querySelectorAll('.company');
     const companyCount = companies.length;
 
-    const durationPerCompany = 3; // seconds per company (adjust as needed)
-    const totalDuration = companyCount * durationPerCompany + 3;
+    const durationPerCompany = 4; // seconds per company
+    const bufferSeconds = 5;
+    const totalDuration = companyCount * durationPerCompany + bufferSeconds;
 
     list.style.animationDuration = `${totalDuration}s`;
-  });
+});
 
 
 //sidebar

@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿@inject ICompanyService _companyService;
+@{
+    var companies = await _companyService.GetAllAsync();
+}
+
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -123,54 +129,15 @@
         <section id="companies">
             <div class="custom-container">
                 <div class="list">
-                    <div class="company col-3">
-                        <a href="">
-                            <img src="https://cdn.playroom.az/logos_img/130/23/playroom_img_65_1719619100.png.webp"
-                                 alt="">
-                        </a>
-                    </div>
-                    <div class="company col-3">
-                        <a href="">
-                            <img src="https://cdn.playroom.az/logos_img/130/24/playroom_img_42_1719619183.png.webp"
-                                 alt="">
-                        </a>
-                    </div>
-                    <div class="company col-3">
-                        <a href="">
-                            <img src="https://cdn.playroom.az/logos_img/130/28/playroom_img_41_1719619529.png.webp"
-                                 alt="">
-                        </a>
-                    </div>
-                    <div class="company col-3">
-                        <a href="">
-                            <img src="https://cdn.playroom.az/logos_img/130/35/playroom_img_68_1720016342.png.webp"
-                                 alt="">
-                        </a>
-                    </div>
-                    <div class="company col-3">
-                        <a href="">
-                            <img src="https://cdn.playroom.az/logos_img/130/31/playroom_img_85_1719619682.png.webp"
-                                 alt="">
-                        </a>
-                    </div>
-                    <div class="company col-3">
-                        <a href="">
-                            <img src="https://cdn.playroom.az/logos_img/130/33/playroom_img_72_1720022552.png.webp"
-                                 alt="">
-                        </a>
-                    </div>
-                    <div class="company col-3">
-                        <a href="">
-                            <img src="https://cdn.playroom.az/logos_img/130/36/playroom_img_76_1720016740.png.webp"
-                                 alt="">
-                        </a>
-                    </div>
-                    <div class="company col-3">
-                        <a href="">
-                            <img src="https://cdn.playroom.az/logos_img/130/26/playroom_img_36_1720022528.png.webp"
-                                 alt="">
-                        </a>
-                    </div>
+                       @foreach (var item in companies)
+                    {
+                        <div class="company col-3">
+                            <a href="">
+                                <img src="~/assets/images/companies/@item.Image"
+                                     alt="">
+                            </a>
+                        </div>
+                    }
                 </div>
             </div>
         </section>

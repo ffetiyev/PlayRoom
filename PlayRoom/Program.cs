@@ -4,6 +4,7 @@ using Service;
 using Repository.Data;
 using FluentValidation.AspNetCore;
 using FluentValidation;
+using Service.ViewModels.SpecialGameBanner;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,9 +25,8 @@ var assemblies = AppDomain.CurrentDomain.GetAssemblies();
 builder.Services.AddAutoMapper(assemblies);
 builder.Services.AddRepositoryLayer();
 builder.Services.AddServiceLayer();
+// Add FluentValidation
 builder.Services.AddFluentValidationAutoValidation();
-builder.Services.AddValidatorsFromAssemblyContaining<Program>();
-
 
 var app = builder.Build();
 

@@ -1,0 +1,27 @@
+﻿@model SpecialGameBannerCreateVM
+
+<div class="container">
+    <form class="user mt-5" method="post" asp-action="Create" enctype="multipart/form-data">
+        @* <div class="text-danger" asp-validation-summary="All"></div> *@
+        <div class="form-group">
+            <input asp-for="Name" class="form-control form-control-user" placeholder="Enter name...">
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+        <div class="form-group">
+            <input asp-for="Description" class="form-control form-control-user" placeholder="Enter description...">
+            <span class="text-danger" asp-validation-for="Description"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="NewImage">Choose Image</label>
+            <input asp-for="NewImage"  class="form-control-file" />
+            <span class="text-danger" asp-validation-for="NewImage"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-user btn-block">
+            Submit
+        </button>
+        <a asp-action="index" class="btn btn-danger btn-user btn-block">
+            Cancel
+        </a>
+        <hr>
+    </form>
+</div>

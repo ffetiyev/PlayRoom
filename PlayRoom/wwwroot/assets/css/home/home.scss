@@ -65,8 +65,6 @@ body {
                                     padding: 15px;
                                     text-align: left;
                                     transform: translateX(-250px);
-
-
                                 }
 
                                 li:not(.open) {
@@ -85,7 +83,7 @@ body {
                                     li {
                                         animation-duration: $b-trans-speed;
                                         animation-fill-mode: both;
-                                        animation-name: slideInLeft;                                        
+                                        animation-name: slideInLeft;
 
                                         a {
                                             font-size: 16px;
@@ -130,7 +128,6 @@ body {
                                 user-select: none;
                                 width: $b-height;
                                 z-index: 12;
-
                             }
 
                             .b-bun {
@@ -727,7 +724,6 @@ body {
         }
 
         #recently-added {
-
             background-color: #fff;
             padding-top: 80px;
 
@@ -899,21 +895,26 @@ body {
                     display: flex;
                     flex-direction: row;
                     align-items: center;
-                    animation: scroll-left linear infinite; // Add scrolling animation
+                    width: max-content; // important
+                    animation: scroll-left linear infinite;
+                    gap: 50px;
 
                     .company {
-                        padding: 0% 5% 0% 5%;
+                        flex: 0 0 auto;
+                        width: 300px; // fixed size helps layout
+                        padding: 0 20px;
 
                         a {
-                            color: inherit;
-                            text-decoration: none;
+                            display: block;
                             width: 100%;
                             height: 100px;
+                            text-decoration: none;
+                            color: inherit;
 
                             img {
-
                                 width: 100%;
                                 height: 100%;
+                                object-fit: contain;
                             }
                         }
                     }
@@ -1061,7 +1062,8 @@ body {
                     .developed-by {
                         width: 20%;
 
-                        span {}
+                        span {
+                        }
 
                         font-size: 12px;
                         line-height: 18px;
@@ -1115,7 +1117,6 @@ body {
                 .b-menu {
                     display: inline !important;
                 }
-
             }
         }
 
@@ -1169,7 +1170,6 @@ body {
                     .logo-social-media {
                         width: 100% !important;
                         height: 200px;
-
                     }
 
                     .footer-links {
@@ -1192,7 +1192,6 @@ body {
 
             button {
                 padding: 0px 35px 8px 15px !important;
-
             }
         }
     }

@@ -13,6 +13,7 @@ namespace Repository
             services.AddScoped<IGameRepository, GameRepository>();
             services.AddScoped<ISpecialGameBannerRepository, SpecialGameBannerRepository>();
             services.AddScoped<IDiscountRepository, DiscountRepository>();
+            services.AddScoped<ICompanyRepository, CompanyRepository>();
             return services;
         }
     }
