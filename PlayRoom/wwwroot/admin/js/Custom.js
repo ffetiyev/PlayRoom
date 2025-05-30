@@ -1,11 +1,11 @@
 ﻿"use strict"
 
-let deleteBtns = document.querySelectorAll(".delete-btn");
+let discoutDeleteBtns = document.querySelectorAll(".discount-delete-btn");
 
-deleteBtns.forEach((btn => {
+discoutDeleteBtns.forEach((btn => {
     btn.addEventListener("click", function () {
-        let productId = parseInt(this.getAttribute("data-id"));
-      fetch("http://localhost:5125/Admin/Discount/Delete?id=" + productId,{
+        let discountId = parseInt(this.getAttribute("data-id"));
+        fetch("http://localhost:5125/Admin/Discount/Delete?id=" + discountId,{
 
         method:"POST",
 
@@ -70,3 +70,41 @@ if (setActiveBannerImageBtn) {
             });
     });
 }
+
+
+let companyDeleteBtns = document.querySelectorAll(".company-delete-btn");
+
+companyDeleteBtns.forEach((btn => {
+    btn.addEventListener("click", function () {
+        let companyId = parseInt(this.getAttribute("data-id"));
+        fetch("http://localhost:5125/Admin/Company/Delete?id=" + companyId, {
+
+            method: "POST",
+
+        })
+            .then(async (response) => {
+                if (!response.ok) {
+                    let errorText = await response.text();
+                    alert(errorText);
+                    return;
+                }
+                this.parentNode.parentNode.remove()
+            })
+    })
+
+}))
+
+let categoryDeleteBtns = document.querySelectorAll(".category-delete-btn");
+
+categoryDeleteBtns.forEach((btn => {
+    btn.addEventListener("click", function () {
+        let categoryId = parseInt(this.getAttribute("data-id"));
+        fetch("http://localhost:5125/Admin/Category/Delete?id=" + categoryId, {
+
+            method: "POST",
+        })
+            .then(response => response.text()).then(res => {
+                this.parentNode.parentNode.remove()
+            })
+    })
+}))

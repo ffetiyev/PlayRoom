@@ -13,5 +13,6 @@ namespace Service.Service.Interfaces
         Task CreateAsync(CompanyCreateVM model);
         Task<CompanyVM> GetByIdAsync(int id);
         Task UpdateAsync(int id, CompanyUpdateVM model);
+        Task DeleteAsync(int id);
     }
 }

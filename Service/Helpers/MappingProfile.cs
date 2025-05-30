@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Domain.Models;
+using Service.ViewModels.Category;
 using Service.ViewModels.Company;
 using Service.ViewModels.Discount;
 using Service.ViewModels.SpecialGameBanner;
@@ -22,6 +23,10 @@ namespace Service.Helpers
             CreateMap<SpecialGameBanner, SpecialGameBannerVM>();
 
             CreateMap<Company, CompanyVM>();
+
+            CreateMap<Category, CategoryVM>();
+            CreateMap<CategoryCreateVM, Category>();
+
         }
     }
 }

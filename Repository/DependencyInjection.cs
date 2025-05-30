@@ -14,6 +14,7 @@ namespace Repository
             services.AddScoped<ISpecialGameBannerRepository, SpecialGameBannerRepository>();
             services.AddScoped<IDiscountRepository, DiscountRepository>();
             services.AddScoped<ICompanyRepository, CompanyRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
             return services;
         }
     }

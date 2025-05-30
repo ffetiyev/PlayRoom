@@ -10,7 +10,7 @@ namespace Repository.Repository.Interfaces
         Task CreateAsync(T entity);
         Task UpdateAsync(T entity);
         Task DeleteAsync(T entity);
-        Task<T> GetByIdAsync(int id, params Expression<Func<T, object>>[] includes);
+        Task<T> GetByIdAsync(int id, Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null);
         Task<IEnumerable<T>> GetAllWithConditionAsync(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includes);
         Task<int> GetCountAsync();
     }

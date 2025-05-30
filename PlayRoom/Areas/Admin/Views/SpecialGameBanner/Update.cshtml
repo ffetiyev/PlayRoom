@@ -1,7 +1,7 @@
 ﻿@model SpecialGameBannerUpdateVM
 
 <div class="container">
-    <img src="~/assets/images/companies/@Model.Image" style="width:330px;height:200px" />
+    <img src="~/assets/images/@Model.Image" style="width:330px;height:200px" />
     <div class="active-or-not" data-id="@Model.Id">
         @if (Model.IsActive == false)
         {

@@ -61,7 +61,7 @@ namespace PlayRoom.Areas.Admin.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Update(int? id,CompanyUpdateVM request)
+        public async Task<IActionResult> Update(int? id, CompanyUpdateVM request)
         {
             if (id == null) return BadRequest();
             var existData = await _companyService.GetByIdAsync((int)id);
@@ -77,7 +77,7 @@ namespace PlayRoom.Areas.Admin.Controllers
 
                 string fileName = Guid.NewGuid().ToString() + "-" + request.UploadImage.FileName;
                 string filePath = Path.Combine(_env.WebRootPath, "assets", "images", "companies", fileName);
-                using(FileStream stream = new(filePath, FileMode.Create))
+                using (FileStream stream = new(filePath, FileMode.Create))
                 {
                     await request.UploadImage.CopyToAsync(stream);
                 }
@@ -87,6 +87,22 @@ namespace PlayRoom.Areas.Admin.Controllers
             await _companyService.UpdateAsync((int)id, request);
 
             return RedirectToAction(nameof(Index));
+        }
+        [HttpPost]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) return BadRequest();
+            var existData = await _companyService.GetByIdAsync((int)id);
+            if (existData == null) return NotFound();
+
+            string filePath = Path.Combine(_env.WebRootPath, "assets", "images", "companies", existData.Image);
+            if (System.IO.File.Exists(filePath))
+            {
+                System.IO.File.Delete(filePath);
+            }
+
+            await _companyService.DeleteAsync((int) id);
+            return Ok();
         }
     }
 }

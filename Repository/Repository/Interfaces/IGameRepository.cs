@@ -4,6 +4,8 @@ namespace Repository.Repository.Interfaces
 {
     public interface IGameRepository:IBaseRepository<Game>
     {
-
+        Task AddImagesToGame(IEnumerable<GameImage> images);
+        Task AddDiscountToGame(int gameId, IEnumerable<Discount> discounts);
+        Task AddCategoriesToGame(int gameId, IEnumerable<int> categoriIds);
     }
 }

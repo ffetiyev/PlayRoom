@@ -280,7 +280,11 @@
                                 <div class="card-bottom">
                                     <div class="game-name">
                                         <a href="">
-                                            @item.Name (@string.Join(", ", item.GameCategory.Select(c => c.Name)))
+                                            @item.Name
+                                            @if (item.GameCategory.Any())
+                                            {
+                                                @($" ({string.Join(", ", item.GameCategory.Select(c => c.Name))})")
+                                            }
                                         </a>
                                     </div>
                                     <div class="game-price mt-4">

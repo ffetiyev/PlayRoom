@@ -7473,6 +7473,38 @@
       "PackagePath": "staticwebassets\\assets\\images\\65e1d214-d8bb-4907-af4a-1d853e7f3922-home_main_backround-image.webp"
     },
     {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\04742188-5669-48c6-a4f5-c3c8253ea806_Cold-War.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\04742188-5669-48c6-a4f5-c3c8253ea806_Cold-War.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\180114b4-5bdf-473a-8279-2071a8e51ae5_Silent-Hill.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\180114b4-5bdf-473a-8279-2071a8e51ae5_Silent-Hill.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\346517b4-07d5-4956-b306-d3c2056e7555_COD-BO6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\346517b4-07d5-4956-b306-d3c2056e7555_COD-BO6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\3b456be6-63e3-41a6-bad7-190fb444863c_Wukong.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\3b456be6-63e3-41a6-bad7-190fb444863c_Wukong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\489f73cf-78b8-4c8e-9cad-44cb3f353c80_Cold-War.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\489f73cf-78b8-4c8e-9cad-44cb3f353c80_Cold-War.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\63948711-032c-427d-98b0-737ee7b8f73e_Cold-War.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\63948711-032c-427d-98b0-737ee7b8f73e_Cold-War.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\7c7e6df2-9dda-4c38-95e2-00fbf3c72d42_Cold-War.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\7c7e6df2-9dda-4c38-95e2-00fbf3c72d42_Cold-War.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\92de53c2-9fd2-4794-af85-5606b247d70c_Cold-War.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\92de53c2-9fd2-4794-af85-5606b247d70c_Cold-War.jpg"
+    },
+    {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\COD-BO6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\COD-BO6.jpg"
     },
@@ -7491,6 +7523,10 @@
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\Wukong.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\Wukong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\c6fb138c-bcd7-4af7-9f10-e5e5dbcfe15f_WWE-2K25.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\c6fb138c-bcd7-4af7-9f10-e5e5dbcfe15f_WWE-2K25.jpg"
     },
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\God-of-War-SG.webp",
@@ -7523,10 +7559,6 @@
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\companies\\61e0154a-f9ed-47df-9f29-c77b2fbcb65b-logitech.png",
       "PackagePath": "staticwebassets\\assets\\images\\companies\\61e0154a-f9ed-47df-9f29-c77b2fbcb65b-logitech.png"
-    },
-    {
-      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\companies\\8bb66ac3-6afc-40a4-82c8-75ee99dbdbb2-rockstar.png",
-      "PackagePath": "staticwebassets\\assets\\images\\companies\\8bb66ac3-6afc-40a4-82c8-75ee99dbdbb2-rockstar.png"
     },
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\companies\\Activision.png",

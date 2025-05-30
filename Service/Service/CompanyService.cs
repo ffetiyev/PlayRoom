@@ -21,6 +21,12 @@ namespace Service.Service
             await _companyRepository.CreateAsync(new() { Name = model.Name, Image = model.Image });
         }
 
+        public async Task DeleteAsync(int id)
+        {
+            var existData = await _companyRepository.GetByIdAsync(id);
+            await _companyRepository.DeleteAsync(existData);
+        }
+
         public async Task<IEnumerable<CompanyVM>> GetAllAsync()
         {
             return _mapper.Map<IEnumerable<CompanyVM>>(await _companyRepository.GetAllAsync());

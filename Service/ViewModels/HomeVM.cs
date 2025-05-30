@@ -1,5 +1,6 @@
 ﻿
 
+using Service.ViewModels.Game;
 using Service.ViewModels.SpecialGameBanner;
 using Service.ViewModels.WelcomeBanner;
 

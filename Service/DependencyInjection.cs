@@ -1,11 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Service.Service;
 using Service.Service.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Service
 {
@@ -18,6 +13,7 @@ namespace Service
             services.AddScoped<ISpecialGameBannerService, SpecialGameBannerService>();
             services.AddScoped<IDiscountService, DiscountService>();
             services.AddScoped<ICompanyService, CompanyService>();
+            services.AddScoped<ICategoryService, CategoryService>();
             return services;
         }
     }

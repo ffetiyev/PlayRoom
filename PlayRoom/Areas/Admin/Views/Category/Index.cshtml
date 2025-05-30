@@ -1,0 +1,31 @@
+﻿@model IEnumerable<CategoryVM>
+
+<div class="table-responsive mt-5" style="display:inline; border-color:red">
+    <a asp-action="Create" style="padding:5px 20px" class="btn btn-success btn-icon-split ml-3 mb-3">Create</a>
+    <table class="table table-bordered" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Option</th>
+
+            </tr>
+        </thead>
+        <tfoot>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td style="width:50%;border: 1px solid gray;;">@item.Name</td>
+                    <td class="d-flex" style="border:none;justify-content:center ;border:1px solid gray">
+                        <a asp-action="update" asp-route-id="@item.Id" style="padding:5px 20px" class="btn btn-warning btn-icon-split ml-3">Edit</a>
+                        <a class="btn btn-danger btn-icon-split ml-3 category-delete-btn" data-id="@item.Id" style="padding:5px 20px">Delete</a>
+
+                    </td>
+                </tr>
+            }
+        </tfoot>
+    </table>
+</div>
+
+@section js {
+    <script src="~/admin/js/Custom.js"></script>
+}

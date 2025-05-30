@@ -52,9 +52,14 @@ namespace Repository.Repository
             return await _entities.Where(predicate).ToListAsync();
         }
 
-        public async Task<T> GetByIdAsync(int id, params Expression<Func<T, object>>[] includes)
+        public async Task<T?> GetByIdAsync(int id, Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null)
         {
-            return await _entities.FirstOrDefaultAsync(m => m.Id == id);
+            IQueryable<T> query = _entities;
+
+            if (include != null)
+                query = include(query);
+
+            return await query.FirstOrDefaultAsync(e => e.Id == id);
         }
 
 

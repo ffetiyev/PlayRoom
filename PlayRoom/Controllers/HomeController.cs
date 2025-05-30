@@ -4,6 +4,7 @@ using Service.ViewModels;
 using Service.Service.Interfaces;
 using Service.ViewModels.WelcomeBanner;
 using Service.ViewModels.SpecialGameBanner;
+using Service.ViewModels.Game;
 
 namespace PlayRoom.Controllers;
 
