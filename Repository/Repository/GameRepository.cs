@@ -1,6 +1,8 @@
 ﻿using Domain.Models;
+using Microsoft.EntityFrameworkCore;
 using Repository.Data;
 using Repository.Repository.Interfaces;
+using System.Collections.Immutable;
 
 namespace Repository.Repository
 {
@@ -36,6 +38,18 @@ namespace Repository.Repository
         {
             await _context.GameImages.AddRangeAsync(images);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<IEnumerable<Game>> GetAllPaginated(int page, int take)
+        {
+            return await _context.Games
+         .AsNoTracking()
+         .Include(m => m.GameCategories).ThenInclude(m => m.Category)
+         .Include(m => m.GameImages)
+         .Include(m => m.GameDiscounts)
+         .Skip((page - 1) * take)
+         .Take(take)
+         .ToListAsync();
         }
     }
 }

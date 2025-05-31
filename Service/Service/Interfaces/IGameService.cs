@@ -1,4 +1,5 @@
-﻿using Service.ViewModels.Game;
+﻿using Service.Helpers.Responses;
+using Service.ViewModels.Game;
 
 namespace Service.Service.Interfaces
 {
@@ -9,6 +10,7 @@ namespace Service.Service.Interfaces
         Task<GameVM> GetByIdAsync(int id);
         Task DeleteAsync(int id);
         Task UpdateAsync(int id, GameUpdateVM model);
+        Task<PaginateResponse<GameVM>> GetAllPaginated(int page, int take =16);
     }
 }
 

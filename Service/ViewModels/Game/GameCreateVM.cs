@@ -8,18 +8,17 @@ public class GameCreateVM
     public string Name { get; set; }
 
     [Required(ErrorMessage = "Price cannot be empty!")]
-    public decimal Price { get; set; }
+    public decimal? Price { get; set; }
 
     [Required(ErrorMessage = "Description cannot be empty")]
     public string Description { get; set; }
 
     [Required(ErrorMessage = "Stock count cannot be empty")]
-    public int StockCount { get; set; }
+    public int? StockCount { get; set; }
 
     [Required(ErrorMessage = "Image cannot be empty")]
     public IEnumerable<IFormFile> UploadImages { get; set; }
 
     public IEnumerable<GameImageVM>? Images { get; set; }
-
     public List<int> CategoryIds { get; set; } = new(); 
 }

@@ -290,17 +290,15 @@
                                     <div class="game-price mt-4">
                                         @if (item.GameDiscounts != null && item.GameDiscounts.Any())
                                         {
-                                            <span class="old-price">@item.Price.ToString("0.##") ₼</span>
+                                            <span class="old-price">@item.Price.ToString("F0") ₼</span>
                                             <span class="price">
-                                                @((item.Price - item.GameDiscounts.Max(m => m.Value) * item.Price / 100).ToString("0.##")) ₼
+                                                @((item.Price - item.GameDiscounts.Max(m => m.Value) * item.Price / 100).ToString("F0")) ₼
                                             </span>
                                         }
                                         else
                                         {
-                                            <span class="price">@item.Price.ToString("0.##") ₼</span>
+                                            <span class="price">@item.Price.ToString("F0") ₼</span>
                                         }
-
-
 
                                     </div>
                                 </div>
@@ -314,7 +312,7 @@
                 </div>
             </div>
             <div class="see-all">
-                <a href="">BÜTÜN MƏHSULLARA BAXIN <i class="fa-solid fa-arrow-right-long"></i></a>
+                <a asp-controller="Games" asp-action="Index">BÜTÜN MƏHSULLARA BAXIN <i class="fa-solid fa-arrow-right-long"></i></a>
             </div>
         </div>
     </section>

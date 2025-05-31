@@ -108,3 +108,21 @@ categoryDeleteBtns.forEach((btn => {
             })
     })
 }))
+
+
+let gameDeleteBtns = document.querySelectorAll(".game-delete-btn");
+
+gameDeleteBtns.forEach((btn => {
+    btn.addEventListener("click", function () {
+        let gameId = parseInt(this.getAttribute("data-id"));
+        fetch("http://localhost:5125/Admin/Game/Delete?id=" + gameId, {
+
+            method: "POST",
+
+        })
+            .then(response => response.text()).then(res => {
+                this.parentNode.parentNode.remove()
+            })
+    })
+
+}))

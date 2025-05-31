@@ -58,6 +58,11 @@ namespace PlayRoom.Areas.Admin.Controllers
             }).ToList();
 
             if (!ModelState.IsValid) return View(request);
+            if (request.CategoryIds == null || !request.CategoryIds.Any())
+            {
+                ModelState.AddModelError("CategoryIds", "Please select at least one category");
+                return View(request);
+            }
             foreach (var image in request.UploadImages)
             {
                 if (!image.ContentType.Contains("image/"))
@@ -96,6 +101,23 @@ namespace PlayRoom.Areas.Admin.Controllers
 
             await _gameService.CreateAsync(request);
             return RedirectToAction(nameof(Index));
+        }
+        [HttpPost]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) return BadRequest();
+            var existData = await _gameService.GetByIdAsync((int)id);
+            if (existData == null) return NotFound();
+            foreach (var item in existData .GameImages)
+            {
+                string filePath = Path.Combine(_env.WebRootPath, "assets", "images", "Game-Images", item.Name);
+                if(System.IO.File.Exists(filePath))
+                {
+                    System.IO.File.Delete(filePath);
+                }
+            }
+            await _gameService.DeleteAsync((int)id);
+            return Ok();
         }
     }
 }

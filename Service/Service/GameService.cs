@@ -1,6 +1,8 @@
-﻿using Domain.Models;
+﻿using AutoMapper;
+using Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using Repository.Repository.Interfaces;
+using Service.Helpers.Responses;
 using Service.Service.Interfaces;
 using Service.ViewModels;
 using Service.ViewModels.Category;
@@ -11,9 +13,11 @@ namespace Service.Service
     public class GameService : IGameService
     {
         private readonly IGameRepository _gameRepository;
-        public GameService(IGameRepository gameRepository)
+        private readonly IMapper _mapper;
+        public GameService(IGameRepository gameRepository,IMapper mapper)
         {
             _gameRepository = gameRepository;
+            _mapper = mapper;
         }
 
         public async Task CreateAsync(GameCreateVM model)
@@ -22,8 +26,8 @@ namespace Service.Service
             {
                 Description = model.Description,
                 Name = model.Name,
-                Price = model.Price,
-                StockCount = model.StockCount,
+                Price = (decimal)model.Price,
+                StockCount = (int)model.StockCount,
                 CreatedDate = DateTime.UtcNow,
                 GameImages = model.Images.Select(m => new GameImage
                 {
@@ -64,6 +68,29 @@ namespace Service.Service
                 GameCategory = m.GameCategories.Where(c => c.Category != null).Select(c => new CategoryVM {Id=c.Category.Id, Name = c.Category.Name }).ToList()
             }).ToList();
 
+        }
+
+        public async Task<PaginateResponse<GameVM>> GetAllPaginated(int page, int take = 16)
+        {
+            var datas = await _gameRepository.GetAllPaginated(page, take);
+            var paginatedDatas = datas.Select(m => new GameVM
+            {
+                Id = m.Id,
+                Description = m.Description,
+                Name = m.Name,
+                Price = m.Price,
+                StockCount = m.StockCount,
+                CreatedDate = m.CreatedDate,
+                GameImages = m.GameImages.Select(i => new GameImageVM { IsMain = i.IsMain, Name = i.Name }).ToList(),
+                GameDiscounts = m.GameDiscounts.Where(d => d.Discount != null).Select(d => new GameDiscountVM { Value = d.Discount.Value }).ToList(),
+                GameCategory = m.GameCategories.Where(c => c.Category != null).Select(c => new CategoryVM { Id = c.Category.Id, Name = c.Category.Name }).ToList()
+            }).ToList();
+
+            int count = await _gameRepository.GetCountAsync();
+
+            int totalPage =(int)Math.Ceiling((decimal)count / take);
+
+            return new PaginateResponse<GameVM>(paginatedDatas, page,totalPage);
         }
 
         public async Task<GameVM> GetByIdAsync(int id)

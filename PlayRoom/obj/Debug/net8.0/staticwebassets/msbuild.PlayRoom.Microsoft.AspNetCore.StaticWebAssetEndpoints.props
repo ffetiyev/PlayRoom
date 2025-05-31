@@ -96,17 +96,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2Dbjz6oWLMIvflxZNXMyylYPa/cWkdSCjMp/ViTU5hc="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3147"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u00222Dbjz6oWLMIvflxZNXMyylYPa/cWkdSCjMp/ViTU5hc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 07:19:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/admin/js/Custom.h3l2xno202.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\js\Custom.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h3l2xno202"},{"Name":"integrity","Value":"sha256-s6sNvCdlUI7fp8ISrrUujmndl7\u002BGTIjF3Sk2wi93D/4="},{"Name":"label","Value":"_content/PlayRoom/admin/js/Custom.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3557"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022s6sNvCdlUI7fp8ISrrUujmndl7\u002BGTIjF3Sk2wi93D/4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 09:46:52 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/admin/js/Custom.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\js\Custom.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-s6sNvCdlUI7fp8ISrrUujmndl7\u002BGTIjF3Sk2wi93D/4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3557"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022s6sNvCdlUI7fp8ISrrUujmndl7\u002BGTIjF3Sk2wi93D/4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 09:46:52 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9omtTBhM\u002BAK3tNCTzcHTpHmmtGTZA/rBIhHm21oU4rI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4041"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229omtTBhM\u002BAK3tNCTzcHTpHmmtGTZA/rBIhHm21oU4rI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:13:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/admin/js/Custom.uf5agnztww.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\js\Custom.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uf5agnztww"},{"Name":"integrity","Value":"sha256-9omtTBhM\u002BAK3tNCTzcHTpHmmtGTZA/rBIhHm21oU4rI="},{"Name":"label","Value":"_content/PlayRoom/admin/js/Custom.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4041"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229omtTBhM\u002BAK3tNCTzcHTpHmmtGTZA/rBIhHm21oU4rI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:13:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/admin/js/demo/chart-area-demo.cge9ud2ou6.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\js\demo\chart-area-demo.js'))</AssetFile>
@@ -21996,17 +21996,11 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rszun4iext"},{"Name":"integrity","Value":"sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="},{"Name":"label","Value":"_content/PlayRoom/admin/vendor/jquery/jquery.slim.min.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"72372"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 07:19:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/accessories/accessories.b2smjl1a22.scss">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\accessories\accessories.scss'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b2smjl1a22"},{"Name":"integrity","Value":"sha256-bdFxLIsUnJ\u002BsIT0EDWbmktQG\u002BPam2dFDTWO\u002BZJXovyI="},{"Name":"label","Value":"_content/PlayRoom/assets/css/accessories/accessories.scss"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"31614"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022bdFxLIsUnJ\u002BsIT0EDWbmktQG\u002BPam2dFDTWO\u002BZJXovyI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 May 2025 11:19:28 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/accessories/accessories.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\accessories\accessories.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xLQKfkb5OCwq8Bkqro7EddPU1aId2PV9Pi5zA8JbRiI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"18854"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xLQKfkb5OCwq8Bkqro7EddPU1aId2PV9Pi5zA8JbRiI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-na2naaRGzJRwFG5W36LMxGMta5/5Ueab91j/UHlocmI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10631"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022na2naaRGzJRwFG5W36LMxGMta5/5Ueab91j/UHlocmI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:35:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/accessories/accessories.css.d4lurmcgv5.map">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\accessories\accessories.css.map'))</AssetFile>
@@ -22020,23 +22014,35 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bZnvg7KAPUF3E59u01t4v8JLtjz8ibfnD0Wvcmjl1/o="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6936"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022bZnvg7KAPUF3E59u01t4v8JLtjz8ibfnD0Wvcmjl1/o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/accessories/accessories.glolhhfbgx.css">
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/accessories/accessories.ledtmm8wr5.scss">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\accessories\accessories.scss'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ledtmm8wr5"},{"Name":"integrity","Value":"sha256-46gtZunBpXXILoFzocZsCrM0JfGOF434s9IUX5FJpuk="},{"Name":"label","Value":"_content/PlayRoom/assets/css/accessories/accessories.scss"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17891"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u002246gtZunBpXXILoFzocZsCrM0JfGOF434s9IUX5FJpuk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:34:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/accessories/accessories.phamni52j8.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\accessories\accessories.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"glolhhfbgx"},{"Name":"integrity","Value":"sha256-xLQKfkb5OCwq8Bkqro7EddPU1aId2PV9Pi5zA8JbRiI="},{"Name":"label","Value":"_content/PlayRoom/assets/css/accessories/accessories.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18854"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xLQKfkb5OCwq8Bkqro7EddPU1aId2PV9Pi5zA8JbRiI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"phamni52j8"},{"Name":"integrity","Value":"sha256-na2naaRGzJRwFG5W36LMxGMta5/5Ueab91j/UHlocmI="},{"Name":"label","Value":"_content/PlayRoom/assets/css/accessories/accessories.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10631"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022na2naaRGzJRwFG5W36LMxGMta5/5Ueab91j/UHlocmI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:35:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/accessories/accessories.scss">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\accessories\accessories.scss'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bdFxLIsUnJ\u002BsIT0EDWbmktQG\u002BPam2dFDTWO\u002BZJXovyI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"31614"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022bdFxLIsUnJ\u002BsIT0EDWbmktQG\u002BPam2dFDTWO\u002BZJXovyI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 May 2025 11:19:28 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-46gtZunBpXXILoFzocZsCrM0JfGOF434s9IUX5FJpuk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"17891"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u002246gtZunBpXXILoFzocZsCrM0JfGOF434s9IUX5FJpuk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:34:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/basket/basket.brvtrbr9s6.scss">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\basket\basket.scss'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"brvtrbr9s6"},{"Name":"integrity","Value":"sha256-\u002BcL2rpSvVp6NuuGRhv21t3\u002B5nGH1IEmRs3N/PRa5\u002B9s="},{"Name":"label","Value":"_content/PlayRoom/assets/css/basket/basket.scss"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19243"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022\u002BcL2rpSvVp6NuuGRhv21t3\u002B5nGH1IEmRs3N/PRa5\u002B9s=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:33:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/basket/basket.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\basket\basket.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NnLY3AuK5ifukWQQpBEEyzl6azJiVXv3dbvW3dwc22g="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"20323"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NnLY3AuK5ifukWQQpBEEyzl6azJiVXv3dbvW3dwc22g=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DY5nqHFfrKIszF0/agR/DqkE5dzT2i3sgikm74RN0X8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"12101"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022DY5nqHFfrKIszF0/agR/DqkE5dzT2i3sgikm74RN0X8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:33:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/basket/basket.css.kkrcmxiumk.map">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\basket\basket.css.map'))</AssetFile>
@@ -22050,23 +22056,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bE9j4kc6EazD8eCN5zwRXfJcYk2ySah6\u002Bi0CxA2GKQc="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7055"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022bE9j4kc6EazD8eCN5zwRXfJcYk2ySah6\u002Bi0CxA2GKQc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/basket/basket.dvlws5oj6d.scss">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\basket\basket.scss'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/basket/basket.plws69jx97.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\basket\basket.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dvlws5oj6d"},{"Name":"integrity","Value":"sha256-uUaMJqmbM4ZJ\u002Bkdx3XLyvdniVApzzxTK3d9Pj9kAy1Q="},{"Name":"label","Value":"_content/PlayRoom/assets/css/basket/basket.scss"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"32963"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022uUaMJqmbM4ZJ\u002Bkdx3XLyvdniVApzzxTK3d9Pj9kAy1Q=\u0022"},{"Name":"Last-Modified","Value":"Sun, 18 May 2025 11:32:42 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"plws69jx97"},{"Name":"integrity","Value":"sha256-DY5nqHFfrKIszF0/agR/DqkE5dzT2i3sgikm74RN0X8="},{"Name":"label","Value":"_content/PlayRoom/assets/css/basket/basket.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12101"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022DY5nqHFfrKIszF0/agR/DqkE5dzT2i3sgikm74RN0X8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:33:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/basket/basket.scss">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\basket\basket.scss'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uUaMJqmbM4ZJ\u002Bkdx3XLyvdniVApzzxTK3d9Pj9kAy1Q="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"32963"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022uUaMJqmbM4ZJ\u002Bkdx3XLyvdniVApzzxTK3d9Pj9kAy1Q=\u0022"},{"Name":"Last-Modified","Value":"Sun, 18 May 2025 11:32:42 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/basket/basket.yq4nyhdgrm.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\basket\basket.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yq4nyhdgrm"},{"Name":"integrity","Value":"sha256-NnLY3AuK5ifukWQQpBEEyzl6azJiVXv3dbvW3dwc22g="},{"Name":"label","Value":"_content/PlayRoom/assets/css/basket/basket.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20323"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NnLY3AuK5ifukWQQpBEEyzl6azJiVXv3dbvW3dwc22g=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BcL2rpSvVp6NuuGRhv21t3\u002B5nGH1IEmRs3N/PRa5\u002B9s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"19243"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022\u002BcL2rpSvVp6NuuGRhv21t3\u002B5nGH1IEmRs3N/PRa5\u002B9s=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:33:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/consoles/console.b2smjl1a22.scss">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\consoles\console.scss'))</AssetFile>
@@ -22104,11 +22104,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"um8fwsi7hu"},{"Name":"integrity","Value":"sha256-ijZryRoITIueulj6x6E6LD1zzwYQkhCnmLbsuaSC23E="},{"Name":"label","Value":"_content/PlayRoom/assets/css/consoles/console.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18850"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ijZryRoITIueulj6x6E6LD1zzwYQkhCnmLbsuaSC23E=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/favorites/favorites.0j3fxg8syh.scss">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\favorites\favorites.scss'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0j3fxg8syh"},{"Name":"integrity","Value":"sha256-ZL8fnx9g3jH6WzvNNerx/Vji9rpZxNAWVWvprfI8S0A="},{"Name":"label","Value":"_content/PlayRoom/assets/css/favorites/favorites.scss"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10095"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022ZL8fnx9g3jH6WzvNNerx/Vji9rpZxNAWVWvprfI8S0A=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:30:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/favorites/favorites.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\favorites\favorites.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Sw1sYhrH5pPP02YUIaO/A81V1NHQTWO7fjItaNB4I5I="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"14317"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Sw1sYhrH5pPP02YUIaO/A81V1NHQTWO7fjItaNB4I5I=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MrU2ot/mQP5LKhyp0Ef/LY53sVlRAQYQ3rr/ci7BHMg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6210"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022MrU2ot/mQP5LKhyp0Ef/LY53sVlRAQYQ3rr/ci7BHMg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:31:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/favorites/favorites.css.map">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\favorites\favorites.css.map'))</AssetFile>
@@ -22122,41 +22128,23 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x0h8itj7kn"},{"Name":"integrity","Value":"sha256-zyHWXc0HqT\u002BWpylQvqAixOOUHhuMNEbT47fGfGbBCYg="},{"Name":"label","Value":"_content/PlayRoom/assets/css/favorites/favorites.css.map"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5412"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022zyHWXc0HqT\u002BWpylQvqAixOOUHhuMNEbT47fGfGbBCYg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/favorites/favorites.htdr8nfr46.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\favorites\favorites.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"htdr8nfr46"},{"Name":"integrity","Value":"sha256-Sw1sYhrH5pPP02YUIaO/A81V1NHQTWO7fjItaNB4I5I="},{"Name":"label","Value":"_content/PlayRoom/assets/css/favorites/favorites.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14317"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Sw1sYhrH5pPP02YUIaO/A81V1NHQTWO7fjItaNB4I5I=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/favorites/favorites.scss">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\favorites\favorites.scss'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l3ZHta5lFAyeUuVdg6Gwjv53O/nKZU7IE3kzC\u002B69ZtE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"23673"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022l3ZHta5lFAyeUuVdg6Gwjv53O/nKZU7IE3kzC\u002B69ZtE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 May 2025 17:42:24 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZL8fnx9g3jH6WzvNNerx/Vji9rpZxNAWVWvprfI8S0A="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10095"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022ZL8fnx9g3jH6WzvNNerx/Vji9rpZxNAWVWvprfI8S0A=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:30:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/favorites/favorites.tj6p03bc64.scss">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\favorites\favorites.scss'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/favorites/favorites.uliky6y717.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\favorites\favorites.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tj6p03bc64"},{"Name":"integrity","Value":"sha256-l3ZHta5lFAyeUuVdg6Gwjv53O/nKZU7IE3kzC\u002B69ZtE="},{"Name":"label","Value":"_content/PlayRoom/assets/css/favorites/favorites.scss"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"23673"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022l3ZHta5lFAyeUuVdg6Gwjv53O/nKZU7IE3kzC\u002B69ZtE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 May 2025 17:42:24 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/gamepads/gamepads.3u1bomsfm0.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\gamepads\gamepads.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3u1bomsfm0"},{"Name":"integrity","Value":"sha256-9XGlvpPzy5eDHy4MchMOGp2VpZcSjC1cmJV7TWuiF80="},{"Name":"label","Value":"_content/PlayRoom/assets/css/gamepads/gamepads.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18851"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229XGlvpPzy5eDHy4MchMOGp2VpZcSjC1cmJV7TWuiF80=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/gamepads/gamepads.b2smjl1a22.scss">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\gamepads\gamepads.scss'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b2smjl1a22"},{"Name":"integrity","Value":"sha256-bdFxLIsUnJ\u002BsIT0EDWbmktQG\u002BPam2dFDTWO\u002BZJXovyI="},{"Name":"label","Value":"_content/PlayRoom/assets/css/gamepads/gamepads.scss"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"31614"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022bdFxLIsUnJ\u002BsIT0EDWbmktQG\u002BPam2dFDTWO\u002BZJXovyI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 May 2025 11:32:16 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uliky6y717"},{"Name":"integrity","Value":"sha256-MrU2ot/mQP5LKhyp0Ef/LY53sVlRAQYQ3rr/ci7BHMg="},{"Name":"label","Value":"_content/PlayRoom/assets/css/favorites/favorites.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6210"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022MrU2ot/mQP5LKhyp0Ef/LY53sVlRAQYQ3rr/ci7BHMg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:31:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/gamepads/gamepads.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\gamepads\gamepads.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9XGlvpPzy5eDHy4MchMOGp2VpZcSjC1cmJV7TWuiF80="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"18851"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229XGlvpPzy5eDHy4MchMOGp2VpZcSjC1cmJV7TWuiF80=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TgLWKuVE5Ul58X9ncQo2pX78u1L8l7XcKo3hpBJIXM0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10744"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022TgLWKuVE5Ul58X9ncQo2pX78u1L8l7XcKo3hpBJIXM0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:30:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/gamepads/gamepads.css.k3g1in4hq5.map">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\gamepads\gamepads.css.map'))</AssetFile>
@@ -22170,23 +22158,35 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QGrQ6CiQtDH\u002B2gt/lMmCMI2U1pECF\u002B6DOudOZOoU8lY="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6927"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022QGrQ6CiQtDH\u002B2gt/lMmCMI2U1pECF\u002B6DOudOZOoU8lY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/gamepads/gamepads.ktoxt0bu8y.scss">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\gamepads\gamepads.scss'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ktoxt0bu8y"},{"Name":"integrity","Value":"sha256-6GhQvv7dWiwCYyk3Qf30K8ihy2JtLfH5LjgjCDasLZ0="},{"Name":"label","Value":"_content/PlayRoom/assets/css/gamepads/gamepads.scss"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18041"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u00226GhQvv7dWiwCYyk3Qf30K8ihy2JtLfH5LjgjCDasLZ0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:29:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/gamepads/gamepads.scss">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\gamepads\gamepads.scss'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bdFxLIsUnJ\u002BsIT0EDWbmktQG\u002BPam2dFDTWO\u002BZJXovyI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"31614"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022bdFxLIsUnJ\u002BsIT0EDWbmktQG\u002BPam2dFDTWO\u002BZJXovyI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 May 2025 11:32:16 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6GhQvv7dWiwCYyk3Qf30K8ihy2JtLfH5LjgjCDasLZ0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"18041"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u00226GhQvv7dWiwCYyk3Qf30K8ihy2JtLfH5LjgjCDasLZ0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:29:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/games/games.b2smjl1a22.scss">
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/gamepads/gamepads.ukypjp1myi.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\gamepads\gamepads.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ukypjp1myi"},{"Name":"integrity","Value":"sha256-TgLWKuVE5Ul58X9ncQo2pX78u1L8l7XcKo3hpBJIXM0="},{"Name":"label","Value":"_content/PlayRoom/assets/css/gamepads/gamepads.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10744"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022TgLWKuVE5Ul58X9ncQo2pX78u1L8l7XcKo3hpBJIXM0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:30:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/games/games.a3ga3qsj46.scss">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\games\games.scss'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b2smjl1a22"},{"Name":"integrity","Value":"sha256-bdFxLIsUnJ\u002BsIT0EDWbmktQG\u002BPam2dFDTWO\u002BZJXovyI="},{"Name":"label","Value":"_content/PlayRoom/assets/css/games/games.scss"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"31614"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022bdFxLIsUnJ\u002BsIT0EDWbmktQG\u002BPam2dFDTWO\u002BZJXovyI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 May 2025 09:38:02 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a3ga3qsj46"},{"Name":"integrity","Value":"sha256-CoV2ql6GuVCZ3rwmi3j3GSqUvOizT3xYWS5cvyirvAM="},{"Name":"label","Value":"_content/PlayRoom/assets/css/games/games.scss"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18034"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022CoV2ql6GuVCZ3rwmi3j3GSqUvOizT3xYWS5cvyirvAM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:28:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/games/games.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\games\games.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yvSbR3dMNUXf7RI\u002BpSzpjqajYcPRE6IPQTGQL2YcbOo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"18848"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yvSbR3dMNUXf7RI\u002BpSzpjqajYcPRE6IPQTGQL2YcbOo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5nHIxETcFWeU923XOiAb/DYGMioXkaxS3Is4Xlbk6oU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10741"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00225nHIxETcFWeU923XOiAb/DYGMioXkaxS3Is4Xlbk6oU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:29:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/games/games.css.m9zq53hgoh.map">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\games\games.css.map'))</AssetFile>
@@ -22200,17 +22200,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ClZzfWHLVj0og0JtyDkyNpZfyxVVUc0TEBhqqJicCmI="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6918"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022ClZzfWHLVj0og0JtyDkyNpZfyxVVUc0TEBhqqJicCmI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/games/games.ml533bmo6f.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\games\games.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ml533bmo6f"},{"Name":"integrity","Value":"sha256-5nHIxETcFWeU923XOiAb/DYGMioXkaxS3Is4Xlbk6oU="},{"Name":"label","Value":"_content/PlayRoom/assets/css/games/games.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10741"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00225nHIxETcFWeU923XOiAb/DYGMioXkaxS3Is4Xlbk6oU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:29:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/games/games.scss">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\games\games.scss'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bdFxLIsUnJ\u002BsIT0EDWbmktQG\u002BPam2dFDTWO\u002BZJXovyI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"31614"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022bdFxLIsUnJ\u002BsIT0EDWbmktQG\u002BPam2dFDTWO\u002BZJXovyI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 May 2025 09:38:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/games/games.y1fcwhnf6v.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\games\games.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y1fcwhnf6v"},{"Name":"integrity","Value":"sha256-yvSbR3dMNUXf7RI\u002BpSzpjqajYcPRE6IPQTGQL2YcbOo="},{"Name":"label","Value":"_content/PlayRoom/assets/css/games/games.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18848"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yvSbR3dMNUXf7RI\u002BpSzpjqajYcPRE6IPQTGQL2YcbOo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CoV2ql6GuVCZ3rwmi3j3GSqUvOizT3xYWS5cvyirvAM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"18034"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022CoV2ql6GuVCZ3rwmi3j3GSqUvOizT3xYWS5cvyirvAM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:28:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/home/home.a32b9o63w5.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\home\home.css'))</AssetFile>
@@ -22260,17 +22260,11 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XAgkW3otj0V//C3Xs/kHDd97dII8cAI7w7US0eDXOHI="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2137"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022XAgkW3otj0V//C3Xs/kHDd97dII8cAI7w7US0eDXOHI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 24 May 2025 14:57:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/news/news.5165t0jqo9.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\news\news.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5165t0jqo9"},{"Name":"integrity","Value":"sha256-yZoHhp\u002Bc5mw7eXOJQwY0CMDY2Wq8r9D5Eh\u002BTGYk/UrA="},{"Name":"label","Value":"_content/PlayRoom/assets/css/news/news.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13354"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yZoHhp\u002Bc5mw7eXOJQwY0CMDY2Wq8r9D5Eh\u002BTGYk/UrA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/news/news.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\news\news.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yZoHhp\u002Bc5mw7eXOJQwY0CMDY2Wq8r9D5Eh\u002BTGYk/UrA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13354"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yZoHhp\u002Bc5mw7eXOJQwY0CMDY2Wq8r9D5Eh\u002BTGYk/UrA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FfvxBoR3uTj6Tp7Wix3WXSDkVeq3I/RjfOd7mbmxWTY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5247"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FfvxBoR3uTj6Tp7Wix3WXSDkVeq3I/RjfOd7mbmxWTY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:25:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/news/news.css.map">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\news\news.css.map'))</AssetFile>
@@ -22284,23 +22278,41 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xt5ymvufdp"},{"Name":"integrity","Value":"sha256-BaTAuCWackIIDfgqVhV7hyveVOci8sz9aABEFgKEbh8="},{"Name":"label","Value":"_content/PlayRoom/assets/css/news/news.css.map"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5034"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022BaTAuCWackIIDfgqVhV7hyveVOci8sz9aABEFgKEbh8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/news/news.f4mpb2ynui.scss">
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/news/news.qfikimzfym.scss">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\news\news.scss'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f4mpb2ynui"},{"Name":"integrity","Value":"sha256-wbCgM6OgDFTu\u002B2dNe51zFXnezoHkbqYGfZ5\u002BktOtMjU="},{"Name":"label","Value":"_content/PlayRoom/assets/css/news/news.scss"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"21860"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022wbCgM6OgDFTu\u002B2dNe51zFXnezoHkbqYGfZ5\u002BktOtMjU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 May 2025 12:36:47 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qfikimzfym"},{"Name":"integrity","Value":"sha256-VvQ0Ytw\u002Bq6oAzQv2zfMUkRz5/6A3YvP5SFuUJOtx\u002BK4="},{"Name":"label","Value":"_content/PlayRoom/assets/css/news/news.scss"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8278"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022VvQ0Ytw\u002Bq6oAzQv2zfMUkRz5/6A3YvP5SFuUJOtx\u002BK4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:25:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/news/news.r8zuv6ubpd.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\news\news.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r8zuv6ubpd"},{"Name":"integrity","Value":"sha256-FfvxBoR3uTj6Tp7Wix3WXSDkVeq3I/RjfOd7mbmxWTY="},{"Name":"label","Value":"_content/PlayRoom/assets/css/news/news.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5247"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FfvxBoR3uTj6Tp7Wix3WXSDkVeq3I/RjfOd7mbmxWTY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:25:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/news/news.scss">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\news\news.scss'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wbCgM6OgDFTu\u002B2dNe51zFXnezoHkbqYGfZ5\u002BktOtMjU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"21860"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022wbCgM6OgDFTu\u002B2dNe51zFXnezoHkbqYGfZ5\u002BktOtMjU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 May 2025 12:36:47 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VvQ0Ytw\u002Bq6oAzQv2zfMUkRz5/6A3YvP5SFuUJOtx\u002BK4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8278"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022VvQ0Ytw\u002Bq6oAzQv2zfMUkRz5/6A3YvP5SFuUJOtx\u002BK4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:25:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/productDetail/productDetail.0kjap4zw1g.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\productDetail\productDetail.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0kjap4zw1g"},{"Name":"integrity","Value":"sha256-gPrazYSmcIUtE\u002B8qtuJw9WEnsUeNws38O8WMCERNBxM="},{"Name":"label","Value":"_content/PlayRoom/assets/css/productDetail/productDetail.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8974"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gPrazYSmcIUtE\u002B8qtuJw9WEnsUeNws38O8WMCERNBxM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:27:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/productDetail/productDetail.3oykbinmf0.scss">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\productDetail\productDetail.scss'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3oykbinmf0"},{"Name":"integrity","Value":"sha256-g0\u002B7V7wVn4Von3InfEl1Vp3vts6Fx\u002B0K7L6qyWRDC5Y="},{"Name":"label","Value":"_content/PlayRoom/assets/css/productDetail/productDetail.scss"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12537"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022g0\u002B7V7wVn4Von3InfEl1Vp3vts6Fx\u002B0K7L6qyWRDC5Y=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:26:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/productDetail/productDetail.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\productDetail\productDetail.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002B/g7DRWYBJ0D\u002BdSHkTbzkkUpO1GxYH\u002BzEu4i1qzdrno="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"17081"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002B/g7DRWYBJ0D\u002BdSHkTbzkkUpO1GxYH\u002BzEu4i1qzdrno=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gPrazYSmcIUtE\u002B8qtuJw9WEnsUeNws38O8WMCERNBxM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8974"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gPrazYSmcIUtE\u002B8qtuJw9WEnsUeNws38O8WMCERNBxM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:27:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/productDetail/productDetail.css.7dzr800eug.map">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\productDetail\productDetail.css.map'))</AssetFile>
@@ -22314,23 +22326,11 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-y3MmxQJJmGESUyTyoEuBvGbPzOtCHHlfTYjNrZ22bWE="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5910"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022y3MmxQJJmGESUyTyoEuBvGbPzOtCHHlfTYjNrZ22bWE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/productDetail/productDetail.e9g4ti87o1.scss">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\productDetail\productDetail.scss'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e9g4ti87o1"},{"Name":"integrity","Value":"sha256-rs8dr\u002Be2bs\u002Bj7T1TRx7r2OalRy9Hz7cqcW\u002BXllhgXZE="},{"Name":"label","Value":"_content/PlayRoom/assets/css/productDetail/productDetail.scss"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"26117"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022rs8dr\u002Be2bs\u002Bj7T1TRx7r2OalRy9Hz7cqcW\u002BXllhgXZE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 11:12:44 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/productDetail/productDetail.n9iqakw8kr.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\productDetail\productDetail.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n9iqakw8kr"},{"Name":"integrity","Value":"sha256-\u002B/g7DRWYBJ0D\u002BdSHkTbzkkUpO1GxYH\u002BzEu4i1qzdrno="},{"Name":"label","Value":"_content/PlayRoom/assets/css/productDetail/productDetail.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17081"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002B/g7DRWYBJ0D\u002BdSHkTbzkkUpO1GxYH\u002BzEu4i1qzdrno=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 07:42:21 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/productDetail/productDetail.scss">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\productDetail\productDetail.scss'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rs8dr\u002Be2bs\u002Bj7T1TRx7r2OalRy9Hz7cqcW\u002BXllhgXZE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"26117"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022rs8dr\u002Be2bs\u002Bj7T1TRx7r2OalRy9Hz7cqcW\u002BXllhgXZE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 11:12:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-g0\u002B7V7wVn4Von3InfEl1Vp3vts6Fx\u002B0K7L6qyWRDC5Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"12537"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022g0\u002B7V7wVn4Von3InfEl1Vp3vts6Fx\u002B0K7L6qyWRDC5Y=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:26:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/css/register/register.5cha9rl7pf.scss">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\register\register.scss'))</AssetFile>
@@ -22620,113 +22620,173 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BwtYG4ECWjk3xdeqbv5STKjoMvQa\u002BwyD/RFGcuchh\u002Bg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"483886"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022BwtYG4ECWjk3xdeqbv5STKjoMvQa\u002BwyD/RFGcuchh\u002Bg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 09:35:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/04742188-5669-48c6-a4f5-c3c8253ea806_Cold-War.5tdx031h97.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\04742188-5669-48c6-a4f5-c3c8253ea806_Cold-War.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/0317d4cc-d4e1-46cb-938a-4744c39b627b_Assassains-Creed-Shadows.lebd5xiznv.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\0317d4cc-d4e1-46cb-938a-4744c39b627b_Assassains-Creed-Shadows.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5tdx031h97"},{"Name":"integrity","Value":"sha256-KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/04742188-5669-48c6-a4f5-c3c8253ea806_Cold-War.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"561158"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:07:36 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lebd5xiznv"},{"Name":"integrity","Value":"sha256-A1zijNF9CXCczIhbsOEYe3Xby51DCpAYFKAJduY\u002BRLs="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/0317d4cc-d4e1-46cb-938a-4744c39b627b_Assassains-Creed-Shadows.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"92608"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022A1zijNF9CXCczIhbsOEYe3Xby51DCpAYFKAJduY\u002BRLs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:53:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/04742188-5669-48c6-a4f5-c3c8253ea806_Cold-War.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\04742188-5669-48c6-a4f5-c3c8253ea806_Cold-War.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/0317d4cc-d4e1-46cb-938a-4744c39b627b_Assassains-Creed-Shadows.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\0317d4cc-d4e1-46cb-938a-4744c39b627b_Assassains-Creed-Shadows.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"561158"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:07:36 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-A1zijNF9CXCczIhbsOEYe3Xby51DCpAYFKAJduY\u002BRLs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"92608"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022A1zijNF9CXCczIhbsOEYe3Xby51DCpAYFKAJduY\u002BRLs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:53:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/180114b4-5bdf-473a-8279-2071a8e51ae5_Silent-Hill.d7t9hltf2x.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\180114b4-5bdf-473a-8279-2071a8e51ae5_Silent-Hill.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/1cd4171c-61fc-4f5c-8928-8505c0b4291a_Dead-Space.3hfbi6xb1t.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\1cd4171c-61fc-4f5c-8928-8505c0b4291a_Dead-Space.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7t9hltf2x"},{"Name":"integrity","Value":"sha256-GbF6A7YXogUK7XFFK3pdjjYJhn1cKxwFzQmGw2ZehLk="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/180114b4-5bdf-473a-8279-2071a8e51ae5_Silent-Hill.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"374322"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022GbF6A7YXogUK7XFFK3pdjjYJhn1cKxwFzQmGw2ZehLk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:28:37 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3hfbi6xb1t"},{"Name":"integrity","Value":"sha256-Fx2Y2wqN5vIoS3lDd2BdDqh3IE/1OxFadBDpa4SXTow="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/1cd4171c-61fc-4f5c-8928-8505c0b4291a_Dead-Space.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"172124"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fx2Y2wqN5vIoS3lDd2BdDqh3IE/1OxFadBDpa4SXTow=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:05:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/180114b4-5bdf-473a-8279-2071a8e51ae5_Silent-Hill.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\180114b4-5bdf-473a-8279-2071a8e51ae5_Silent-Hill.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/1cd4171c-61fc-4f5c-8928-8505c0b4291a_Dead-Space.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\1cd4171c-61fc-4f5c-8928-8505c0b4291a_Dead-Space.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GbF6A7YXogUK7XFFK3pdjjYJhn1cKxwFzQmGw2ZehLk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"374322"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022GbF6A7YXogUK7XFFK3pdjjYJhn1cKxwFzQmGw2ZehLk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:28:37 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fx2Y2wqN5vIoS3lDd2BdDqh3IE/1OxFadBDpa4SXTow="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"172124"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fx2Y2wqN5vIoS3lDd2BdDqh3IE/1OxFadBDpa4SXTow=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:05:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/346517b4-07d5-4956-b306-d3c2056e7555_COD-BO6.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\346517b4-07d5-4956-b306-d3c2056e7555_COD-BO6.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/2941a299-3258-49a7-a0bf-75a5c3204701_Resident-Evil-7.f11uvbd5oq.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\2941a299-3258-49a7-a0bf-75a5c3204701_Resident-Evil-7.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f11uvbd5oq"},{"Name":"integrity","Value":"sha256-w/tvyzWzzJkWvPcfomcKmD4Uj6OUJ6A8kcWNuSTx0Do="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/2941a299-3258-49a7-a0bf-75a5c3204701_Resident-Evil-7.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"161984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022w/tvyzWzzJkWvPcfomcKmD4Uj6OUJ6A8kcWNuSTx0Do=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:56:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/2941a299-3258-49a7-a0bf-75a5c3204701_Resident-Evil-7.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\2941a299-3258-49a7-a0bf-75a5c3204701_Resident-Evil-7.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-w/tvyzWzzJkWvPcfomcKmD4Uj6OUJ6A8kcWNuSTx0Do="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"161984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022w/tvyzWzzJkWvPcfomcKmD4Uj6OUJ6A8kcWNuSTx0Do=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:56:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/2e5fa7a5-570b-46ba-9c31-bc294cede5c5_Astro-bot.80t3e2bcar.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\2e5fa7a5-570b-46ba-9c31-bc294cede5c5_Astro-bot.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"80t3e2bcar"},{"Name":"integrity","Value":"sha256-aIRa/k4IGQrDhHQvYIKnITfQQ/gQPiBBbynJE5ePNcs="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/2e5fa7a5-570b-46ba-9c31-bc294cede5c5_Astro-bot.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"337474"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022aIRa/k4IGQrDhHQvYIKnITfQQ/gQPiBBbynJE5ePNcs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:54:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/2e5fa7a5-570b-46ba-9c31-bc294cede5c5_Astro-bot.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\2e5fa7a5-570b-46ba-9c31-bc294cede5c5_Astro-bot.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aIRa/k4IGQrDhHQvYIKnITfQQ/gQPiBBbynJE5ePNcs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"337474"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022aIRa/k4IGQrDhHQvYIKnITfQQ/gQPiBBbynJE5ePNcs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:54:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/3186716c-1ec1-4f76-8cdd-5ea299a2f7f4_Tomb-Raider.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\3186716c-1ec1-4f76-8cdd-5ea299a2f7f4_Tomb-Raider.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-L/3kO4RpkJf4LxsyRc4JmHMsjrqPkp4nS87kgajsjrc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"165200"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022L/3kO4RpkJf4LxsyRc4JmHMsjrqPkp4nS87kgajsjrc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:58:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/3186716c-1ec1-4f76-8cdd-5ea299a2f7f4_Tomb-Raider.tdqxnmzha0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\3186716c-1ec1-4f76-8cdd-5ea299a2f7f4_Tomb-Raider.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tdqxnmzha0"},{"Name":"integrity","Value":"sha256-L/3kO4RpkJf4LxsyRc4JmHMsjrqPkp4nS87kgajsjrc="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/3186716c-1ec1-4f76-8cdd-5ea299a2f7f4_Tomb-Raider.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"165200"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022L/3kO4RpkJf4LxsyRc4JmHMsjrqPkp4nS87kgajsjrc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:58:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/364bce9d-1c05-460f-9179-53c6b67d6750_RDR2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\364bce9d-1c05-460f-9179-53c6b67d6750_RDR2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9UwG2XRVDXkmQkK21GoEUyEZzvDpm9n9PEgMU4TtvUE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"387230"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229UwG2XRVDXkmQkK21GoEUyEZzvDpm9n9PEgMU4TtvUE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:03:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/364bce9d-1c05-460f-9179-53c6b67d6750_RDR2.tee8i0g0ik.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\364bce9d-1c05-460f-9179-53c6b67d6750_RDR2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tee8i0g0ik"},{"Name":"integrity","Value":"sha256-9UwG2XRVDXkmQkK21GoEUyEZzvDpm9n9PEgMU4TtvUE="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/364bce9d-1c05-460f-9179-53c6b67d6750_RDR2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"387230"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229UwG2XRVDXkmQkK21GoEUyEZzvDpm9n9PEgMU4TtvUE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:03:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/3aa672b2-8b95-4426-a3c5-839192f94c7d_Gear-Club.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\3aa672b2-8b95-4426-a3c5-839192f94c7d_Gear-Club.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-sM5WO75B7Ko\u002Bb5wfkdGtkrxhErKO1Jt3qIiJG8/9Wwk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"170894"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022sM5WO75B7Ko\u002Bb5wfkdGtkrxhErKO1Jt3qIiJG8/9Wwk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:55:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/3aa672b2-8b95-4426-a3c5-839192f94c7d_Gear-Club.wwdpo9mqws.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\3aa672b2-8b95-4426-a3c5-839192f94c7d_Gear-Club.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wwdpo9mqws"},{"Name":"integrity","Value":"sha256-sM5WO75B7Ko\u002Bb5wfkdGtkrxhErKO1Jt3qIiJG8/9Wwk="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/3aa672b2-8b95-4426-a3c5-839192f94c7d_Gear-Club.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"170894"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022sM5WO75B7Ko\u002Bb5wfkdGtkrxhErKO1Jt3qIiJG8/9Wwk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:55:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/4b8504ae-41ce-42c1-99df-517ba1776257_The-Last-of-Us-1.etp5tex9ek.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\4b8504ae-41ce-42c1-99df-517ba1776257_The-Last-of-Us-1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"etp5tex9ek"},{"Name":"integrity","Value":"sha256-8pYf3g9GYuUZXfkv8wp0jIGozvxL5/NFT2g0oRPpKnE="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/4b8504ae-41ce-42c1-99df-517ba1776257_The-Last-of-Us-1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"162230"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00228pYf3g9GYuUZXfkv8wp0jIGozvxL5/NFT2g0oRPpKnE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:02:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/4b8504ae-41ce-42c1-99df-517ba1776257_The-Last-of-Us-1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\4b8504ae-41ce-42c1-99df-517ba1776257_The-Last-of-Us-1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8pYf3g9GYuUZXfkv8wp0jIGozvxL5/NFT2g0oRPpKnE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"162230"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00228pYf3g9GYuUZXfkv8wp0jIGozvxL5/NFT2g0oRPpKnE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:02:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/500a3a69-753c-44fd-99e6-5e2a6d7711eb_Mortal-Kombat-1.1swd3t9nor.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\500a3a69-753c-44fd-99e6-5e2a6d7711eb_Mortal-Kombat-1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1swd3t9nor"},{"Name":"integrity","Value":"sha256-z1Eh78\u002BmpXOzDzKQmhG5ot/yxbw4ZDvIJ/Kzqrz2Vl8="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/500a3a69-753c-44fd-99e6-5e2a6d7711eb_Mortal-Kombat-1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"98476"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022z1Eh78\u002BmpXOzDzKQmhG5ot/yxbw4ZDvIJ/Kzqrz2Vl8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:01:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/500a3a69-753c-44fd-99e6-5e2a6d7711eb_Mortal-Kombat-1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\500a3a69-753c-44fd-99e6-5e2a6d7711eb_Mortal-Kombat-1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-z1Eh78\u002BmpXOzDzKQmhG5ot/yxbw4ZDvIJ/Kzqrz2Vl8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"98476"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022z1Eh78\u002BmpXOzDzKQmhG5ot/yxbw4ZDvIJ/Kzqrz2Vl8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:01:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/6cc79840-6690-45bd-a505-d5690075fa21_Resident-Evil-Village.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\6cc79840-6690-45bd-a505-d5690075fa21_Resident-Evil-Village.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-obqFI0gO1D7i9bsxwUmgi9lZt2DBVqjAQji93CWJ6iQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"827854"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022obqFI0gO1D7i9bsxwUmgi9lZt2DBVqjAQji93CWJ6iQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:06:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/6cc79840-6690-45bd-a505-d5690075fa21_Resident-Evil-Village.v4jetgbfnf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\6cc79840-6690-45bd-a505-d5690075fa21_Resident-Evil-Village.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v4jetgbfnf"},{"Name":"integrity","Value":"sha256-obqFI0gO1D7i9bsxwUmgi9lZt2DBVqjAQji93CWJ6iQ="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/6cc79840-6690-45bd-a505-d5690075fa21_Resident-Evil-Village.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"827854"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022obqFI0gO1D7i9bsxwUmgi9lZt2DBVqjAQji93CWJ6iQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:06:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/70a93b8b-d8f9-4075-a427-1ddd85cabbe0_Sniper-Elite-5.8kyydkz6tx.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\70a93b8b-d8f9-4075-a427-1ddd85cabbe0_Sniper-Elite-5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8kyydkz6tx"},{"Name":"integrity","Value":"sha256-eJCAu/CL02lv8\u002BwVnrKMal/9OmbRiuPG2Yt3oMz3uCg="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/70a93b8b-d8f9-4075-a427-1ddd85cabbe0_Sniper-Elite-5.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"770418"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022eJCAu/CL02lv8\u002BwVnrKMal/9OmbRiuPG2Yt3oMz3uCg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:57:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/70a93b8b-d8f9-4075-a427-1ddd85cabbe0_Sniper-Elite-5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\70a93b8b-d8f9-4075-a427-1ddd85cabbe0_Sniper-Elite-5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eJCAu/CL02lv8\u002BwVnrKMal/9OmbRiuPG2Yt3oMz3uCg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"770418"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022eJCAu/CL02lv8\u002BwVnrKMal/9OmbRiuPG2Yt3oMz3uCg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:57:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Assassains-Creed-Shadows.lebd5xiznv.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Assassains-Creed-Shadows.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lebd5xiznv"},{"Name":"integrity","Value":"sha256-A1zijNF9CXCczIhbsOEYe3Xby51DCpAYFKAJduY\u002BRLs="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/Assassains-Creed-Shadows.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"92608"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022A1zijNF9CXCczIhbsOEYe3Xby51DCpAYFKAJduY\u002BRLs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:51:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Assassains-Creed-Shadows.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Assassains-Creed-Shadows.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-A1zijNF9CXCczIhbsOEYe3Xby51DCpAYFKAJduY\u002BRLs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"92608"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022A1zijNF9CXCczIhbsOEYe3Xby51DCpAYFKAJduY\u002BRLs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:51:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Astro-bot.80t3e2bcar.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Astro-bot.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"80t3e2bcar"},{"Name":"integrity","Value":"sha256-aIRa/k4IGQrDhHQvYIKnITfQQ/gQPiBBbynJE5ePNcs="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/Astro-bot.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"337474"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022aIRa/k4IGQrDhHQvYIKnITfQQ/gQPiBBbynJE5ePNcs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:54:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Astro-bot.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Astro-bot.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aIRa/k4IGQrDhHQvYIKnITfQQ/gQPiBBbynJE5ePNcs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"337474"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022aIRa/k4IGQrDhHQvYIKnITfQQ/gQPiBBbynJE5ePNcs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:54:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/b6026e5a-e0ce-41c4-a83f-2517243e8d5f_COD-BO6.png.kf8x5carom.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\b6026e5a-e0ce-41c4-a83f-2517243e8d5f_COD-BO6.png.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kf8x5carom"},{"Name":"integrity","Value":"sha256-ECJB\u002BSHhuLymajr2t2JBkKXfrUE6zk\u002BOwfXeK80Sgf8="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/b6026e5a-e0ce-41c4-a83f-2517243e8d5f_COD-BO6.png.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"232392"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022ECJB\u002BSHhuLymajr2t2JBkKXfrUE6zk\u002BOwfXeK80Sgf8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:50:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/b6026e5a-e0ce-41c4-a83f-2517243e8d5f_COD-BO6.png.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\b6026e5a-e0ce-41c4-a83f-2517243e8d5f_COD-BO6.png.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ECJB\u002BSHhuLymajr2t2JBkKXfrUE6zk\u002BOwfXeK80Sgf8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"232392"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ECJB\u002BSHhuLymajr2t2JBkKXfrUE6zk\u002BOwfXeK80Sgf8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:45:49 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/346517b4-07d5-4956-b306-d3c2056e7555_COD-BO6.kf8x5carom.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\346517b4-07d5-4956-b306-d3c2056e7555_COD-BO6.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kf8x5carom"},{"Name":"integrity","Value":"sha256-ECJB\u002BSHhuLymajr2t2JBkKXfrUE6zk\u002BOwfXeK80Sgf8="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/346517b4-07d5-4956-b306-d3c2056e7555_COD-BO6.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"232392"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ECJB\u002BSHhuLymajr2t2JBkKXfrUE6zk\u002BOwfXeK80Sgf8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:45:49 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/3b456be6-63e3-41a6-bad7-190fb444863c_Wukong.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\3b456be6-63e3-41a6-bad7-190fb444863c_Wukong.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-q2l0axfbBEo5enFACkmAAyecd/tFDgb2hT9P2m\u002Bs3Oc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"424890"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022q2l0axfbBEo5enFACkmAAyecd/tFDgb2hT9P2m\u002Bs3Oc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:28:37 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/3b456be6-63e3-41a6-bad7-190fb444863c_Wukong.rwh0jny9o0.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\3b456be6-63e3-41a6-bad7-190fb444863c_Wukong.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rwh0jny9o0"},{"Name":"integrity","Value":"sha256-q2l0axfbBEo5enFACkmAAyecd/tFDgb2hT9P2m\u002Bs3Oc="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/3b456be6-63e3-41a6-bad7-190fb444863c_Wukong.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"424890"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022q2l0axfbBEo5enFACkmAAyecd/tFDgb2hT9P2m\u002Bs3Oc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:28:37 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/489f73cf-78b8-4c8e-9cad-44cb3f353c80_Cold-War.5tdx031h97.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\489f73cf-78b8-4c8e-9cad-44cb3f353c80_Cold-War.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5tdx031h97"},{"Name":"integrity","Value":"sha256-KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/489f73cf-78b8-4c8e-9cad-44cb3f353c80_Cold-War.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"561158"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:12:46 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/489f73cf-78b8-4c8e-9cad-44cb3f353c80_Cold-War.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\489f73cf-78b8-4c8e-9cad-44cb3f353c80_Cold-War.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"561158"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:12:46 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/63948711-032c-427d-98b0-737ee7b8f73e_Cold-War.5tdx031h97.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\63948711-032c-427d-98b0-737ee7b8f73e_Cold-War.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5tdx031h97"},{"Name":"integrity","Value":"sha256-KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/63948711-032c-427d-98b0-737ee7b8f73e_Cold-War.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"561158"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:25:39 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/63948711-032c-427d-98b0-737ee7b8f73e_Cold-War.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\63948711-032c-427d-98b0-737ee7b8f73e_Cold-War.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"561158"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:25:39 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/7c7e6df2-9dda-4c38-95e2-00fbf3c72d42_Cold-War.5tdx031h97.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\7c7e6df2-9dda-4c38-95e2-00fbf3c72d42_Cold-War.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5tdx031h97"},{"Name":"integrity","Value":"sha256-KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/7c7e6df2-9dda-4c38-95e2-00fbf3c72d42_Cold-War.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"561158"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:41:24 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/7c7e6df2-9dda-4c38-95e2-00fbf3c72d42_Cold-War.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\7c7e6df2-9dda-4c38-95e2-00fbf3c72d42_Cold-War.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"561158"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:41:24 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/92de53c2-9fd2-4794-af85-5606b247d70c_Cold-War.5tdx031h97.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\92de53c2-9fd2-4794-af85-5606b247d70c_Cold-War.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5tdx031h97"},{"Name":"integrity","Value":"sha256-KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/92de53c2-9fd2-4794-af85-5606b247d70c_Cold-War.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"561158"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:08:23 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/92de53c2-9fd2-4794-af85-5606b247d70c_Cold-War.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\92de53c2-9fd2-4794-af85-5606b247d70c_Cold-War.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"561158"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:08:23 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/c6fb138c-bcd7-4af7-9f10-e5e5dbcfe15f_WWE-2K25.gj9pykd62d.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\c6fb138c-bcd7-4af7-9f10-e5e5dbcfe15f_WWE-2K25.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gj9pykd62d"},{"Name":"integrity","Value":"sha256-jH5NYK1SII1kWbAOrD9MyldZMpEBUNh7yNQlvIsR2Ag="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/c6fb138c-bcd7-4af7-9f10-e5e5dbcfe15f_WWE-2K25.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"255096"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jH5NYK1SII1kWbAOrD9MyldZMpEBUNh7yNQlvIsR2Ag=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:43:38 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/c6fb138c-bcd7-4af7-9f10-e5e5dbcfe15f_WWE-2K25.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\c6fb138c-bcd7-4af7-9f10-e5e5dbcfe15f_WWE-2K25.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jH5NYK1SII1kWbAOrD9MyldZMpEBUNh7yNQlvIsR2Ag="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"255096"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jH5NYK1SII1kWbAOrD9MyldZMpEBUNh7yNQlvIsR2Ag=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 21:43:38 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"232392"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022ECJB\u002BSHhuLymajr2t2JBkKXfrUE6zk\u002BOwfXeK80Sgf8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:50:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/COD-BO6.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\COD-BO6.jpg'))</AssetFile>
@@ -22752,6 +22812,78 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"561158"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KQCOBvmR6jFyY/Y9rnHEqS02Pu59BprLnVFaUPUb/C4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 27 May 2025 08:14:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Dead-Space.3hfbi6xb1t.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Dead-Space.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3hfbi6xb1t"},{"Name":"integrity","Value":"sha256-Fx2Y2wqN5vIoS3lDd2BdDqh3IE/1OxFadBDpa4SXTow="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/Dead-Space.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"172124"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fx2Y2wqN5vIoS3lDd2BdDqh3IE/1OxFadBDpa4SXTow=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:04:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Dead-Space.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Dead-Space.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fx2Y2wqN5vIoS3lDd2BdDqh3IE/1OxFadBDpa4SXTow="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"172124"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fx2Y2wqN5vIoS3lDd2BdDqh3IE/1OxFadBDpa4SXTow=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:04:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Gear-Club.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Gear-Club.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-sM5WO75B7Ko\u002Bb5wfkdGtkrxhErKO1Jt3qIiJG8/9Wwk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"170894"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022sM5WO75B7Ko\u002Bb5wfkdGtkrxhErKO1Jt3qIiJG8/9Wwk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:54:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Gear-Club.wwdpo9mqws.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Gear-Club.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wwdpo9mqws"},{"Name":"integrity","Value":"sha256-sM5WO75B7Ko\u002Bb5wfkdGtkrxhErKO1Jt3qIiJG8/9Wwk="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/Gear-Club.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"170894"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022sM5WO75B7Ko\u002Bb5wfkdGtkrxhErKO1Jt3qIiJG8/9Wwk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:54:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Mortal-Kombat-1.1swd3t9nor.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Mortal-Kombat-1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1swd3t9nor"},{"Name":"integrity","Value":"sha256-z1Eh78\u002BmpXOzDzKQmhG5ot/yxbw4ZDvIJ/Kzqrz2Vl8="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/Mortal-Kombat-1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"98476"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022z1Eh78\u002BmpXOzDzKQmhG5ot/yxbw4ZDvIJ/Kzqrz2Vl8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:00:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Mortal-Kombat-1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Mortal-Kombat-1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-z1Eh78\u002BmpXOzDzKQmhG5ot/yxbw4ZDvIJ/Kzqrz2Vl8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"98476"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022z1Eh78\u002BmpXOzDzKQmhG5ot/yxbw4ZDvIJ/Kzqrz2Vl8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:00:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/RDR2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\RDR2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9UwG2XRVDXkmQkK21GoEUyEZzvDpm9n9PEgMU4TtvUE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"387230"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229UwG2XRVDXkmQkK21GoEUyEZzvDpm9n9PEgMU4TtvUE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:03:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/RDR2.tee8i0g0ik.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\RDR2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tee8i0g0ik"},{"Name":"integrity","Value":"sha256-9UwG2XRVDXkmQkK21GoEUyEZzvDpm9n9PEgMU4TtvUE="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/RDR2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"387230"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229UwG2XRVDXkmQkK21GoEUyEZzvDpm9n9PEgMU4TtvUE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:03:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Resident-Evil-7.f11uvbd5oq.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Resident-Evil-7.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f11uvbd5oq"},{"Name":"integrity","Value":"sha256-w/tvyzWzzJkWvPcfomcKmD4Uj6OUJ6A8kcWNuSTx0Do="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/Resident-Evil-7.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"161984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022w/tvyzWzzJkWvPcfomcKmD4Uj6OUJ6A8kcWNuSTx0Do=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:56:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Resident-Evil-7.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Resident-Evil-7.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-w/tvyzWzzJkWvPcfomcKmD4Uj6OUJ6A8kcWNuSTx0Do="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"161984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022w/tvyzWzzJkWvPcfomcKmD4Uj6OUJ6A8kcWNuSTx0Do=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:56:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Resident-Evil-Village.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Resident-Evil-Village.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-obqFI0gO1D7i9bsxwUmgi9lZt2DBVqjAQji93CWJ6iQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"827854"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022obqFI0gO1D7i9bsxwUmgi9lZt2DBVqjAQji93CWJ6iQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:06:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Resident-Evil-Village.v4jetgbfnf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Resident-Evil-Village.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v4jetgbfnf"},{"Name":"integrity","Value":"sha256-obqFI0gO1D7i9bsxwUmgi9lZt2DBVqjAQji93CWJ6iQ="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/Resident-Evil-Village.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"827854"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022obqFI0gO1D7i9bsxwUmgi9lZt2DBVqjAQji93CWJ6iQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:06:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Silent-Hill.d7t9hltf2x.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Silent-Hill.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -22763,6 +22895,42 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GbF6A7YXogUK7XFFK3pdjjYJhn1cKxwFzQmGw2ZehLk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"374322"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022GbF6A7YXogUK7XFFK3pdjjYJhn1cKxwFzQmGw2ZehLk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 27 May 2025 08:15:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Sniper-Elite-5.8kyydkz6tx.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Sniper-Elite-5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8kyydkz6tx"},{"Name":"integrity","Value":"sha256-eJCAu/CL02lv8\u002BwVnrKMal/9OmbRiuPG2Yt3oMz3uCg="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/Sniper-Elite-5.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"770418"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022eJCAu/CL02lv8\u002BwVnrKMal/9OmbRiuPG2Yt3oMz3uCg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:57:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Sniper-Elite-5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Sniper-Elite-5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eJCAu/CL02lv8\u002BwVnrKMal/9OmbRiuPG2Yt3oMz3uCg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"770418"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022eJCAu/CL02lv8\u002BwVnrKMal/9OmbRiuPG2Yt3oMz3uCg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:57:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/The-Last-of-Us-1.etp5tex9ek.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\The-Last-of-Us-1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"etp5tex9ek"},{"Name":"integrity","Value":"sha256-8pYf3g9GYuUZXfkv8wp0jIGozvxL5/NFT2g0oRPpKnE="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/The-Last-of-Us-1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"162230"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00228pYf3g9GYuUZXfkv8wp0jIGozvxL5/NFT2g0oRPpKnE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:01:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/The-Last-of-Us-1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\The-Last-of-Us-1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8pYf3g9GYuUZXfkv8wp0jIGozvxL5/NFT2g0oRPpKnE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"162230"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00228pYf3g9GYuUZXfkv8wp0jIGozvxL5/NFT2g0oRPpKnE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 10:01:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Tomb-Raider.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Tomb-Raider.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-L/3kO4RpkJf4LxsyRc4JmHMsjrqPkp4nS87kgajsjrc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"165200"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022L/3kO4RpkJf4LxsyRc4JmHMsjrqPkp4nS87kgajsjrc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:58:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Tomb-Raider.tdqxnmzha0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Tomb-Raider.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tdqxnmzha0"},{"Name":"integrity","Value":"sha256-L/3kO4RpkJf4LxsyRc4JmHMsjrqPkp4nS87kgajsjrc="},{"Name":"label","Value":"_content/PlayRoom/assets/images/Game-Images/Tomb-Raider.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"165200"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022L/3kO4RpkJf4LxsyRc4JmHMsjrqPkp4nS87kgajsjrc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 09:58:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/images/Game-Images/Wukong.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Wukong.jpg'))</AssetFile>
@@ -22887,14 +23055,14 @@
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/js/games.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\games.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ws84XUxiXGFaw4lmT8aTmEp1HqBq77TlLldOR7uCdb8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2199"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ws84XUxiXGFaw4lmT8aTmEp1HqBq77TlLldOR7uCdb8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 May 2025 09:39:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Nj9\u002B5Nl2VmwKqplGFPmclT4VEgg4\u002BoZMAD98hwZ4UkY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4810"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Nj9\u002B5Nl2VmwKqplGFPmclT4VEgg4\u002BoZMAD98hwZ4UkY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 13:24:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/js/games.ycfwm14wvw.js">
+    <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/js/games.qfw0zqb1s2.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\games.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ycfwm14wvw"},{"Name":"integrity","Value":"sha256-ws84XUxiXGFaw4lmT8aTmEp1HqBq77TlLldOR7uCdb8="},{"Name":"label","Value":"_content/PlayRoom/assets/js/games.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2199"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ws84XUxiXGFaw4lmT8aTmEp1HqBq77TlLldOR7uCdb8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 May 2025 09:39:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qfw0zqb1s2"},{"Name":"integrity","Value":"sha256-Nj9\u002B5Nl2VmwKqplGFPmclT4VEgg4\u002BoZMAD98hwZ4UkY="},{"Name":"label","Value":"_content/PlayRoom/assets/js/games.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4810"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Nj9\u002B5Nl2VmwKqplGFPmclT4VEgg4\u002BoZMAD98hwZ4UkY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 13:24:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PlayRoom/assets/js/home.5kyojrdztz.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\home.js'))</AssetFile>

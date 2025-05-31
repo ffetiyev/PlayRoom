@@ -7,5 +7,6 @@ namespace Repository.Repository.Interfaces
         Task AddImagesToGame(IEnumerable<GameImage> images);
         Task AddDiscountToGame(int gameId, IEnumerable<Discount> discounts);
         Task AddCategoriesToGame(int gameId, IEnumerable<int> categoriIds);
+        Task<IEnumerable<Game>> GetAllPaginated(int page, int take);
     }
 }

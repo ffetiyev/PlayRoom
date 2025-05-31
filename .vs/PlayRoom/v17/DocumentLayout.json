@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\areas\\admin\\views\\specialgamebanner\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\areas\\admin\\views\\specialgamebanner\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\views\\games\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\views\\games\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\areas\\admin\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\areas\\admin\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\wwwroot\\assets\\js\\games.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\wwwroot\\assets\\js\\games.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA222026-E72E-4517-ADCF-C635ED7B81D4}|Service\\Service.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\service\\service\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA222026-E72E-4517-ADCF-C635ED7B81D4}|Service\\Service.csproj|solutionrelative:service\\service\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\areas\\admin\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\areas\\admin\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0000A102-5236-4D9F-A9A2-72AD63B3D1B8}|Repository\\Repository.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\repository\\repository\\gamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0000A102-5236-4D9F-A9A2-72AD63B3D1B8}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\gamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\areas\\admin\\views\\game\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\areas\\admin\\views\\game\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\areas\\admin\\views\\game\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\areas\\admin\\views\\game\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\playroom\\areas\\admin\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50CA11DA-90AA-4E69-9E10-96C7EF229BC7}|PlayRoom\\PlayRoom.csproj|solutionrelative:playroom\\areas\\admin\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BA222026-E72E-4517-ADCF-C635ED7B81D4}|Service\\Service.csproj|c:\\users\\ffati\\onedrive\\desktop\\pb402\\backend-mvc\\playroom\\service\\viewmodels\\game\\gamecreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA222026-E72E-4517-ADCF-C635ED7B81D4}|Service\\Service.csproj|solutionrelative:service\\viewmodels\\game\\gamecreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,93 +50,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Views\\SpecialGameBanner\\Update.cshtml",
-              "RelativeDocumentMoniker": "PlayRoom\\Areas\\Admin\\Views\\SpecialGameBanner\\Update.cshtml",
-              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Views\\SpecialGameBanner\\Update.cshtml",
-              "RelativeToolTip": "PlayRoom\\Areas\\Admin\\Views\\SpecialGameBanner\\Update.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T21:55:47.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Views\\Game\\Create.cshtml",
-              "RelativeDocumentMoniker": "PlayRoom\\Areas\\Admin\\Views\\Game\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Views\\Game\\Create.cshtml",
-              "RelativeToolTip": "PlayRoom\\Areas\\Admin\\Views\\Game\\Create.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAqwBcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T21:39:07.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Repository\\Repository\\GameRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repository\\GameRepository.cs",
-              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Repository\\Repository\\GameRepository.cs",
-              "RelativeToolTip": "Repository\\Repository\\GameRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T21:30:23.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Views\\Game\\Detail.cshtml",
-              "RelativeDocumentMoniker": "PlayRoom\\Areas\\Admin\\Views\\Game\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Views\\Game\\Detail.cshtml",
-              "RelativeToolTip": "PlayRoom\\Areas\\Admin\\Views\\Game\\Detail.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T17:29:14.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameController.cs",
-              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Controllers\\GameController.cs",
-              "RelativeDocumentMoniker": "PlayRoom\\Areas\\Admin\\Controllers\\GameController.cs",
-              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Controllers\\GameController.cs",
-              "RelativeToolTip": "PlayRoom\\Areas\\Admin\\Controllers\\GameController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA1wCEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T16:59:39.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameService.cs",
-              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Service\\Service\\GameService.cs",
-              "RelativeDocumentMoniker": "Service\\Service\\GameService.cs",
-              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Service\\Service\\GameService.cs",
-              "RelativeToolTip": "Service\\Service\\GameService.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAvwEcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T10:40:14.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Views\\Game\\Index.cshtml",
               "RelativeDocumentMoniker": "PlayRoom\\Areas\\Admin\\Views\\Game\\Index.cshtml",
               "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Areas\\Admin\\Views\\Game\\Index.cshtml",
               "RelativeToolTip": "PlayRoom\\Areas\\Admin\\Views\\Game\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAACaAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T17:00:52.605Z",
+              "WhenOpened": "2025-05-31T13:10:53.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "games.js",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\js\\games.js",
+              "RelativeDocumentMoniker": "PlayRoom\\wwwroot\\assets\\js\\games.js",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\js\\games.js",
+              "RelativeToolTip": "PlayRoom\\wwwroot\\assets\\js\\games.js",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwEAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-31T12:23:57.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "PlayRoom\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "PlayRoom\\Controllers\\GamesController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:51:48.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Views\\Games\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlayRoom\\Views\\Games\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\Views\\Games\\Index.cshtml",
+              "RelativeToolTip": "PlayRoom\\Views\\Games\\Index.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwJwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T09:47:07.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Service\\ViewModels\\Game\\GameCreateVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Game\\GameCreateVM.cs",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Service\\ViewModels\\Game\\GameCreateVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Game\\GameCreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T08:21:17.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Service\\Service\\GameService.cs",
+              "RelativeDocumentMoniker": "Service\\Service\\GameService.cs",
+              "ToolTip": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\Service\\Service\\GameService.cs",
+              "RelativeToolTip": "Service\\Service\\GameService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T10:40:14.855Z",
               "EditorCaption": ""
             }
           ]
