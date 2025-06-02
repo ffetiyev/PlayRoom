@@ -1,4 +1,5 @@
-﻿using Service.ViewModels.Category;
+﻿using Microsoft.AspNetCore.Http;
+using Service.ViewModels.Category;
 using System.ComponentModel.DataAnnotations;
 
 namespace Service.ViewModels.Game
@@ -6,17 +7,26 @@ namespace Service.ViewModels.Game
     public class GameUpdateVM
     {
         [Required(ErrorMessage = "Name cannot be empty!")]
-        public string Name { get; set; }
+        public string NewName { get; set; }
+
         [Required(ErrorMessage = "Price cannot be empty!")]
-        public decimal Price { get; set; }
+        public decimal? NewPrice { get; set; }
+
         [Required(ErrorMessage = "Description cannot be empty")]
-        public string Description { get; set; }
+        public string NewDescription { get; set; }
+
         [Required(ErrorMessage = "Stock count cannot be empty")]
-        public int StockCount { get; set; }
-        public List<GameImageVM>? UploadImages { get; set; }
-        public List<GameImageVM>? Images { get; set; }
-        public List<GameDiscountVM>? GameDiscounts { get; set; }
-        [Required(ErrorMessage = "Category cannot be empty")]
-        public List<int> CategorieIds { get; set; }
+        public int? NewStockCount { get; set; }
+
+        [Required(ErrorMessage = "Image cannot be empty")]
+        public IEnumerable<IFormFile> UploadImages { get; set; }
+        public IEnumerable<GameImageVM>? Images { get; set; }
+        public List<int> CategoryIds { get; set; } 
+        public List<int> Discounts { get; set; }
+
+        public List<int> SelectedCategoryIds { get; set; } = new();
+        public List<int> SelectedDiscountIds { get; set; } = new();
+
+
     }
 }

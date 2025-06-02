@@ -1897,9 +1897,11 @@ wwwroot\assets\images\Game-Images\70a93b8b-d8f9-4075-a427-1ddd85cabbe0_Sniper-El
 wwwroot\assets\images\Game-Images\Assassains-Creed-Shadows.png
 wwwroot\assets\images\Game-Images\Astro-bot.png
 wwwroot\assets\images\Game-Images\b6026e5a-e0ce-41c4-a83f-2517243e8d5f_COD-BO6.png.webp
+wwwroot\assets\images\Game-Images\bc8e5220-05c2-46c4-820a-690156022f14_Assassains-Creed-Shadows.png
 wwwroot\assets\images\Game-Images\COD-BO6.jpg
 wwwroot\assets\images\Game-Images\Cold-War.jpg
 wwwroot\assets\images\Game-Images\Dead-Space.jpg
+wwwroot\assets\images\Game-Images\fa41e156-4f0b-43ab-9247-01855dac2cdc_Silent-Hill.jpg
 wwwroot\assets\images\Game-Images\Gear-Club.png
 wwwroot\assets\images\Game-Images\Mortal-Kombat-1.png
 wwwroot\assets\images\Game-Images\RDR2.png

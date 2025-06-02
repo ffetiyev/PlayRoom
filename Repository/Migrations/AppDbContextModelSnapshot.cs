@@ -36,7 +36,7 @@ namespace Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Models.Company", b =>
@@ -57,7 +57,7 @@ namespace Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Companies");
+                    b.ToTable("Companies", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Models.Discount", b =>
@@ -73,7 +73,7 @@ namespace Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Discounts");
+                    b.ToTable("Discounts", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Models.Game", b =>
@@ -103,7 +103,7 @@ namespace Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Games");
+                    b.ToTable("Games", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Models.GameCategory", b =>
@@ -126,7 +126,7 @@ namespace Repository.Migrations
 
                     b.HasIndex("GameId");
 
-                    b.ToTable("GameCategories");
+                    b.ToTable("GameCategories", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Models.GameDiscount", b =>
@@ -149,7 +149,7 @@ namespace Repository.Migrations
 
                     b.HasIndex("GameId");
 
-                    b.ToTable("GameDiscounts");
+                    b.ToTable("GameDiscounts", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Models.GameImage", b =>
@@ -174,7 +174,7 @@ namespace Repository.Migrations
 
                     b.HasIndex("GameId");
 
-                    b.ToTable("GameImages");
+                    b.ToTable("GameImages", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Models.SpecialGameBanner", b =>
@@ -205,7 +205,7 @@ namespace Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SpecialGameBanner");
+                    b.ToTable("SpecialGameBanner", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Models.WelcomeBanner", b =>
@@ -230,7 +230,7 @@ namespace Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("WelcomeBanner");
+                    b.ToTable("WelcomeBanner", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Models.GameCategory", b =>

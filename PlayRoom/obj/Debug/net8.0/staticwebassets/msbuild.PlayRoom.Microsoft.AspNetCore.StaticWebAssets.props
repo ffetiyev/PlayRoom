@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>02037ac2e4</Fingerprint>
-      <Integrity>CDLfsATKwncmE6WnKlNwYFV/9dIYV7DW7OjMboyCQVc=</Integrity>
+      <Fingerprint>bosj4ttn9x</Fingerprint>
+      <Integrity>678yo+WqkT4Cbl322vKx1KHNR8a/NRL9Tzr2aITf2A4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\css\sb-admin-2.min.css'))</OriginalItemSpec>
@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>uf5agnztww</Fingerprint>
-      <Integrity>9omtTBhM+AK3tNCTzcHTpHmmtGTZA/rBIhHm21oU4rI=</Integrity>
+      <Fingerprint>w5h99eiqcb</Fingerprint>
+      <Integrity>3P9DagJLMXnxi+WMvOqaLO4f8xjcLpTvd9u8MnAxlb8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\js\Custom.js'))</OriginalItemSpec>
@@ -33276,8 +33276,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ml533bmo6f</Fingerprint>
-      <Integrity>5nHIxETcFWeU923XOiAb/DYGMioXkaxS3Is4Xlbk6oU=</Integrity>
+      <Fingerprint>qyt8tcz63s</Fingerprint>
+      <Integrity>suZk9/rpNcAoh2UOmeuK1z+beY66TPHxEGR2jyGPEnM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\games\games.css'))</OriginalItemSpec>
@@ -34182,6 +34182,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\b6026e5a-e0ce-41c4-a83f-2517243e8d5f_COD-BO6.png.webp'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\bc8e5220-05c2-46c4-820a-690156022f14_Assassains-Creed-Shadows.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Game-Images/bc8e5220-05c2-46c4-820a-690156022f14_Assassains-Creed-Shadows.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lebd5xiznv</Fingerprint>
+      <Integrity>A1zijNF9CXCczIhbsOEYe3Xby51DCpAYFKAJduY+RLs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\bc8e5220-05c2-46c4-820a-690156022f14_Assassains-Creed-Shadows.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\COD-BO6.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>PlayRoom</SourceId>
@@ -34235,6 +34253,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Dead-Space.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\fa41e156-4f0b-43ab-9247-01855dac2cdc_Silent-Hill.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Game-Images/fa41e156-4f0b-43ab-9247-01855dac2cdc_Silent-Hill.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>d7t9hltf2x</Fingerprint>
+      <Integrity>GbF6A7YXogUK7XFFK3pdjjYJhn1cKxwFzQmGw2ZehLk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\fa41e156-4f0b-43ab-9247-01855dac2cdc_Silent-Hill.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Gear-Club.png'))">
       <SourceType>Package</SourceType>
@@ -34590,8 +34626,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qfw0zqb1s2</Fingerprint>
-      <Integrity>Nj9+5Nl2VmwKqplGFPmclT4VEgg4+oZMAD98hwZ4UkY=</Integrity>
+      <Fingerprint>iv9op1xalp</Fingerprint>
+      <Integrity>Ass6OEmgXx6/kamTUKnYwUrFCaPU2VNlK9a2uOw12UI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\games.js'))</OriginalItemSpec>

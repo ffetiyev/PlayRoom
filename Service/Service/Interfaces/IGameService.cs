@@ -10,7 +10,7 @@ namespace Service.Service.Interfaces
         Task<GameVM> GetByIdAsync(int id);
         Task DeleteAsync(int id);
         Task UpdateAsync(int id, GameUpdateVM model);
-        Task<PaginateResponse<GameVM>> GetAllPaginated(int page, int take =16);
+        Task<PaginateResponse<GameVM>> GetAllPaginated(int page, int take = 16, string? category = null, string? priceRange = null, string? orderBy = null);
     }
 }
 

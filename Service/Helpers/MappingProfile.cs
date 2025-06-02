@@ -29,7 +29,7 @@ namespace Service.Helpers
             CreateMap<Category, CategoryVM>();
             CreateMap<CategoryCreateVM, Category>();
 
-            //CreateMap<GameImage, GameImageVM>();
+            CreateMap<GameImage, GameImageVM>();
             //CreateMap<GameDiscount, GameDiscountVM>();
             //CreateMap<GameCategory, CategoryVM>()
             //    .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Category.Id))

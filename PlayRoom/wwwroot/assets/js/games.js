@@ -24,19 +24,6 @@ priceFilterButton.addEventListener("click",function(){
    }
 })
 
-
-let typeFilterButton = document.querySelector("#main-top .product-filters .filters .type-filter");
-
-typeFilterButton.addEventListener("click",function(){
-   let types = document.querySelector("#main-top .product-filters .filters .type-filter .types");
-   if(types.classList.contains("d-none")){
-    types.classList.remove("d-none")
-   }
-   else{
-    types.classList.add("d-none")
-   }
-})
-
 let orderFilterButton = document.querySelector("#main-top .product-filters .filters .order-filter");
 
 orderFilterButton.addEventListener("click",function(){

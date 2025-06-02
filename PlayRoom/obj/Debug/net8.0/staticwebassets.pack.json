@@ -7585,6 +7585,14 @@
       "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\b6026e5a-e0ce-41c4-a83f-2517243e8d5f_COD-BO6.png.webp"
     },
     {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\bc8e5220-05c2-46c4-820a-690156022f14_Assassains-Creed-Shadows.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\bc8e5220-05c2-46c4-820a-690156022f14_Assassains-Creed-Shadows.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\fa41e156-4f0b-43ab-9247-01855dac2cdc_Silent-Hill.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\fa41e156-4f0b-43ab-9247-01855dac2cdc_Silent-Hill.jpg"
+    },
+    {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\God-of-War-SG.webp",
       "PackagePath": "staticwebassets\\assets\\images\\God-of-War-SG.webp"
     },

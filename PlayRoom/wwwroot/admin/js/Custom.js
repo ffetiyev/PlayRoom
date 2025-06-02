@@ -126,3 +126,66 @@ gameDeleteBtns.forEach((btn => {
     })
 
 }))
+
+
+
+let gameImageDeleteBtns = document.querySelectorAll(".game-image-delete-btn");
+
+gameImageDeleteBtns.forEach((btn => {
+    btn.addEventListener("click", function () {
+        let imageId = parseInt(this.parentNode.getAttribute("data-id"));
+        fetch("http://localhost:5125/Admin/Game/DeleteGameImage?id=" + imageId, {
+
+            method: "POST",
+
+        })
+            .then(response => response.text()).then(res => {
+                this.parentNode.parentNode.remove()
+            })
+    })
+
+}))
+
+
+function bindSetMainButtons() {
+    let gameImageSetMainBtns = document.querySelectorAll(".game-image-set-main-btn");
+
+    gameImageSetMainBtns.forEach(btn => {
+        btn.addEventListener("click", function () {
+            let imageId = parseInt(this.closest(".buttons").getAttribute("data-id"));
+
+            fetch("/Admin/Game/SetMainImage?id=" + imageId, {
+                method: "POST"
+            })
+                .then(response => {
+                    if (!response.ok) throw new Error("Failed to set main image.");
+                    return response.text();
+                })
+                .then(() => {
+                    document.querySelectorAll(".image-edit-game").forEach(el => {
+                        el.classList.remove("image-edit-game");
+                        el.querySelector(".main-image-show")?.remove();
+
+                        const buttons = el.querySelector(".buttons");
+                        buttons.innerHTML = `
+                            <button class="btn btn-danger game-image-delete-btn">Delete</button>
+                            <button class="btn btn-success game-image-set-main-btn">Set main</button>
+                        `;
+                    });
+
+                    const imageContainer = this.closest(".image-edit");
+                    imageContainer.classList.add("image-edit-game");
+
+                    const buttons = this.closest(".buttons");
+                    buttons.innerHTML = `<span class="badge badge-success main-image-show">Main Image</span>`;
+
+                    bindSetMainButtons();
+                })
+                .catch(err => {
+                    console.error("Set main image error:", err);
+                });
+        });
+    });
+}
+
+bindSetMainButtons();

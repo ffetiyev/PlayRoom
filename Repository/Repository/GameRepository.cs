@@ -1,4 +1,5 @@
-﻿using Domain.Models;
+﻿using Azure;
+using Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using Repository.Data;
 using Repository.Repository.Interfaces;
@@ -40,16 +41,24 @@ namespace Repository.Repository
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<Game>> GetAllPaginated(int page, int take)
+        public async Task<List<Game>> GetAllPaginated(int page, int take)
         {
             return await _context.Games
          .AsNoTracking()
          .Include(m => m.GameCategories).ThenInclude(m => m.Category)
          .Include(m => m.GameImages)
-         .Include(m => m.GameDiscounts)
+         .Include(m => m.GameDiscounts).ThenInclude(m=>m.Discount)
          .Skip((page - 1) * take)
          .Take(take)
          .ToListAsync();
+        }
+
+        public async Task<IQueryable<Game>> GetAllQueryable()
+        {
+            return _context.Games
+                .Include(m => m.GameCategories).ThenInclude(m => m.Category)
+                .Include(m => m.GameImages)
+                .Include(m => m.GameDiscounts).ThenInclude(m => m.Discount);
         }
     }
 }

@@ -14,6 +14,7 @@ namespace Service
             services.AddScoped<IDiscountService, DiscountService>();
             services.AddScoped<ICompanyService, CompanyService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IGameImageService, GameImageService>();
             return services;
         }
     }
