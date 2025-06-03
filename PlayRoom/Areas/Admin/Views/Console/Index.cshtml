@@ -1,0 +1,49 @@
+﻿@model IEnumerable<ConsoleVM>
+
+<div class="table-responsive mt-5" style="display:inline; border-color:red">
+    <a asp-action="Create" style="padding:5px 20px" class="btn btn-success btn-icon-split ml-3 mb-3">Create</a>
+    <table class="table table-bordered" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Created Date</th>
+                <th>Image</th>
+                <th>Option</th>
+
+            </tr>
+        </thead>
+        <tfoot>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td style="width:40% ;">@item.Name</td>
+                    <td style="width:50% ;">@item.Price ₼</td>
+                    <td style="width:50% ;">
+                        @{
+                            var words = item.Description?.Split(' ');
+                            var preview = words != null && words.Length > 0
+                            ? string.Join(" ", words.Take(4)) + "..."
+                            : "";
+                        }
+                        @preview
+                    </td>
+                    <td style="width:50% ;">@item.CreatedDate.ToString("MM/dd/yyyy")</td>
+                    <td style="width:50%; margin-top: 0px; padding-top: 0px;">
+                        <img src="~/assets/images/Console-Images/@item.Images.FirstOrDefault(m=>m.IsMain==true).Name" style="width:200px;height:130px" />
+                    </td>
+                    <td class="d-flex" style="border:none;justify-content:center; padding-top: 40px;border-top:1px solid gray">
+                        <a asp-action="detail" asp-route-id="@item.Id" style="padding:5px 20px" class="btn btn-primary btn-icon-split ml-3">Detail</a>
+                        <a asp-action="update" asp-route-id="@item.Id" style="padding:5px 20px" class="btn btn-warning btn-icon-split ml-3">Edit</a>
+                        <a data-id="@item.Id" class="btn btn-danger btn-icon-split ml-3 game-delete-btn" style="padding:5px 20px">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tfoot>
+    </table>
+</div>
+
+@section js {
+    <script src="~/admin/js/Custom.js"></script>
+}

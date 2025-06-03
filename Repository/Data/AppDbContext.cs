@@ -16,5 +16,9 @@ namespace Repository.Data
         public DbSet<GameImage> GameImages { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Company> Companies { get; set; }
+        public DbSet<Domain.Models.Console> Consoles { get; set; }
+        public DbSet<ConsoleCategory> ConsoleCategories { get; set; }
+        public DbSet<ConsoleImage> ConsoleImages { get; set; }
+        public DbSet<ConsoleDiscount> ConsoleDiscounts { get; set; }
     }
 }

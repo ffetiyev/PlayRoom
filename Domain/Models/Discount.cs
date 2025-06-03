@@ -6,5 +6,6 @@ namespace Domain.Models
     {
         public decimal Value { get; set; }
         public List<GameDiscount> GameDiscounts { get; set; }
+        public List<ConsoleDiscount> ConsoleDiscounts { get; set; }
     }
 }

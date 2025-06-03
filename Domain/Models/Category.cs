@@ -6,5 +6,6 @@ namespace Domain.Models
     {
         public string Name { get; set; }
         public ICollection<GameCategory> GameCategories { get; set; }
+        public ICollection<ConsoleCategory> ConsoleCategories { get; set; }
     }
 }

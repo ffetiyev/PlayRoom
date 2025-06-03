@@ -67,7 +67,7 @@ namespace Service.Service
                 GameImages = m.GameImages.Select(i => new GameImageVM { IsMain = i.IsMain, Name = i.Name }).ToList(),
                 GameDiscounts = m.GameDiscounts.Where(d => d.Discount != null).Select(d => new GameDiscountVM { Value = d.Discount.Value }).ToList(),
                 GameCategory = m.GameCategories.Where(c => c.Category != null).Select(c => new CategoryVM {Id=c.Category.Id, Name = c.Category.Name }).ToList()
-            }).AsQueryable();
+            }).ToList();
 
         }
 

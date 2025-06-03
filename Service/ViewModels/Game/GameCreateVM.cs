@@ -20,5 +20,6 @@ public class GameCreateVM
     public IEnumerable<IFormFile> UploadImages { get; set; }
 
     public IEnumerable<GameImageVM>? Images { get; set; }
-    public List<int> CategoryIds { get; set; } = new(); 
+    [MinLength(1, ErrorMessage = "At least one category must be selected.")]
+    public List<int>? CategoryIds { get; set; } = new(); 
 }

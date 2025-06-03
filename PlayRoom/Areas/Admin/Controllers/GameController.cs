@@ -65,11 +65,7 @@ namespace PlayRoom.Areas.Admin.Controllers
             }).ToList();
 
             if (!ModelState.IsValid) return View(request);
-            if (request.CategoryIds == null || !request.CategoryIds.Any())
-            {
-                ModelState.AddModelError("CategoryIds", "Please select at least one category");
-                return View(request);
-            }
+
             foreach (var image in request.UploadImages)
             {
                 if (!image.ContentType.Contains("image/"))

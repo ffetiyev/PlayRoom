@@ -36,7 +36,7 @@ namespace Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("Domain.Models.Company", b =>
@@ -57,7 +57,111 @@ namespace Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Companies", (string)null);
+                    b.ToTable("Companies");
+                });
+
+            modelBuilder.Entity("Domain.Models.Console", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Memory")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("StockCount")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Consoles");
+                });
+
+            modelBuilder.Entity("Domain.Models.ConsoleCategory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ConsoleId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.HasIndex("ConsoleId");
+
+                    b.ToTable("ConsoleCategories");
+                });
+
+            modelBuilder.Entity("Domain.Models.ConsoleDiscount", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ConsoleId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DiscountId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ConsoleId");
+
+                    b.HasIndex("DiscountId");
+
+                    b.ToTable("ConsoleDiscounts");
+                });
+
+            modelBuilder.Entity("Domain.Models.ConsoleImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ConsoleId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsMain")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ConsoleId");
+
+                    b.ToTable("ConsoleImages");
                 });
 
             modelBuilder.Entity("Domain.Models.Discount", b =>
@@ -73,7 +177,7 @@ namespace Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Discounts", (string)null);
+                    b.ToTable("Discounts");
                 });
 
             modelBuilder.Entity("Domain.Models.Game", b =>
@@ -103,7 +207,7 @@ namespace Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Games", (string)null);
+                    b.ToTable("Games");
                 });
 
             modelBuilder.Entity("Domain.Models.GameCategory", b =>
@@ -126,7 +230,7 @@ namespace Repository.Migrations
 
                     b.HasIndex("GameId");
 
-                    b.ToTable("GameCategories", (string)null);
+                    b.ToTable("GameCategories");
                 });
 
             modelBuilder.Entity("Domain.Models.GameDiscount", b =>
@@ -149,7 +253,7 @@ namespace Repository.Migrations
 
                     b.HasIndex("GameId");
 
-                    b.ToTable("GameDiscounts", (string)null);
+                    b.ToTable("GameDiscounts");
                 });
 
             modelBuilder.Entity("Domain.Models.GameImage", b =>
@@ -174,7 +278,7 @@ namespace Repository.Migrations
 
                     b.HasIndex("GameId");
 
-                    b.ToTable("GameImages", (string)null);
+                    b.ToTable("GameImages");
                 });
 
             modelBuilder.Entity("Domain.Models.SpecialGameBanner", b =>
@@ -205,7 +309,7 @@ namespace Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SpecialGameBanner", (string)null);
+                    b.ToTable("SpecialGameBanner");
                 });
 
             modelBuilder.Entity("Domain.Models.WelcomeBanner", b =>
@@ -230,7 +334,56 @@ namespace Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("WelcomeBanner", (string)null);
+                    b.ToTable("WelcomeBanner");
+                });
+
+            modelBuilder.Entity("Domain.Models.ConsoleCategory", b =>
+                {
+                    b.HasOne("Domain.Models.Category", "Category")
+                        .WithMany("ConsoleCategories")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Models.Console", "Console")
+                        .WithMany("ConsoleCategories")
+                        .HasForeignKey("ConsoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+
+                    b.Navigation("Console");
+                });
+
+            modelBuilder.Entity("Domain.Models.ConsoleDiscount", b =>
+                {
+                    b.HasOne("Domain.Models.Console", "Console")
+                        .WithMany("ConsoleDiscounts")
+                        .HasForeignKey("ConsoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Models.Discount", "Discount")
+                        .WithMany("ConsoleDiscounts")
+                        .HasForeignKey("DiscountId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Console");
+
+                    b.Navigation("Discount");
+                });
+
+            modelBuilder.Entity("Domain.Models.ConsoleImage", b =>
+                {
+                    b.HasOne("Domain.Models.Console", "Console")
+                        .WithMany("ConsoleImages")
+                        .HasForeignKey("ConsoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Console");
                 });
 
             modelBuilder.Entity("Domain.Models.GameCategory", b =>
@@ -284,11 +437,24 @@ namespace Repository.Migrations
 
             modelBuilder.Entity("Domain.Models.Category", b =>
                 {
+                    b.Navigation("ConsoleCategories");
+
                     b.Navigation("GameCategories");
+                });
+
+            modelBuilder.Entity("Domain.Models.Console", b =>
+                {
+                    b.Navigation("ConsoleCategories");
+
+                    b.Navigation("ConsoleDiscounts");
+
+                    b.Navigation("ConsoleImages");
                 });
 
             modelBuilder.Entity("Domain.Models.Discount", b =>
                 {
+                    b.Navigation("ConsoleDiscounts");
+
                     b.Navigation("GameDiscounts");
                 });
 
