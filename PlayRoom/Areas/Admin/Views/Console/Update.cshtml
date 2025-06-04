@@ -1,0 +1,117 @@
+﻿@model ConsoleUpdateVM
+
+<div class="container">
+    <div>
+        <strong>Images:</strong>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
+            @if (Model.Images != null && Model.Images.Any())
+            {
+                <div class="row" style="width:100%">
+                    @foreach (var img in Model.Images)
+                    {
+                        <div class=" @(img.IsMain ? "image-edit-game image-edit col-12 col-sm-12 col-md-6 col-lg-4 mt-3" : "image-edit col-md-6 col-12 col-sm-12 col-lg-4 mt-3")">
+
+                            <img src="~/assets/images/Console-Images/@img.Name" style="width:100%;height:230px" />
+                            <div class="buttons" data-id="@img.Id">
+                                @if (!img.IsMain)
+                                {
+                                    <button class="btn btn-danger console-image-delete-btn">Delete</button>
+                                    <button class="btn btn-success console-image-set-main-btn">Set main</button>
+                                }
+                                else
+                                {
+                                    <span class="badge badge-success main-image-show">Main Image</span>
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+            else
+            {
+                <span>No images available.</span>
+            }
+        </div>
+    </div>
+    <form class="user mt-5" method="post" asp-action="Update" enctype="multipart/form-data">
+        @* <div class="text-danger" asp-validation-summary="All"></div> *@
+        <div class="form-group">
+            <label for="name">New Name</label>
+            <input asp-for="NewName" class="form-control form-control-user" placeholder="Enter new name...">
+            <span class="text-danger" asp-validation-for="NewName"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="NewPrice">Price</label>
+            <input asp-for="NewPrice" class="form-control form-control-user" placeholder="Enter price...">
+            <span class="text-danger" asp-validation-for="NewPrice"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="NewDescription">Description</label>
+            <input asp-for="NewDescription" class="form-control form-control-user" placeholder="Enter description...">
+            <span class="text-danger" asp-validation-for="NewDescription"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="NewStockCount">Stock Count</label>
+            <input asp-for="NewStockCount" class="form-control form-control-user" placeholder="Enter stock count...">
+            <span class="text-danger" asp-validation-for="NewStockCount"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="NewMemory">Memory</label>
+            <input asp-for="NewMemory" class="form-control form-control-user" placeholder="Enter memory...">
+            <span class="text-danger" asp-validation-for="NewMemory"></span>
+        </div>
+        <div class="form-group">
+            <label>Categories</label>
+            @foreach (var category in (List<SelectListItem>)ViewBag.Categories)
+            {
+                <div class="form-check">
+                    <input class="form-check-input"
+                           type="checkbox"
+                           name="SelectedCategoryIds"
+                           value="@category.Value"
+                           id="cat_@category.Value"
+                    @(Model.SelectedCategoryIds.Contains(int.Parse(category.Value)) ? "checked" : "") />
+                    <label class="form-check-label" for="cat_@category.Value">
+                        @category.Text
+                    </label>
+                </div>
+            }
+            <span class="text-danger" asp-validation-for="SelectedCategoryIds"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Discounts</label>
+            @foreach (var discount in (List<SelectListItem>)ViewBag.Discounts)
+            {
+                <div class="form-check">
+                    <input class="form-check-input"
+                           type="checkbox"
+                           name="SelectedDiscountIds"
+                           value="@discount.Value"
+                           id="disc_@discount.Value"
+                    @(Model.SelectedDiscountIds.Contains(int.Parse(discount.Value)) ? "checked" : "") />
+                    <label class="form-check-label" for="disc_@discount.Value">
+                        @discount.Text
+                    </label>
+                </div>
+            }
+            <span class="text-danger" asp-validation-for="SelectedDiscountIds"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="UploadImages">Choose Image</label>
+            <input asp-for="UploadImages" class="form-control-file" />
+            <span class="text-danger" asp-validation-for="UploadImages"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-user btn-block">
+            Submit
+        </button>
+        <a asp-action="index" class="btn btn-danger btn-user btn-block">
+            Cancel
+        </a>
+        <hr>
+    </form>
+</div>
+
+@section js {
+    <script src="~/admin/js/Custom.js"></script>
+}

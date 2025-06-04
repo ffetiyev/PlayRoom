@@ -26,7 +26,7 @@ namespace Service.ViewModels.Console
 
         [Required(ErrorMessage = "Image cannot be empty")]
         public IEnumerable<IFormFile> UploadImages { get; set; }
-        public IEnumerable<GameImageVM>? Images { get; set; }
+        public IEnumerable<ConsoleImageVM>? Images { get; set; }
 
         [MinLength(1, ErrorMessage = "At least one category must be selected.")]
         public List<int>? CategoryIds { get; set; } = new();

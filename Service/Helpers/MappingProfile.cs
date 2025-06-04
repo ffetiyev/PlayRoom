@@ -3,6 +3,7 @@ using Domain.Models;
 using Service.ViewModels;
 using Service.ViewModels.Category;
 using Service.ViewModels.Company;
+using Service.ViewModels.Console;
 using Service.ViewModels.Discount;
 using Service.ViewModels.Game;
 using Service.ViewModels.SpecialGameBanner;
@@ -30,6 +31,7 @@ namespace Service.Helpers
             CreateMap<CategoryCreateVM, Category>();
 
             CreateMap<GameImage, GameImageVM>();
+            CreateMap<ConsoleImage, ConsoleImageVM>();
             //CreateMap<GameDiscount, GameDiscountVM>();
             //CreateMap<GameCategory, CategoryVM>()
             //    .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Category.Id))

@@ -18,6 +18,11 @@ namespace PlayRoom.Controllers
         public async Task<IActionResult> Index(string? category, string? priceRange, string? orderBy, int? page=1)
         {
             if (page == null) return BadRequest();
+
+            ViewBag.SelectedCategory = category;
+            ViewBag.SelectedPriceRange = priceRange;
+            ViewBag.SelectedOrderBy = orderBy;
+
             if (page < 1) page = 1;
             var data = await _gameService.GetAllPaginated((int)page,16,category,priceRange,orderBy);
 

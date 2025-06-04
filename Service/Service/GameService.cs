@@ -120,10 +120,17 @@ namespace Service.Service
                         paginatedDatas = paginatedDatas.OrderByDescending(m=>m.CreatedDate).ToList(); 
                         break;
                     case "cheap":
-                        paginatedDatas = paginatedDatas.OrderBy(m => m.Price).ToList();
+                        paginatedDatas = paginatedDatas
+                            .OrderBy(m => m.GameDiscounts
+                                .Aggregate(m.Price, (current, discount) => current * (1 - discount.Value / 100m)))
+                            .ToList();
                         break;
+
                     case "expensive":
-                        paginatedDatas = paginatedDatas.OrderByDescending(m => m.Price).ToList();
+                        paginatedDatas = paginatedDatas
+                            .OrderByDescending(m => m.GameDiscounts
+                                .Aggregate(m.Price, (current, discount) => current * (1 - discount.Value / 100m)))
+                            .ToList();
                         break;
                     default:
                         break;

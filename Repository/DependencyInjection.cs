@@ -17,6 +17,7 @@ namespace Repository
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IGameImageRepository, GameImageRepository>();
             services.AddScoped<IConsoleRepository, ConsoleRepository>();
+            services.AddScoped<IConsoleImageRepository, ConsoleImageRepository>();
 
             return services;
         }

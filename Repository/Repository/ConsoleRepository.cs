@@ -1,4 +1,5 @@
 ﻿using Domain.Models;
+using Microsoft.EntityFrameworkCore;
 using Repository.Data;
 using Repository.Repository.Interfaces;
 
@@ -19,6 +20,19 @@ namespace Repository.Repository
                 ConsoleId = consoleId,
             }));
             await _context.SaveChangesAsync();
+        }
+        public async Task AddImagesToConsole(IEnumerable<ConsoleImage> images)
+        {
+            await _context.ConsoleImages.AddRangeAsync(images);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task<IQueryable<Domain.Models.Console>> GetAllQueryable()
+        {
+            return _context.Consoles
+                .Include(m => m.ConsoleCategories).ThenInclude(m => m.Category)
+                .Include(m => m.ConsoleImages)
+                .Include(m => m.ConsoleDiscounts).ThenInclude(m => m.Discount);
         }
     }
 }

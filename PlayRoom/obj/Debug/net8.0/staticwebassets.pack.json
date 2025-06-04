@@ -7473,20 +7473,36 @@
       "PackagePath": "staticwebassets\\assets\\images\\65e1d214-d8bb-4907-af4a-1d853e7f3922-home_main_backround-image.webp"
     },
     {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\008eea68-1057-4293-9114-c2038e880f73_Playstation-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\008eea68-1057-4293-9114-c2038e880f73_Playstation-3.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\045aaaf3-366b-4f51-b9ae-f6c303b05898_Nintendo-Switch-OLED.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\045aaaf3-366b-4f51-b9ae-f6c303b05898_Nintendo-Switch-OLED.png"
+    },
+    {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\0f1d35d3-a71a-41b8-bf04-7f65f6c567e0_Ps5-Slim(1TB).png",
       "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\0f1d35d3-a71a-41b8-bf04-7f65f6c567e0_Ps5-Slim(1TB).png"
     },
     {
-      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\2c1ad168-5e52-4557-9bc6-6707163c7cfc_Ps5-Slim(1TB).png",
-      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\2c1ad168-5e52-4557-9bc6-6707163c7cfc_Ps5-Slim(1TB).png"
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\1132f335-12b0-4698-8c69-adec0778a654_Ps5-Slim(1TB).png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\1132f335-12b0-4698-8c69-adec0778a654_Ps5-Slim(1TB).png"
     },
     {
-      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\366a502f-0a2a-422a-8bb4-1bc0cb85c32a_Ps5-Slim(1TB).png",
-      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\366a502f-0a2a-422a-8bb4-1bc0cb85c32a_Ps5-Slim(1TB).png"
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\396f5b58-de48-4a07-97e2-9d865aeaa297_Meta-Oculus-Quest2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\396f5b58-de48-4a07-97e2-9d865aeaa297_Meta-Oculus-Quest2.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\418e3ab4-e76d-4571-a3f4-80aab8ce1637_Meta-Oculus-Quest3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\418e3ab4-e76d-4571-a3f4-80aab8ce1637_Meta-Oculus-Quest3.png"
     },
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\489551ad-c5c1-40cb-a675-de8101fb9383_Ps5-Slim(1TB).png",
       "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\489551ad-c5c1-40cb-a675-de8101fb9383_Ps5-Slim(1TB).png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\5864b88e-6535-46b4-a8f4-6bb74ce0560c_PlayStation4Fat.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\5864b88e-6535-46b4-a8f4-6bb74ce0560c_PlayStation4Fat.png"
     },
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\72707e4e-4017-466e-b0a0-9436240b811c_Ps5-Slim(1TB).png",
@@ -7497,24 +7513,76 @@
       "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\81705af0-9d23-416d-90e9-47ef400940cd_Ps5-Slim(1TB).png"
     },
     {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\84da4c41-4e85-4dca-a86b-f58655b4c799_Playstation-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\84da4c41-4e85-4dca-a86b-f58655b4c799_Playstation-3.png"
+    },
+    {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\8b79638c-f328-4917-967b-53ba3b15597d_Ps5-Slim(1TB).png",
       "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\8b79638c-f328-4917-967b-53ba3b15597d_Ps5-Slim(1TB).png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\92c09078-f0d6-490b-ab91-f767985a009b_PlayStation4Fat.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\92c09078-f0d6-490b-ab91-f767985a009b_PlayStation4Fat.png"
     },
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\9a27a1aa-09b6-4270-a993-42c9d1d5c4ac_Ps5-Slim(1TB).png",
       "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\9a27a1aa-09b6-4270-a993-42c9d1d5c4ac_Ps5-Slim(1TB).png"
     },
     {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\Meta-Oculus-Quest2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\Meta-Oculus-Quest2.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\Meta-Oculus-Quest3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\Meta-Oculus-Quest3.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\Nintendo-Switch-OLED.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\Nintendo-Switch-OLED.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\PS-VR2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\PS-VR2.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\PlayStation4Fat.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\PlayStation4Fat.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\PlayStation4Rro.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\PlayStation4Rro.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\PlayStation4Slim.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\PlayStation4Slim.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\Playstation-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\Playstation-3.png"
+    },
+    {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\Ps5-Slim(1TB).png",
       "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\Ps5-Slim(1TB).png"
     },
     {
-      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\d6c3df33-a710-4446-aa0e-a1b3d3d6c0a5_Ps5-Slim(1TB).png",
-      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\d6c3df33-a710-4446-aa0e-a1b3d3d6c0a5_Ps5-Slim(1TB).png"
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\Xbox-series-S.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\Xbox-series-S.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\a31c8068-089b-4e28-977c-584034f7440d_PlayStation4Slim.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\a31c8068-089b-4e28-977c-584034f7440d_PlayStation4Slim.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\ce634c40-6531-4650-aa8b-8a9bfac86b92_Xbox-series-S.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\ce634c40-6531-4650-aa8b-8a9bfac86b92_Xbox-series-S.png"
     },
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\e4d0ed5c-afa7-419b-99af-de58f1b64c42_Ps5-Slim(1TB).png",
       "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\e4d0ed5c-afa7-419b-99af-de58f1b64c42_Ps5-Slim(1TB).png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\f3d68278-06bc-4089-b1f9-381df684e085_Ps5-Slim(1TB).png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\f3d68278-06bc-4089-b1f9-381df684e085_Ps5-Slim(1TB).png"
     },
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\0317d4cc-d4e1-46cb-938a-4744c39b627b_Assassains-Creed-Shadows.png",

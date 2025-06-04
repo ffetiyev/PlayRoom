@@ -189,3 +189,95 @@ function bindSetMainButtons() {
 }
 
 bindSetMainButtons();
+
+
+let consoleDeleteBtns = document.querySelectorAll(".console-delete-btn");
+
+consoleDeleteBtns.forEach((btn => {
+    btn.addEventListener("click", function () {
+        let consoleId = parseInt(this.getAttribute("data-id"));
+        fetch("http://localhost:5125/Admin/Console/Delete?id=" + consoleId, {
+
+            method: "POST",
+
+        })
+            .then(response => response.text()).then(res => {
+                this.parentNode.parentNode.remove()
+            })
+    })
+
+}))
+
+function consoleSetMainButtons() {
+    let consoleImageSetMainBtns = document.querySelectorAll(".console-image-set-main-btn");
+
+    // Remove previous event listeners by cloning each button
+    consoleImageSetMainBtns.forEach(btn => {
+        const newBtn = btn.cloneNode(true);
+        btn.parentNode.replaceChild(newBtn, btn);
+    });
+
+    // Re-select buttons after replacement
+    consoleImageSetMainBtns = document.querySelectorAll(".console-image-set-main-btn");
+
+    consoleImageSetMainBtns.forEach(btn => {
+        btn.addEventListener("click", function () {
+            let imageId = parseInt(this.closest(".buttons").getAttribute("data-id"));
+
+            fetch("/Admin/console/SetMainImage?id=" + imageId, {
+                method: "POST"
+            })
+                .then(response => {
+                    if (!response.ok) throw new Error("Failed to set main image.");
+                    return response.text();
+                })
+                .then(() => {
+                    // Reset all images
+                    document.querySelectorAll(".image-edit-game").forEach(el => {
+                        el.classList.remove("image-edit-game");
+                        el.querySelector(".main-image-show")?.remove();
+
+                        const buttons = el.querySelector(".buttons");
+                        buttons.innerHTML = `
+                            <button class="btn btn-danger game-image-delete-btn">Delete</button>
+                            <button class="btn btn-success console-image-set-main-btn">Set main</button>
+                        `;
+                    });
+
+                    // Highlight the newly selected main image
+                    const imageContainer = this.closest(".image-edit");
+                    imageContainer.classList.add("image-edit-game");
+
+                    const buttons = this.closest(".buttons");
+                    buttons.innerHTML = `<span class="badge badge-success main-image-show">Main Image</span>`;
+
+                    // Rebind for new buttons
+                    consoleSetMainButtons();
+                })
+                .catch(err => {
+                    console.error("Set main image error:", err);
+                });
+        });
+    });
+}
+
+// Initial binding on page load
+consoleSetMainButtons();
+
+
+let consoleImageDeleteBtns = document.querySelectorAll(".console-image-delete-btn");
+
+consoleImageDeleteBtns.forEach((btn => {
+    btn.addEventListener("click", function () {
+        let imageId = parseInt(this.parentNode.getAttribute("data-id"));
+        fetch("http://localhost:5125/Admin/console/DeleteGameImage?id=" + imageId, {
+
+            method: "POST",
+
+        })
+            .then(response => response.text()).then(res => {
+                this.parentNode.parentNode.remove()
+            })
+    })
+
+}))

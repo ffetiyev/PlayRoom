@@ -16,6 +16,8 @@ namespace Service
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IGameImageService, GameImageService>();
             services.AddScoped<IConsoleService, ConsoleService>();
+            services.AddScoped<IConsoleImageService, ConsoleImageService>();
+
             return services;
         }
     }
