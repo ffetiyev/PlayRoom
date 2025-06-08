@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Service.ViewModels.Discount
 {
     public class DiscountUpdateVM
     {
-        public int? Value { get; set; }
+        [Required(ErrorMessage ="Value cannot be empty!")]
+        public int Value { get; set; }
     }
 }

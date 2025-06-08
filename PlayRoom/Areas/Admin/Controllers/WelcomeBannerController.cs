@@ -42,6 +42,13 @@ namespace PlayRoom.Areas.Admin.Controllers
             if (id == null) return BadRequest();
             var existData = await _welcomeBannerService.GetAsync();
             if (existData == null) return NotFound();
+
+            if (!ModelState.IsValid)
+            {
+                request.Image=existData.Image;
+                return View(request);
+            }
+
             string? fileName = null;
             if (request.NewImage != null)
             {

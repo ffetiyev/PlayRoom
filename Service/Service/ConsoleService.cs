@@ -40,9 +40,9 @@ namespace Service.Service
             }
         }
 
-        public async Task<PaginateResponse<ConsoleVM>> GetAllPaginated(int page, int take = 16, string? category = null, string? priceRange = null, string? orderBy = null)
+        public async Task<PaginateResponse<ConsoleVM>> GetAllPaginated(int page, int take = 8, string? category = null, string? priceRange = null, string? orderBy = null)
         {
-            var datas = await _repository.GetAllQueryable();
+            var datas = _repository.GetAllQueryable();
             var paginatedDatas = datas.Select(m => new ConsoleVM
             {
                 Id = m.Id,

@@ -1,0 +1,11 @@
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\wwwroot\assets\images\Game-Images\0daf3e36-75dc-4830-b58a-cec111daf69a_Charging-station-(PS5).png
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\wwwroot\assets\images\Game-Images\23676b31-1652-4f5e-9c6e-4e6a8c86aa42_HyperX-Stinger-2-PS4).png
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\wwwroot\assets\images\Game-Images\2c1f8ca1-ba98-4fb8-8cf0-968bf5ff5abe_Dualsense4.png
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\wwwroot\assets\images\Game-Images\6d4eeccb-e9d2-45ab-82c1-16f2f016ebf6_ps_1TB-SSD.png
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\wwwroot\assets\images\Game-Images\734a6b14-1278-4e53-94ef-b1a654d43c3c_Dualshock3.png
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\wwwroot\assets\images\Game-Images\8ba605b4-cebd-4966-aee2-4176cc2185e6_Dualsense5.png
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\wwwroot\assets\images\Game-Images\cad2bc14-c1ac-40b0-a3a4-c52e5092e8a7_DS4-qoruyucu.png
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\wwwroot\assets\images\Game-Images\d2df15cb-18e6-407c-a619-0daca8ea63cf_HDMI-cabel.png
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\wwwroot\assets\images\Game-Images\eaf0fb87-a5b1-4c5c-ac58-9df1f20eb1cf_PS-VR2-Sense.png
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\wwwroot\assets\images\Game-Images\fbd11e1b-d66d-4e22-a5e2-a751da3cc67b_hoffman_tv.png
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\wwwroot\assets\images\Game-Images\fc206a5f-4c7d-4d00-98df-22416eba93d9_DS4-qoruyucu.png

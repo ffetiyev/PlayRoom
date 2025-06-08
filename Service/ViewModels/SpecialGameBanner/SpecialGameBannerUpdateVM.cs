@@ -12,7 +12,6 @@ namespace Service.ViewModels.SpecialGameBanner
         public string Description { get; set; }
         public string? Image { get; set; }
         public bool IsActive { get; set; }
-        [Required]
-        public IFormFile NewImage { get; set; }
+        public IFormFile? NewImage { get; set; }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Service.ViewModels.Category;
+using Service.ViewModels.Discount;
 
 namespace Service.ViewModels.Game
 {
@@ -11,7 +12,7 @@ namespace Service.ViewModels.Game
         public int StockCount { get; set; }
         public DateTime CreatedDate { get; set; }
         public List<GameImageVM> GameImages { get; set; }
-        public List<GameDiscountVM> GameDiscounts { get; set; }
+        public List<DiscountVM> GameDiscounts { get; set; }
         public List<CategoryVM> GameCategory { get; set; }
     }
 }

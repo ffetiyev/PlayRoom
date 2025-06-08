@@ -22,7 +22,7 @@ namespace PlayRoom.Controllers
             ViewBag.SelectedOrderBy = orderBy;
 
             if (page < 1) page = 1;
-            var data = await _consoleService.GetAllPaginated((int)page, 16, category, priceRange, orderBy);
+            var data = await _consoleService.GetAllPaginated((int)page, 8, category, priceRange, orderBy);
 
             var categories = await _categoryService.GetAllAsync();
 

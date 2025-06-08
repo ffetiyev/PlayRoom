@@ -1,4 +1,4 @@
-﻿using Service.ViewModels;
+﻿using Service.ViewModels.Game;
 using System;
 using System.Collections.Generic;
 using System.Linq;

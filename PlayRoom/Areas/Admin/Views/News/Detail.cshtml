@@ -1,0 +1,33 @@
+﻿@model NewsVM
+
+<div class="game-detail">
+    <div>
+        <strong>Title:</strong> $@Model.Title
+    </div>
+
+
+    <div style="margin-top: 15px;">
+        <strong>Description:</strong>
+        <p>@Model.Description</p>
+    </div>
+
+    <div>
+        <strong>Created Date:</strong> @Model.CreatedDate
+    </div>
+
+    <div>
+        <strong>Image:</strong>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
+            @if (Model.Image != null && Model.Image.Any())
+            {
+                <img src="~/assets/images/news/@Model.Image" style="width:580px;height:380px" class="mb-5"/>
+
+            }
+            else
+            {
+                <span>No images available.</span>
+            }
+        </div>
+    </div>
+
+</div>

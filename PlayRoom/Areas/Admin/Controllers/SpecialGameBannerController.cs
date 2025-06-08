@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Service.Service.Interfaces;
+using Service.ViewModels.Accessory;
 using Service.ViewModels.SpecialGameBanner;
 using System.Threading.Tasks;
 
@@ -86,7 +87,14 @@ namespace PlayRoom.Areas.Admin.Controllers
             var existData = await _specialGameService.GetByIdAsync((int)id);
             if (existData == null) return NotFound();
 
-            if(request.NewImage != null)
+            if (!ModelState.IsValid)
+            {
+                request.Image = existData.Image;
+                request.IsActive = existData.IsActive;
+                return View(request);
+            }
+
+            if (request.NewImage != null)
             {
                 string oldFilePath = Path.Combine(_env.WebRootPath, "assets", "images", existData.Image);
                 if (System.IO.File.Exists(oldFilePath))

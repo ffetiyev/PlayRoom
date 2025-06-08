@@ -6,6 +6,7 @@ using Service.Helpers.Responses;
 using Service.Service.Interfaces;
 using Service.ViewModels;
 using Service.ViewModels.Category;
+using Service.ViewModels.Discount;
 using Service.ViewModels.Game;
 using System.Linq;
 
@@ -65,13 +66,13 @@ namespace Service.Service
                 StockCount = m.StockCount,
                 CreatedDate = m.CreatedDate,
                 GameImages = m.GameImages.Select(i => new GameImageVM { IsMain = i.IsMain, Name = i.Name }).ToList(),
-                GameDiscounts = m.GameDiscounts.Where(d => d.Discount != null).Select(d => new GameDiscountVM { Value = d.Discount.Value }).ToList(),
+                GameDiscounts = m.GameDiscounts.Where(d => d.Discount != null).Select(d => new DiscountVM { Value = d.Discount.Value }).ToList(),
                 GameCategory = m.GameCategories.Where(c => c.Category != null).Select(c => new CategoryVM {Id=c.Category.Id, Name = c.Category.Name }).ToList()
             }).ToList();
 
         }
 
-        public async Task<PaginateResponse<GameVM>> GetAllPaginated(int page, int take = 16, string? category=null, string? priceRange=null, string? orderBy=null)
+        public async Task<PaginateResponse<GameVM>> GetAllPaginated(int page, int take = 8, string? category=null, string? priceRange=null, string? orderBy=null)
         {
             var datas =await _gameRepository.GetAllQueryable();
             var paginatedDatas = datas.Select(m => new GameVM
@@ -83,7 +84,7 @@ namespace Service.Service
                 StockCount = m.StockCount,
                 CreatedDate = m.CreatedDate,
                 GameImages = m.GameImages.Select(i => new GameImageVM { IsMain = i.IsMain, Name = i.Name }).ToList(),
-                GameDiscounts = m.GameDiscounts.Where(d => d.Discount != null).Select(d => new GameDiscountVM { Value = d.Discount.Value }).ToList(),
+                GameDiscounts = m.GameDiscounts.Where(d => d.Discount != null).Select(d => new DiscountVM { Value = d.Discount.Value }).ToList(),
                 GameCategory = m.GameCategories.Where(c => c.Category != null).Select(c => new CategoryVM { Id = c.Category.Id, Name = c.Category.Name }).ToList()
             }).ToList();
             
@@ -152,13 +153,14 @@ namespace Service.Service
             if (data == null) return null;
             return new GameVM
             {
+                Id = data.Id,
                 Description = data.Description,
                 CreatedDate = data.CreatedDate,
                 Name = data.Name,
                 Price = data.Price,
                 StockCount = data.StockCount,
                 GameCategory = data.GameCategories.Select(m => new CategoryVM { Id = m.Category.Id, Name = m.Category.Name }).ToList(),
-                GameDiscounts = data.GameDiscounts.Select(m => new GameDiscountVM { Id = m.Discount.Id, Value = m.Discount.Value }).ToList(),
+                GameDiscounts = data.GameDiscounts.Select(m => new DiscountVM { Id = m.Discount.Id, Value = m.Discount.Value }).ToList(),
                 GameImages = data.GameImages.Select(m => new GameImageVM { Id = m.Id, Name = m.Name, IsMain = m.IsMain }).ToList(),
             };
         }

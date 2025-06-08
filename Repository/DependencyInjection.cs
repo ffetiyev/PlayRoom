@@ -18,6 +18,10 @@ namespace Repository
             services.AddScoped<IGameImageRepository, GameImageRepository>();
             services.AddScoped<IConsoleRepository, ConsoleRepository>();
             services.AddScoped<IConsoleImageRepository, ConsoleImageRepository>();
+            services.AddScoped<IAccessoryImageRepository, AccessoryImageRepository>();
+            services.AddScoped<IAccessoryRepository, AccessoryRepository>();
+            services.AddScoped<IAccessoryImageRepository, AccessoryImageRepository>();
+            services.AddScoped<INewsRepository, NewsRepository>();
 
             return services;
         }

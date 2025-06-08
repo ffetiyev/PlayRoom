@@ -22,6 +22,107 @@ namespace Repository.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Domain.Models.Accessory.Accessory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("StockCount")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Accessories");
+                });
+
+            modelBuilder.Entity("Domain.Models.Accessory.AccessoryCategory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AccessoryId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AccessoryId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("AccessoryCategories");
+                });
+
+            modelBuilder.Entity("Domain.Models.Accessory.AccessoryDiscount", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AccessoryId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DiscountId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AccessoryId");
+
+                    b.HasIndex("DiscountId");
+
+                    b.ToTable("AccessoryDiscounts");
+                });
+
+            modelBuilder.Entity("Domain.Models.Accessory.AccessoryImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AccessoryId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsMain")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AccessoryId");
+
+                    b.ToTable("AccessoryImages");
+                });
+
             modelBuilder.Entity("Domain.Models.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -281,6 +382,34 @@ namespace Repository.Migrations
                     b.ToTable("GameImages");
                 });
 
+            modelBuilder.Entity("Domain.Models.News.News", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("News");
+                });
+
             modelBuilder.Entity("Domain.Models.SpecialGameBanner", b =>
                 {
                     b.Property<int>("Id")
@@ -335,6 +464,55 @@ namespace Repository.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("WelcomeBanner");
+                });
+
+            modelBuilder.Entity("Domain.Models.Accessory.AccessoryCategory", b =>
+                {
+                    b.HasOne("Domain.Models.Accessory.Accessory", "Accessory")
+                        .WithMany("AccessoryCategory")
+                        .HasForeignKey("AccessoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Models.Category", "Category")
+                        .WithMany("AccessoryCategories")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Accessory");
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("Domain.Models.Accessory.AccessoryDiscount", b =>
+                {
+                    b.HasOne("Domain.Models.Accessory.Accessory", "Accessory")
+                        .WithMany("AccessoryDiscount")
+                        .HasForeignKey("AccessoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Models.Discount", "Discount")
+                        .WithMany("AccessoryDiscounts")
+                        .HasForeignKey("DiscountId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Accessory");
+
+                    b.Navigation("Discount");
+                });
+
+            modelBuilder.Entity("Domain.Models.Accessory.AccessoryImage", b =>
+                {
+                    b.HasOne("Domain.Models.Accessory.Accessory", "Accessory")
+                        .WithMany("AccessoryImage")
+                        .HasForeignKey("AccessoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Accessory");
                 });
 
             modelBuilder.Entity("Domain.Models.ConsoleCategory", b =>
@@ -435,8 +613,19 @@ namespace Repository.Migrations
                     b.Navigation("Game");
                 });
 
+            modelBuilder.Entity("Domain.Models.Accessory.Accessory", b =>
+                {
+                    b.Navigation("AccessoryCategory");
+
+                    b.Navigation("AccessoryDiscount");
+
+                    b.Navigation("AccessoryImage");
+                });
+
             modelBuilder.Entity("Domain.Models.Category", b =>
                 {
+                    b.Navigation("AccessoryCategories");
+
                     b.Navigation("ConsoleCategories");
 
                     b.Navigation("GameCategories");
@@ -453,6 +642,8 @@ namespace Repository.Migrations
 
             modelBuilder.Entity("Domain.Models.Discount", b =>
                 {
+                    b.Navigation("AccessoryDiscounts");
+
                     b.Navigation("ConsoleDiscounts");
 
                     b.Navigation("GameDiscounts");

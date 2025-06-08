@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>697j3milf7</Fingerprint>
-      <Integrity>hvk1CsLgTK3QXTcevO6bEIsr2RIjnNDVauOqBb0gAqE=</Integrity>
+      <Fingerprint>df2iuo2pzu</Fingerprint>
+      <Integrity>yXp61aRjcGVwX0KSmQQRdHCXouVCKk4sZJE8WezQ0l4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\js\Custom.js'))</OriginalItemSpec>
@@ -33456,8 +33456,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0kjap4zw1g</Fingerprint>
-      <Integrity>gPrazYSmcIUtE+8qtuJw9WEnsUeNws38O8WMCERNBxM=</Integrity>
+      <Fingerprint>d9yj7owex3</Fingerprint>
+      <Integrity>MXvnk6BCh8sh6tBfwFgigyFvZFwcSnKQsSuMoWTcQD4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\productDetail\productDetail.css'))</OriginalItemSpec>
@@ -33605,6 +33605,384 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\65e1d214-d8bb-4907-af4a-1d853e7f3922-home_main_backround-image.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\0daf3e36-75dc-4830-b58a-cec111daf69a_Charging-station-(PS5).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/0daf3e36-75dc-4830-b58a-cec111daf69a_Charging-station-(PS5).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nubgwt69tb</Fingerprint>
+      <Integrity>AQxYd34mBmP78B4xh0lFbHE07xokDJEz5+ymsHqniYY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\0daf3e36-75dc-4830-b58a-cec111daf69a_Charging-station-(PS5).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\23676b31-1652-4f5e-9c6e-4e6a8c86aa42_HyperX-Stinger-2-PS4).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/23676b31-1652-4f5e-9c6e-4e6a8c86aa42_HyperX-Stinger-2-PS4).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>re3l425yth</Fingerprint>
+      <Integrity>fV+Upy2MqF3WyRB5J/NAZ9NZOtQdVFTZJ9R9v0yiB6g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\23676b31-1652-4f5e-9c6e-4e6a8c86aa42_HyperX-Stinger-2-PS4).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\2c1f8ca1-ba98-4fb8-8cf0-968bf5ff5abe_Dualsense4.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/2c1f8ca1-ba98-4fb8-8cf0-968bf5ff5abe_Dualsense4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>l4qgg8jktj</Fingerprint>
+      <Integrity>u7fwjLM09yb3v6sxkOy/3vKs3DP40HGMFLBoc+eY6po=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\2c1f8ca1-ba98-4fb8-8cf0-968bf5ff5abe_Dualsense4.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\6d4eeccb-e9d2-45ab-82c1-16f2f016ebf6_ps_1TB-SSD.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/6d4eeccb-e9d2-45ab-82c1-16f2f016ebf6_ps_1TB-SSD.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tyv0vo6f32</Fingerprint>
+      <Integrity>1aCFq7TdLOBFgcFdmWx4MYPvpBFu3tZUXuEDfs+a+mQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\6d4eeccb-e9d2-45ab-82c1-16f2f016ebf6_ps_1TB-SSD.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\734a6b14-1278-4e53-94ef-b1a654d43c3c_Dualshock3.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/734a6b14-1278-4e53-94ef-b1a654d43c3c_Dualshock3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xnx0hndqf4</Fingerprint>
+      <Integrity>k5iRYggRSLyAzIKTVMPIX7uk2fR0LXHGs6/zyGZLJhk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\734a6b14-1278-4e53-94ef-b1a654d43c3c_Dualshock3.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\8ba605b4-cebd-4966-aee2-4176cc2185e6_Dualsense5.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/8ba605b4-cebd-4966-aee2-4176cc2185e6_Dualsense5.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dv3vbu8xxf</Fingerprint>
+      <Integrity>WQgLiMjnrsw3F8RYDJ3F+lsRN9W4BywTNmpeFR/L3Mk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\8ba605b4-cebd-4966-aee2-4176cc2185e6_Dualsense5.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\cad2bc14-c1ac-40b0-a3a4-c52e5092e8a7_DS4-qoruyucu.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/cad2bc14-c1ac-40b0-a3a4-c52e5092e8a7_DS4-qoruyucu.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2cgl9usyi3</Fingerprint>
+      <Integrity>DpkyJArFBr3To3XvkmmCW/+qcdnGCP7uHQn8H6Ayo+4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\cad2bc14-c1ac-40b0-a3a4-c52e5092e8a7_DS4-qoruyucu.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\Charging-station-(PS5).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/Charging-station-(PS5).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nubgwt69tb</Fingerprint>
+      <Integrity>AQxYd34mBmP78B4xh0lFbHE07xokDJEz5+ymsHqniYY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\Charging-station-(PS5).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\d2df15cb-18e6-407c-a619-0daca8ea63cf_HDMI-cabel.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/d2df15cb-18e6-407c-a619-0daca8ea63cf_HDMI-cabel.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uwnn80x295</Fingerprint>
+      <Integrity>Mo/n39Rf6CzHFRpVQHHLLTFcYhdhi3b5ygCZuuTN2nw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\d2df15cb-18e6-407c-a619-0daca8ea63cf_HDMI-cabel.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\DS4-qoruyucu.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/DS4-qoruyucu.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2cgl9usyi3</Fingerprint>
+      <Integrity>DpkyJArFBr3To3XvkmmCW/+qcdnGCP7uHQn8H6Ayo+4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\DS4-qoruyucu.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\Dualsense4.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/Dualsense4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>l4qgg8jktj</Fingerprint>
+      <Integrity>u7fwjLM09yb3v6sxkOy/3vKs3DP40HGMFLBoc+eY6po=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\Dualsense4.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\Dualsense5.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/Dualsense5.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dv3vbu8xxf</Fingerprint>
+      <Integrity>WQgLiMjnrsw3F8RYDJ3F+lsRN9W4BywTNmpeFR/L3Mk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\Dualsense5.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\Dualshock3.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/Dualshock3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xnx0hndqf4</Fingerprint>
+      <Integrity>k5iRYggRSLyAzIKTVMPIX7uk2fR0LXHGs6/zyGZLJhk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\Dualshock3.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\eaf0fb87-a5b1-4c5c-ac58-9df1f20eb1cf_PS-VR2-Sense.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/eaf0fb87-a5b1-4c5c-ac58-9df1f20eb1cf_PS-VR2-Sense.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ra6ws8n6ob</Fingerprint>
+      <Integrity>45N92m1sOqp384MNIQWs2zP9X4cuaCLYTcrDDeALENE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\eaf0fb87-a5b1-4c5c-ac58-9df1f20eb1cf_PS-VR2-Sense.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\fbd11e1b-d66d-4e22-a5e2-a751da3cc67b_hoffman_tv.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/fbd11e1b-d66d-4e22-a5e2-a751da3cc67b_hoffman_tv.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nld6cqzhca</Fingerprint>
+      <Integrity>Wy6C6/gOD7JNmVwnLcwnP6R3+MnqmQKYakZydi1+wzw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\fbd11e1b-d66d-4e22-a5e2-a751da3cc67b_hoffman_tv.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\fc206a5f-4c7d-4d00-98df-22416eba93d9_DS4-qoruyucu.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/fc206a5f-4c7d-4d00-98df-22416eba93d9_DS4-qoruyucu.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2cgl9usyi3</Fingerprint>
+      <Integrity>DpkyJArFBr3To3XvkmmCW/+qcdnGCP7uHQn8H6Ayo+4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\fc206a5f-4c7d-4d00-98df-22416eba93d9_DS4-qoruyucu.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\HDMI-cabel.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/HDMI-cabel.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uwnn80x295</Fingerprint>
+      <Integrity>Mo/n39Rf6CzHFRpVQHHLLTFcYhdhi3b5ygCZuuTN2nw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\HDMI-cabel.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\hoffman_tv.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/hoffman_tv.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nld6cqzhca</Fingerprint>
+      <Integrity>Wy6C6/gOD7JNmVwnLcwnP6R3+MnqmQKYakZydi1+wzw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\hoffman_tv.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\HyperX-Stinger-2-PS4).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/HyperX-Stinger-2-PS4).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>re3l425yth</Fingerprint>
+      <Integrity>fV+Upy2MqF3WyRB5J/NAZ9NZOtQdVFTZJ9R9v0yiB6g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\HyperX-Stinger-2-PS4).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\PS-VR2-Sense.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/PS-VR2-Sense.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ra6ws8n6ob</Fingerprint>
+      <Integrity>45N92m1sOqp384MNIQWs2zP9X4cuaCLYTcrDDeALENE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\PS-VR2-Sense.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\ps_1TB-SSD.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Accessories/ps_1TB-SSD.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tyv0vo6f32</Fingerprint>
+      <Integrity>1aCFq7TdLOBFgcFdmWx4MYPvpBFu3tZUXuEDfs+a+mQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Accessories\ps_1TB-SSD.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\bebeb8aa-b554-4aa7-b46b-c28cb24f35fb-God-of-War-SG.webp'))">
       <SourceType>Package</SourceType>
@@ -33948,6 +34326,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\045aaaf3-366b-4f51-b9ae-f6c303b05898_Nintendo-Switch-OLED.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\0b1d9bd5-8d12-417b-bdca-8866c021aa85_Nintendo-Switch-OLED.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Console-Images/0b1d9bd5-8d12-417b-bdca-8866c021aa85_Nintendo-Switch-OLED.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jou9a5tq2n</Fingerprint>
+      <Integrity>bS4ukYR4HSGotDe2AePm7P552TrljznQM+5L3V9z0VE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\0b1d9bd5-8d12-417b-bdca-8866c021aa85_Nintendo-Switch-OLED.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\0f1d35d3-a71a-41b8-bf04-7f65f6c567e0_Ps5-Slim(1TB).png'))">
       <SourceType>Package</SourceType>
       <SourceId>PlayRoom</SourceId>
@@ -33983,6 +34379,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\1132f335-12b0-4698-8c69-adec0778a654_Ps5-Slim(1TB).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\2f63229a-d932-4e28-a350-a96bc548e27a_Ps5-Slim(1TB).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Console-Images/2f63229a-d932-4e28-a350-a96bc548e27a_Ps5-Slim(1TB).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bfkmmwljzl</Fingerprint>
+      <Integrity>GYmlVL/99A+CP4xd8h1AnpxksmIWXXLz0e5zuCgn0Gc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\2f63229a-d932-4e28-a350-a96bc548e27a_Ps5-Slim(1TB).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\33a7a416-3d6f-465b-938b-555ba741dd39_Xbox-series-S.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Console-Images/33a7a416-3d6f-465b-938b-555ba741dd39_Xbox-series-S.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qub0xf8oni</Fingerprint>
+      <Integrity>/uZ0hu0TGs3+EW+Vk1W4uPQwlZEq6k0N+QWuKMMqOzA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\33a7a416-3d6f-465b-938b-555ba741dd39_Xbox-series-S.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\396f5b58-de48-4a07-97e2-9d865aeaa297_Meta-Oculus-Quest2.png'))">
       <SourceType>Package</SourceType>
@@ -34164,6 +34596,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\9a27a1aa-09b6-4270-a993-42c9d1d5c4ac_Ps5-Slim(1TB).png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\9c63cf44-5556-4b77-bf16-3942a0590b23_PS-VR2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Console-Images/9c63cf44-5556-4b77-bf16-3942a0590b23_PS-VR2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tiujlgd6qp</Fingerprint>
+      <Integrity>uxl2+1rXw9GAbIMxDkrJDX5EqTxAFgozIE6Mf4Gsmuk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\9c63cf44-5556-4b77-bf16-3942a0590b23_PS-VR2.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\9dd54821-9bff-4eb9-bbba-55d7ceec2119_Ps5-Slim(1TB).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Console-Images/9dd54821-9bff-4eb9-bbba-55d7ceec2119_Ps5-Slim(1TB).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bfkmmwljzl</Fingerprint>
+      <Integrity>GYmlVL/99A+CP4xd8h1AnpxksmIWXXLz0e5zuCgn0Gc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\9dd54821-9bff-4eb9-bbba-55d7ceec2119_Ps5-Slim(1TB).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\a0a8c0d4-b15b-4614-81a9-785a50bc6e31_Meta-Oculus-Quest3.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Console-Images/a0a8c0d4-b15b-4614-81a9-785a50bc6e31_Meta-Oculus-Quest3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ypc4nhwdyv</Fingerprint>
+      <Integrity>ZrS+jB3iNboFtDhYt73zrFzD1L0SEuCsSi0m+9d639k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\a0a8c0d4-b15b-4614-81a9-785a50bc6e31_Meta-Oculus-Quest3.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\a31c8068-089b-4e28-977c-584034f7440d_PlayStation4Slim.png'))">
       <SourceType>Package</SourceType>
       <SourceId>PlayRoom</SourceId>
@@ -34217,6 +34703,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\e4d0ed5c-afa7-419b-99af-de58f1b64c42_Ps5-Slim(1TB).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\ef78bb3d-ae5a-4535-a251-a819bc8ab3da_Playstation-3.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/Console-Images/ef78bb3d-ae5a-4535-a251-a819bc8ab3da_Playstation-3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ra5zuul6ji</Fingerprint>
+      <Integrity>k+v1kW8Qj2wpUnYpqKBfB+nxiisqOd7TSKfYpCVMQhs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\ef78bb3d-ae5a-4535-a251-a819bc8ab3da_Playstation-3.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Console-Images\f3d68278-06bc-4089-b1f9-381df684e085_Ps5-Slim(1TB).png'))">
       <SourceType>Package</SourceType>
@@ -34704,24 +35208,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\bc8e5220-05c2-46c4-820a-690156022f14_Assassains-Creed-Shadows.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\COD-BO6.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>PlayRoom</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PlayRoom</BasePath>
-      <RelativePath>assets/images/Game-Images/COD-BO6.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kf8x5carom</Fingerprint>
-      <Integrity>ECJB+SHhuLymajr2t2JBkKXfrUE6zk+OwfXeK80Sgf8=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\COD-BO6.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Game-Images\Cold-War.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>PlayRoom</SourceId>
@@ -35009,6 +35495,60 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home_main_backround-image.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\news\5c699441-fa6d-4fe4-818a-4a3e85120635-img1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/news/5c699441-fa6d-4fe4-818a-4a3e85120635-img1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>whw8jepd0o</Fingerprint>
+      <Integrity>fO6LzmNZg8iBrIfuAmBYZ4ULVfGrIHQY6nI6vRRknw0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\news\5c699441-fa6d-4fe4-818a-4a3e85120635-img1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\news\d34c3dde-9d3b-41f8-b93e-fe44efd8f15e-img1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/news/d34c3dde-9d3b-41f8-b93e-fe44efd8f15e-img1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>whw8jepd0o</Fingerprint>
+      <Integrity>fO6LzmNZg8iBrIfuAmBYZ4ULVfGrIHQY6nI6vRRknw0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\news\d34c3dde-9d3b-41f8-b93e-fe44efd8f15e-img1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\news\img1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PlayRoom</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PlayRoom</BasePath>
+      <RelativePath>assets/images/news/img1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>whw8jepd0o</Fingerprint>
+      <Integrity>fO6LzmNZg8iBrIfuAmBYZ4ULVfGrIHQY6nI6vRRknw0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\news\img1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\ps5.png'))">
       <SourceType>Package</SourceType>

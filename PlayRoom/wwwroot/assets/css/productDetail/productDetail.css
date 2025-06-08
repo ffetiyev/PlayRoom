@@ -66,7 +66,6 @@ body main #main-top .product-section .product-images .side-images {
 }
 body main #main-top .product-section .product-images .side-images .image {
   margin-top: 10px;
-  background-image: url("../../images/ps5.png");
   overflow: hidden;
   border-radius: 12px;
   cursor: pointer;
@@ -81,7 +80,6 @@ body main #main-top .product-section .product-images .main-image {
   width: 82%;
 }
 body main #main-top .product-section .product-images .main-image .cover-image {
-  background-image: url("../../images/ps5.png");
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;

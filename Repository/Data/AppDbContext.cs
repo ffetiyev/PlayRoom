@@ -1,4 +1,6 @@
 ﻿using Domain.Models;
+using Domain.Models.Accessory;
+using Domain.Models.News;
 using Microsoft.EntityFrameworkCore;
 
 namespace Repository.Data
@@ -20,5 +22,11 @@ namespace Repository.Data
         public DbSet<ConsoleCategory> ConsoleCategories { get; set; }
         public DbSet<ConsoleImage> ConsoleImages { get; set; }
         public DbSet<ConsoleDiscount> ConsoleDiscounts { get; set; }
+        public DbSet<Accessory> Accessories { get; set; }
+        public DbSet<AccessoryCategory> AccessoryCategories { get; set; }
+        public DbSet<AccessoryDiscount> AccessoryDiscounts { get; set; }
+        public DbSet<AccessoryImage> AccessoryImages { get; set; }
+        public DbSet<News> News { get; set; }
+
     }
 }

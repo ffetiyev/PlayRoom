@@ -7,6 +7,6 @@ namespace Service.ViewModels.Company
     {
         public string Name { get; set; }
         public string? Image { get; set; }
-        public IFormFile UploadImage { get; set; }
+        public IFormFile? UploadImage { get; set; }
     }
 }

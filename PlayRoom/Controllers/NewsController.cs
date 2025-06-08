@@ -1,12 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Service.Service.Interfaces;
+using System.Threading.Tasks;
 
 namespace PlayRoom.Controllers
 {
     public class NewsController : Controller
     {
-        public IActionResult Index()
+        private readonly INewsService _newsService;
+        public NewsController(INewsService newsService)
         {
-            return View();
+            _newsService = newsService;
+        }
+        public async Task<IActionResult> Index()
+        {
+            var datas = await _newsService.GetAllAsync();
+            return View(datas);
         }
     }
 }

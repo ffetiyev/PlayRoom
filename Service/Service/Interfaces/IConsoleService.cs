@@ -11,6 +11,6 @@ namespace Service.Service.Interfaces
         Task<ConsoleVM> GetByIdAsync(int id);
         Task DeleteAsync(int id);
         Task UpdateAsync(int id, ConsoleUpdateVM model);
-        Task<PaginateResponse<ConsoleVM>> GetAllPaginated(int page, int take = 16, string? category = null, string? priceRange = null, string? orderBy = null);
+        Task<PaginateResponse<ConsoleVM>> GetAllPaginated(int page, int take = 8, string? category = null, string? priceRange = null, string? orderBy = null);
     }
 }

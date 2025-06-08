@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Service.Service;
 using Service.Service.Interfaces;
 using Service.ViewModels;
+using Service.ViewModels.Accessory;
 using Service.ViewModels.Console;
 using Service.ViewModels.Game;
 using System.Threading.Tasks;
@@ -191,6 +192,19 @@ namespace PlayRoom.Areas.Admin.Controllers
                 Value = m.Id.ToString(),
                 Text = m.Value.ToString(),
             }).ToList();
+
+            if (!ModelState.IsValid)
+            {
+                request.Images = existData.Images.Select(img => new ConsoleImageVM
+                {
+                    Id = img.Id,
+                    IsMain = img.IsMain,
+                    Name = img.Name
+                }).ToList();
+
+                return View(request);
+            }
+
             if (request.UploadImages != null)
             {
                 foreach (var image in request.UploadImages)

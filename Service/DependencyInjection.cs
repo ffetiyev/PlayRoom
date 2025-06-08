@@ -17,6 +17,9 @@ namespace Service
             services.AddScoped<IGameImageService, GameImageService>();
             services.AddScoped<IConsoleService, ConsoleService>();
             services.AddScoped<IConsoleImageService, ConsoleImageService>();
+            services.AddScoped<IAccessoryService, AccessoryService>();
+            services.AddScoped<IAccessoryImageService, AccessoryImageService>();
+            services.AddScoped<INewsService, NewsService>();
 
             return services;
         }

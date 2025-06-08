@@ -1,4 +1,5 @@
 ﻿using Domain.Commons;
+using Domain.Models.Accessory;
 
 namespace Domain.Models
 {
@@ -7,5 +8,6 @@ namespace Domain.Models
         public string Name { get; set; }
         public ICollection<GameCategory> GameCategories { get; set; }
         public ICollection<ConsoleCategory> ConsoleCategories { get; set; }
+        public ICollection<AccessoryCategory> AccessoryCategories { get; set; }
     }
 }

@@ -54,19 +54,20 @@ namespace PlayRoom.Areas.Admin.Controllers
             if (id == null) return BadRequest();
             var existDiscount = await _discountService.GetByIdAsync((int)id);
             if (existDiscount == null) return NotFound();
+
+            if (!ModelState.IsValid) return View(request);
+
             await _discountService.UpdateAsync((int)id, request);
 
             return RedirectToAction(nameof(Index));
         }
         [HttpPost]
-        //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null) return BadRequest();
             var existDiscount = await _discountService.GetByIdAsync((int)id);
             if (existDiscount == null) return NotFound();
             await _discountService.DeleteAsync((int) id);
-            //return RedirectToAction(nameof(Index));
             return Ok();
         }
     }

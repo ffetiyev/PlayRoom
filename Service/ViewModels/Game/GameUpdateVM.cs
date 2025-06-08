@@ -17,15 +17,12 @@ namespace Service.ViewModels.Game
 
         [Required(ErrorMessage = "Stock count cannot be empty")]
         public int? NewStockCount { get; set; }
-
-        [Required(ErrorMessage = "Image cannot be empty")]
-        public IEnumerable<IFormFile> UploadImages { get; set; }
+        public IEnumerable<IFormFile>? UploadImages { get; set; }
         public IEnumerable<GameImageVM>? Images { get; set; }
-        public List<int> CategoryIds { get; set; } 
-        public List<int> Discounts { get; set; }
-
-        public List<int> SelectedCategoryIds { get; set; } = new();
-        public List<int> SelectedDiscountIds { get; set; } = new();
+        public List<int>? CategoryIds { get; set; } 
+        public List<int>? Discounts { get; set; }
+        public List<int>? SelectedCategoryIds { get; set; } = new();
+        public List<int>? SelectedDiscountIds { get; set; } = new();
 
 
     }

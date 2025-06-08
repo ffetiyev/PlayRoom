@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
-using Service.ViewModels;
+using Service.ViewModels.Game;
 using System.ComponentModel.DataAnnotations;
 
 public class GameCreateVM

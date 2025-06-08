@@ -1,0 +1,72 @@
+﻿@model AccessoryVM
+
+
+<h2>@Model.Name</h2>
+
+<div class="game-detail">
+    <div>
+        <strong>Price:</strong> $@Model.Price
+    </div>
+
+    <div>
+        <strong>Stock Count:</strong> @Model.StockCount
+    </div>
+
+    <div>
+        <strong>Created Date:</strong> @Model.CreatedDate.ToString("dd MMMM yyyy")
+    </div>
+
+    <div>
+        <strong>Categories:</strong>
+        @if (Model.Category != null && Model.Category.Any())
+        {
+            @string.Join(", ", Model.Category.Select(c => c.Name))
+        }
+        else
+        {
+                    <span>None</span>
+        }
+    </div>
+
+    <div style="margin-top: 15px;">
+        <strong>Description:</strong>
+        <p>@Model.Description</p>
+    </div>
+
+    <div>
+        <strong>Images:</strong>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
+            @if (Model.Images != null && Model.Images.Any())
+            {
+                foreach (var img in Model.Images)
+                {
+                            <img src="~/assets/images/Game-Images/@img.Name" style="width:180px;height:130px" />
+                }
+            }
+            else
+            {
+                        <span>No images available.</span>
+            }
+        </div>
+    </div>
+
+    <div style="margin-top: 20px;">
+        <strong>Discounts:</strong>
+        @if (Model.Discounts != null && Model.Discounts.Any())
+        {
+                <ul>
+                @foreach (var discount in Model.Discounts)
+                {
+                            <li>
+                                Discount: @discount.Value%
+                            </li>
+                }
+                </ul>
+        }
+        else
+        {
+                <p>No active discounts.</p>
+        }
+    </div>
+
+</div>

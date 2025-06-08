@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Repository.Repository.Interfaces;
 using Service.Service.Interfaces;
-using Service.ViewModels;
+using Service.ViewModels.Game;
 
 namespace Service.Service
 {

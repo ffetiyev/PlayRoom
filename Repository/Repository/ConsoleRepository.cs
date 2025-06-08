@@ -27,7 +27,7 @@ namespace Repository.Repository
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IQueryable<Domain.Models.Console>> GetAllQueryable()
+        public IQueryable<Domain.Models.Console> GetAllQueryable()
         {
             return _context.Consoles
                 .Include(m => m.ConsoleCategories).ThenInclude(m => m.Category)

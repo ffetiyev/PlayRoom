@@ -7,6 +7,6 @@ namespace Repository.Repository.Interfaces
     {
         Task AddCategoriesToConsole(int consoleId, IEnumerable<int> categoriIds);
         Task AddImagesToConsole(IEnumerable<ConsoleImage> images);
-        Task<IQueryable<Domain.Models.Console>> GetAllQueryable();
+        IQueryable<Domain.Models.Console> GetAllQueryable();
     }
 }

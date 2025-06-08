@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Service.Service.Interfaces;
+using Service.ViewModels.Accessory;
 using Service.ViewModels.Company;
 using System.Threading.Tasks;
 
@@ -66,6 +67,12 @@ namespace PlayRoom.Areas.Admin.Controllers
             if (id == null) return BadRequest();
             var existData = await _companyService.GetByIdAsync((int)id);
             if (existData == null) return NotFound();
+            if (!ModelState.IsValid)
+            {
+                request.Image = existData.Image;
+
+                return View(request);
+            }
 
             if (request.UploadImage != null)
             {
