@@ -1,0 +1,34 @@
+﻿@model IEnumerable<NewsVM>
+
+@foreach (var item in Model)
+{
+    <div class="col-lg-3 col-6 news">
+        <div class="card-main">
+            <div class="card-top">
+                <a asp-controller="News" asp-action="Detail" asp-route-id="@item.Id">
+                    <img src="~/assets/images/news/@item.Image"
+                         alt="">
+                </a>
+            </div>
+            <div class="card-bottom">
+                <div class="news-name">
+                    <a href="">
+                        @{
+                            var words = item.Title?.Split(' ');
+                            var preview = words != null && words.Length > 0
+                            ? string.Join(" ", words.Take(9)) + "..."
+                            : "";
+                        }
+                        @preview
+                    </a>
+                </div>
+                <div class="news-date">
+                    <span class="date">@item.CreatedDate</span>
+                </div>
+            </div>
+            <div class="read-more">
+                <a href="">READ MORE</a>
+            </div>
+        </div>
+    </div>
+}

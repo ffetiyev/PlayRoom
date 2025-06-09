@@ -7425,6 +7425,18 @@
       "PackagePath": "staticwebassets\\assets\\css\\home\\partials\\_variables.scss"
     },
     {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\newsDetail\\newsDetail.css",
+      "PackagePath": "staticwebassets\\assets\\css\\newsDetail\\newsDetail.css"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\newsDetail\\newsDetail.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\newsDetail\\newsDetail.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\newsDetail\\newsDetail.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\newsDetail\\newsDetail.scss"
+    },
+    {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\css\\news\\news.css",
       "PackagePath": "staticwebassets\\assets\\css\\news\\news.css"
     },
@@ -7893,16 +7905,108 @@
       "PackagePath": "staticwebassets\\assets\\images\\home_main_backround-image.webp"
     },
     {
-      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\5c699441-fa6d-4fe4-818a-4a3e85120635-img1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\news\\5c699441-fa6d-4fe4-818a-4a3e85120635-img1.jpg"
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\20ac0df5-89da-424f-8f7e-b02db88ea33d-img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\20ac0df5-89da-424f-8f7e-b02db88ea33d-img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\2a6d69e1-ac4c-486e-a94e-fa8ff30b093d-img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\2a6d69e1-ac4c-486e-a94e-fa8ff30b093d-img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\333f290e-7bb6-4820-912a-8470b36f5712-img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\333f290e-7bb6-4820-912a-8470b36f5712-img10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\3e9004b4-8b97-4525-b3b6-b65ecbcce73e-img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\3e9004b4-8b97-4525-b3b6-b65ecbcce73e-img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\439ef0c5-0448-4045-bce4-b3b6cf491800-img12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\439ef0c5-0448-4045-bce4-b3b6cf491800-img12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\5d0d2a47-41a8-4b89-8695-793e222c3ed0-img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\5d0d2a47-41a8-4b89-8695-793e222c3ed0-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\972b09d7-a408-4de6-84ae-1227473bac86-img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\972b09d7-a408-4de6-84ae-1227473bac86-img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\c9a64413-df8b-490b-8e6f-519c8285b987-img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\c9a64413-df8b-490b-8e6f-519c8285b987-img6.jpg"
     },
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\d34c3dde-9d3b-41f8-b93e-fe44efd8f15e-img1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\news\\d34c3dde-9d3b-41f8-b93e-fe44efd8f15e-img1.jpg"
     },
     {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\e0375a8c-c651-4855-b1f2-5a8a32a0d6c5-img13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\e0375a8c-c651-4855-b1f2-5a8a32a0d6c5-img13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\e69948ae-c843-4b5e-ae99-d75ea3dd90f9-img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\e69948ae-c843-4b5e-ae99-d75ea3dd90f9-img9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\f1da114d-b80b-47d7-9d85-dcb43b72ebf2-img11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\f1da114d-b80b-47d7-9d85-dcb43b72ebf2-img11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\f429d177-c6a5-4a64-aa93-a5911f18003c-img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\f429d177-c6a5-4a64-aa93-a5911f18003c-img7.jpg"
+    },
+    {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\news\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\img10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\img11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\img11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\img12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\img12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\img13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\img13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\news\\img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news\\img9.jpg"
     },
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\ps5.png",

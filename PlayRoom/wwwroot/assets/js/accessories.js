@@ -25,18 +25,6 @@ priceFilterButton.addEventListener("click",function(){
 })
 
 
-let typeFilterButton = document.querySelector("#main-top .product-filters .filters .type-filter");
-
-typeFilterButton.addEventListener("click",function(){
-   let types = document.querySelector("#main-top .product-filters .filters .type-filter .types");
-   if(types.classList.contains("d-none")){
-    types.classList.remove("d-none")
-   }
-   else{
-    types.classList.add("d-none")
-   }
-})
-
 let orderFilterButton = document.querySelector("#main-top .product-filters .filters .order-filter");
 
 orderFilterButton.addEventListener("click",function(){
@@ -48,20 +36,4 @@ orderFilterButton.addEventListener("click",function(){
     orders.classList.add("d-none")
    }
 })
-
-let allButtons = document.querySelectorAll("#main-top .pagination-part .pagination a");
-let numberButtons = Array.from(allButtons).slice(1, -1); // Exclude first and last
-
-numberButtons.forEach(element => {
-  element.addEventListener("click", function(event) {
-    event.preventDefault();
-
-    let activeNumber = document.querySelector("#main-top .pagination-part .pagination .active");
-    if (activeNumber) {
-      activeNumber.classList.remove("active");
-    }
-
-    element.classList.add("active");
-  });
-});
 

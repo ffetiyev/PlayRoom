@@ -29,10 +29,10 @@
                     </td>
                     <th>@item.CreatedDate</th>
                     <td><img src="~/assets/images/news/@item.Image" alt="Alternate Text" style="width:230px;height:130px" /></td>
-                    <td class="d-flex" style="border:none; border-top:1px solid gray">
+                    <td class="d-flex" data-id="@item.Id" style="border:none; border-top:1px solid gray">
                         <a asp-action="Detail" asp-route-id="@item.Id" style="padding:5px 20px" class="btn btn-primary btn-icon-split ml-3">Detail</a>
                         <a asp-action="update" asp-route-id="@item.Id" style="padding:5px 20px" class="btn btn-warning btn-icon-split ml-3">Edit</a>
-                        <button style="padding:5px 20px" class="btn btn-danger btn-icon-split ml-3">Delete</button>
+                        <button style="padding:5px 20px" class="btn btn-danger btn-icon-split news-delete-btn ml-3">Delete</button>
                     </td>
                 </tr>
             }
@@ -40,3 +40,7 @@
 
     </table>
 </div>
+
+@section js {
+    <script src="~/admin/js/Custom.js"></script>
+}

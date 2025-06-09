@@ -114,5 +114,21 @@ namespace PlayRoom.Areas.Admin.Controllers
             await _newsService.UpdateAsync((int)id, request);
             return RedirectToAction(nameof(Index));
         }
+        [HttpPost]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) return BadRequest();
+            var existData = await _newsService.GetByIdAsync((int)id);
+            if (existData == null) return NotFound();
+
+            string oldFilePath = Path.Combine(_env.WebRootPath, "assets", "images", "news", existData.Image);
+            if (System.IO.File.Exists(oldFilePath))
+            {
+                System.IO.File.Delete(oldFilePath);
+            }
+
+            await _newsService.DeleteAsync((int)id);
+            return Ok();
+        }
     }
 }

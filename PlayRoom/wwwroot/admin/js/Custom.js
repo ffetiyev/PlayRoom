@@ -363,3 +363,20 @@ function accessorySetMainButtons() {
 accessorySetMainButtons();
 
 
+
+let newsImageDeleteBtns = document.querySelectorAll(".news-delete-btn");
+
+newsImageDeleteBtns.forEach((btn => {
+    btn.addEventListener("click", function () {
+        let newsId = parseInt(this.parentNode.getAttribute("data-id"));
+        fetch("http://localhost:5125/Admin/News/Delete?id=" + newsId, {
+
+            method: "POST",
+
+        })
+            .then(response => response.text()).then(res => {
+                this.parentNode.parentNode.remove()
+            })
+    })
+
+}))

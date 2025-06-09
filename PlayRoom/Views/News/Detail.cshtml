@@ -1,0 +1,68 @@
+﻿@model NewsDetailVM
+
+@section css {
+    <link rel="stylesheet" href="~/assets/css/newsDetail/newsDetail.css">
+}
+
+
+<main>
+    <section id="main-top" >
+        <div class="container-xxl">
+            <div class="path">
+                <a asp-controller="home" asp-action="Index">Ana səhifə</a>
+                <span> > </span>
+                <a asp-action="Index">Xəbərlər</a>
+                <span> > </span>
+                <span>@Model.ExistNews.Title</span>
+            </div>
+
+            <div class="main-area">
+                <div class="row">
+                    <div class="col-lg-7 col-12 news-detail">
+                        <div class="news-title">
+                            <h1>
+                                @Model.ExistNews.Title
+                            </h1>
+                            <span>October 14, 2024 · 11:29 AM</span>
+                        </div>
+                        <div class="news-image">
+                            <img src="~/assets/images/news/@Model.ExistNews.Image"
+                                 alt="">
+                        </div>
+                        <div class="news-description">
+                            <p>
+                                @Model.ExistNews.Description
+                            </p>
+
+                        </div>
+                        <div class="video">
+                            <iframe src="https://www.youtube.com/embed/M_WNxWctGsk?si=kc_G7PVqz8pbYgKt"
+                                    frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12 mt-5 mt-lg-0 latest-news">
+                        <h2>Son xəbərlər</h2>
+                        <div class="last-contents">
+                            @foreach (var item in Model.LatestNews)
+                            {
+                                <div class="news-content">
+                                    <a asp-action="Detail" asp-route-id="@item.Id">
+                                        <div class="news-image">
+                                            <img src="~/assets/images/news/@item.Image"
+                                                 alt="">
+                                        </div>
+                                    </a>
+                                    <div class="news-desc">
+                                        <h3>@item.Title</h3>
+                                        <span>@item.CreatedDate</span>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
