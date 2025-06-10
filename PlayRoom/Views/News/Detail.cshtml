@@ -6,7 +6,7 @@
 
 
 <main>
-    <section id="main-top" >
+    <section id="main-top">
         <div class="container-xxl">
             <div class="path">
                 <a asp-controller="home" asp-action="Index">Ana səhifə</a>
@@ -35,10 +35,18 @@
                             </p>
 
                         </div>
-                        <div class="video">
-                            <iframe src="https://www.youtube.com/embed/M_WNxWctGsk?si=kc_G7PVqz8pbYgKt"
-                                    frameborder="0"></iframe>
-                        </div>
+                        @if (!string.IsNullOrWhiteSpace(Model.ExistNews.VideoLink))
+                        {
+                            <div class="video">
+                                @{
+                                    string embedUrl = Model.ExistNews.VideoLink.Replace("watch?v=", "embed/");
+                                }
+
+                                <iframe width="560" height="315" src="@embedUrl" frameborder="0" allowfullscreen></iframe>
+
+                            </div>
+                        }
+                        
                     </div>
                     <div class="col-lg-5 col-12 mt-5 mt-lg-0 latest-news">
                         <h2>Son xəbərlər</h2>

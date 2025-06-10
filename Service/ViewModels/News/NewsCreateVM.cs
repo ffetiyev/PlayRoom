@@ -12,5 +12,6 @@ namespace Service.ViewModels.News
         [Required(ErrorMessage = "Image cannot be empty!")]
         public IFormFile Image { get; set; }
         public string? ImageName { get; set; }
+        public string? VideoLink { get; set; }
     }
 }

@@ -79,8 +79,8 @@
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </div>
                             <div class="search-form d-none">
-                                <form class="search-wrapper" action="/search" method="GET">
-                                    <input type="text" name="q" placeholder="Axtar..." class="search-input" />
+                                <form asp-controller="Search" asp-action="Index" class="search-wrapper" method="GET">
+                                    <input type="text" name="searchText" placeholder="Axtar..." class="search-input" />
                                 </form>
                             </div>
                             <div class="favorites">

@@ -22,6 +22,7 @@ namespace Service.Service
                 Description = model.Description,
                 Image = model.ImageName,
                 Title = model.Title,
+                VideoLink=model.VideoLink
             });
         }
 
@@ -47,6 +48,7 @@ namespace Service.Service
             if(model.Description != null) existData.Description = model.Description;
             if(model.Title!=null ) existData.Title = model.Title;
             if(model.Image!=null) existData.Image = model.Image;
+            existData.VideoLink = model.VideoLink;
             await _newsRepository.UpdateAsync(existData);
         }
     }

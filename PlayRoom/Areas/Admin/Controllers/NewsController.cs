@@ -33,6 +33,12 @@ namespace PlayRoom.Areas.Admin.Controllers
         {
             if (!ModelState.IsValid) return View(request);
 
+            if (!string.IsNullOrEmpty(request.VideoLink) && !request.VideoLink.Contains("watch?v"))
+            {
+                ModelState.AddModelError("VideoLink", "Link type is wrong, it should contains 'watch?v'!");
+                return View(request);
+            }
+
             if (request.Image.Length / 1024 > 2000)
             {
                 ModelState.AddModelError("Image", "Image size should be smaller than 2 mb");
@@ -71,7 +77,7 @@ namespace PlayRoom.Areas.Admin.Controllers
             var existData = await _newsService.GetByIdAsync((int)id);
             if (existData == null) return NotFound();
 
-            return View(new NewsUpdateVM { Description=existData.Description,Image=existData.Image,Title=existData.Title});
+            return View(new NewsUpdateVM { Description=existData.Description,Image=existData.Image,Title=existData.Title,VideoLink=existData.VideoLink});
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -83,9 +89,15 @@ namespace PlayRoom.Areas.Admin.Controllers
 
             if (!ModelState.IsValid) return View(request);
 
-            if(request.NewImage != null)
+            if (!string.IsNullOrEmpty(request.VideoLink) && !request.VideoLink.Contains("watch?v"))
             {
-                if (request.Image.Length / 1024 > 2000)
+                ModelState.AddModelError("VideoLink", "Link type is wrong, it should contains 'watch?v'!");
+                return View(request);
+            }
+
+            if (request.NewImage != null)
+            {
+                if (request.NewImage.Length / 1024 > 2000)
                 {
                     ModelState.AddModelError("Image", "Image size should be smaller than 2 mb");
                     return View(request);

@@ -30,5 +30,12 @@ namespace PlayRoom.Controllers
             ViewBag.Category = categories;
             return View(data);
         }
+        public async Task<IActionResult> Detail(int? id)
+        {
+            if (id == null) return BadRequest();
+            var existData = await _accessoryService.GetByIdAsync((int)id);
+            if (existData == null) return NotFound();
+            return View(existData);
+        }
     }
 }

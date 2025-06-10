@@ -15,7 +15,7 @@ namespace PlayRoom.Controllers
             _categoryService = categoryService;
         }
         [HttpGet]
-        public async Task<IActionResult> Index(string? category, string? priceRange, string? orderBy, int? page=1)
+        public async Task<IActionResult> Index(string? category, string? priceRange, string? orderBy, int? page = 1)
         {
             if (page == null) return BadRequest();
 
@@ -24,12 +24,19 @@ namespace PlayRoom.Controllers
             ViewBag.SelectedOrderBy = orderBy;
 
             if (page < 1) page = 1;
-            var data = await _gameService.GetAllPaginated((int)page,8,category,priceRange,orderBy);
+            var data = await _gameService.GetAllPaginated((int)page, 8, category, priceRange, orderBy);
 
             var categories = await _categoryService.GetAllAsync();
 
             ViewBag.Category = categories;
             return View(data);
+        }
+        public async Task<IActionResult> Detail(int? id)
+        {
+            if (id == null) return BadRequest();
+            var existData = await _gameService.GetByIdAsync((int)id);
+            if (existData == null) return NotFound();
+            return View(existData);
         }
 
     }

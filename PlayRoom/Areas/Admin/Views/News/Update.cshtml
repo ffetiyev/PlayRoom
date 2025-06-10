@@ -3,17 +3,24 @@
 <div class="container">
     <form class="user mt-5" method="post" asp-action="Update" enctype="multipart/form-data">
         <div class="form-group">
-            <input asp-for="Title" type="text" class="form-control form-control-user" placeholder="Enter slider new title...">
-            <span asp-validation-for="Title"></span>
+            <label asp-for="Title">News title</label>
+            <input asp-for="Title" type="text" class="form-control form-control-user" placeholder="Enter news new title...">
+            <span class="text-danger" asp-validation-for="Title"></span>
         </div>
         <div class="form-group">
-            <input asp-for="Description" type="text" class="form-control form-control-user" placeholder="Enter slider new desctiption...">
-            <span asp-validation-for="Description"></span>
+            <label asp-for="Description">News description</label>
+            <input asp-for="Description" type="text" class="form-control form-control-user" placeholder="Enter news new desctiption...">
+            <span class="text-danger" asp-validation-for="Description"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="VideoLink">News video link</label>
+            <input asp-for="VideoLink" type="text" class="form-control form-control-user" placeholder="Enter video link of news... (can be empty)">
+            <span class="text-danger" asp-validation-for="VideoLink"></span>
         </div>
         <div class="form-group">
             <label asp-for="NewImage">Choose Image</label>
             <input asp-for="NewImage" type="file" class="form-control-file" />
-            <span asp-validation-for="NewImage"></span>
+            <span class="text-danger" asp-validation-for="NewImage"></span>
         </div>
         <button type="submit" class="btn btn-primary btn-user btn-block">
             Submit
