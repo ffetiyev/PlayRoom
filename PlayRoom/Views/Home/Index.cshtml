@@ -7,7 +7,7 @@
                 <div class="opening-message">
                     <h1>@Model.WelcomeBanner.Title</h1>
                     <h2>@Model.WelcomeBanner.Description</h2>
-                    <a class="buy-now" href="">İNDİ AL</a>
+                    <a class="buy-now" asp-controller="Games" asp-action="Index">İNDİ AL</a>
                 </div>
             </div>
         </div>
@@ -92,7 +92,7 @@
                     <h4 class="game-description">
                         @Model.SpecialGameBanners.FirstOrDefault(m => m.IsActive == true).Description
                     </h4>
-                    <a class="more-info" href="">DAHA ƏTRAFLI <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a class="more-info" asp-controller="Search" asp-action="Index" asp-route-searchText="God Of W0-p8uiar">DAHA ƏTRAFLI <i class="fa-solid fa-arrow-right-long"></i></a>
                 </div>
             </div>
         </div>
@@ -257,7 +257,7 @@
                         <div class="col-lg-3 col-6 product">
                             <div class="card-main">
                                 <div class="card-top">
-                                    <a href="">
+                                    <a asp-controller="Games" asp-action="Index" asp-route-id="@item.Id">
                                         <img src="~/assets/images/Game-Images/@item.GameImages.FirstOrDefault(m=>m.IsMain==true).Name"
                                         alt="">
                                     </a>
@@ -303,7 +303,7 @@
                                     </div>
                                 </div>
                                 <div class="add-basket">
-                                    <button>SƏBƏTƏ AT</button>
+                                    <button class="add-basket-btn" type="submit" product-type="game" data-id="@item.Id">SƏBƏTƏ AT</button>
                                 </div>
                             </div>
                         </div>

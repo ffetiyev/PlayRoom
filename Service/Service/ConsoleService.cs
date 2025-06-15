@@ -40,7 +40,7 @@ namespace Service.Service
             }
         }
 
-        public async Task<PaginateResponse<ConsoleVM>> GetAllPaginated(int page, int take = 8, string? category = null, string? priceRange = null, string? orderBy = null)
+        public async Task<PaginateResponse<ConsoleVM>> GetAllPaginated(int page, List<string>? category, int take = 8, string? priceRange = null, string? orderBy = null)
         {
             var datas = _repository.GetAllQueryable();
             var paginatedDatas = datas.Select(m => new ConsoleVM
@@ -57,10 +57,13 @@ namespace Service.Service
                 Categories = m.ConsoleCategories.Where(c => c.Category != null).Select(c => new CategoryVM { Id = c.Category.Id, Name = c.Category.Name }).ToList()
             }).ToList();
 
-            if (category != null)
+            if (category != null && category.Any())
             {
-                paginatedDatas = paginatedDatas.Where(m => m.Categories.Any(gc => gc.Name == category)).ToList();
+                paginatedDatas = paginatedDatas
+                    .Where(m => m.Categories.Any(gc => category.Contains(gc.Name)))
+                    .ToList();
             }
+
             if (priceRange != null)
             {
                 switch (priceRange)

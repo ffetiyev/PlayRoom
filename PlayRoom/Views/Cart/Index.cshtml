@@ -1,0 +1,265 @@
+﻿@section css {
+    <link rel="stylesheet" href="~/assets/css/basket/basket.css">
+}
+
+<main>
+    <section id="main-top" style="padding-bottom:70px">
+        <div class="container-xxl">
+            <div class="path">
+                <a href="./home.html">Ana səhifə</a>
+                <span> > </span>
+                <a href="./consoles.html">Səbətim</a>
+            </div>
+
+            <div class="basket-main">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="basket">
+                            <div class="basket-count">
+                                <span>
+                                    Səbətim (@(Model.Games.Count + Model.Accessories.Count + Model.Consoles.Count))
+                                </span>
+
+                            </div>
+                            @foreach (KeyValuePair<GameVM,int> item in Model.Games)
+                            {
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a asp-controller="Games" asp-action="Detail" asp-route-id="@item.Key.Id">
+                                            <img src="~/assets/images/Game-Images/@item.Key.GameImages.FirstOrDefault(m=>m.IsMain==true).Name">
+                                        </a>
+                                    </div>
+                                    <div class="product-details">
+                                        <div class="product-name-count">
+                                            <a asp-controller ="Games" asp-action="Detail" asp-route-id="@item.Key.Id">
+                                                @item.Key.Name
+                                                @if (item.Key.GameCategory.Any())
+                                                {
+                                                    @($" ({string.Join(", ", item.Key.GameCategory.Select(c => c.Name))})")
+                                                }
+                                            </a>
+                                            <div class="product-count">
+                                                <span>Miqdar</span>
+                                                <div class="qty-input">
+                                                    <button class="qty-count qty-count--minus" data-action="minus"
+                                                            type="button">
+                                                        -
+                                                    </button>
+                                                    <input class="product-qty" type="number" name="product-qty" min="1"
+                                                           max="10" value="1">
+                                                    <button class="qty-count qty-count--add" data-action="add"
+                                                            type="button">
+                                                        +
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-price">
+                                            @if (item.Key.GameDiscounts != null && item.Key.GameDiscounts.Any())
+                                            {
+
+                                                decimal discountedPrice = item.Key.Price;
+                                                foreach (var discount in item.Key.GameDiscounts)
+                                                {
+                                                    discountedPrice *= (1 - discount.Value / 100);
+                                                }
+
+
+                                                <span class="price">@discountedPrice.ToString("F0") ₼</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="price">@item.Key.Price.ToString("F0") ₼</span>
+                                            }
+                                            </div>
+                                        <div class="like-delete">
+                                            <div class="like">
+                                                <i class="fa-solid fa-heart"></i>
+                                                <span>İstək siyahısına əlavə edin</span>
+                                            </div>
+                                            <div class="delete">
+                                                <i class="fa-solid fa-trash"></i>
+                                                <span>Sil</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+
+                            @foreach (KeyValuePair<ConsoleVM, int> item in Model.Consoles)
+                            {
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a asp-controller="Consoles" asp-action="Detail" asp-route-id="@item.Key.Id">
+                                            <img src="~/assets/images/Console-Images/@item.Key.Images.FirstOrDefault(m=>m.IsMain==true).Name">
+                                        </a>
+                                    </div>
+                                    <div class="product-details">
+                                        <div class="product-name-count">
+                                            <a asp-controller="Consoles" asp-action="Detail" asp-route-id="@item.Key.Id">
+                                                @item.Key.Name
+                                            </a>
+                                            <div class="product-count">
+                                                <span>Miqdar</span>
+                                                <div class="qty-input">
+                                                    <button class="qty-count qty-count--minus" data-action="minus"
+                                                            type="button">
+                                                        -
+                                                    </button>
+                                                    <input class="product-qty" type="number" name="product-qty" min="1"
+                                                           max="10" value="1">
+                                                    <button class="qty-count qty-count--add" data-action="add"
+                                                            type="button">
+                                                        +
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-price">
+                                            @if (item.Key.Discounts != null && item.Key.Discounts.Any())
+                                            {
+
+                                                decimal discountedPrice = item.Key.Price;
+                                                foreach (var discount in item.Key.Discounts)
+                                                {
+                                                    discountedPrice *= (1 - discount.Value / 100);
+                                                }
+
+
+                                                <span class="price">@discountedPrice.ToString("F0") ₼</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="price">@item.Key.Price.ToString("F0") ₼</span>
+                                            }
+                                        </div>
+                                        <div class="like-delete">
+                                            <div class="like">
+                                                <i class="fa-solid fa-heart"></i>
+                                                <span>İstək siyahısına əlavə edin</span>
+                                            </div>
+                                            <div class="delete">
+                                                <i class="fa-solid fa-trash"></i>
+                                                <span>Sil</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+
+                            @foreach (KeyValuePair<AccessoryVM, int> item in Model.Accessories)
+                            {
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a asp-controller="Accessories" asp-action="Detail" asp-route-id="@item.Key.Id">
+                                            <img src="~/assets/images/Accessories/@item.Key.Images.FirstOrDefault(m=>m.IsMain==true).Name">
+                                        </a>
+                                    </div>
+                                    <div class="product-details">
+                                        <div class="product-name-count">
+                                            <a asp-controller="Accessories" asp-action="Detail" asp-route-id="@item.Key.Id">
+                                                @item.Key.Name
+                                            </a>
+                                            <div class="product-count">
+                                                <span>Miqdar</span>
+                                                <div class="qty-input">
+                                                    <button class="qty-count qty-count--minus" data-action="minus"
+                                                            type="button">
+                                                        -
+                                                    </button>
+                                                    <input class="product-qty" type="number" name="product-qty" min="1"
+                                                           max="10" value="1">
+                                                    <button class="qty-count qty-count--add" data-action="add"
+                                                            type="button">
+                                                        +
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-price">
+                                            @if (item.Key.Discounts != null && item.Key.Discounts.Any())
+                                            {
+
+                                                decimal discountedPrice = item.Key.Price;
+                                                foreach (var discount in item.Key.Discounts)
+                                                {
+                                                    discountedPrice *= (1 - discount.Value / 100);
+                                                }
+
+
+                                                <span class="price">@discountedPrice.ToString("F0") ₼</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="price">@item.Key.Price.ToString("F0") ₼</span>
+                                            }
+                                        </div>
+                                        <div class="like-delete">
+                                            <div class="like">
+                                                <i class="fa-solid fa-heart"></i>
+                                                <span>İstək siyahısına əlavə edin</span>
+                                            </div>
+                                            <div class="delete">
+                                                <i class="fa-solid fa-trash"></i>
+                                                <span>Sil</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-lg-0 mt-5">
+                        <div class="total">
+                            <div class="total-header">
+                                <span>Toplam</span>
+                            </div>
+                            <div class="calculation">
+                                <div class="total-price">
+                                    <span>Ara cəmi :</span>
+                                    <span>@Model.TotalDiscountless.ToString("F0") ₼</span>
+                                </div>
+                                <div class="discount">
+                                    <span>Endirim :</span>
+                                    <span>@((Model.TotalDiscountless - Model.Total).ToString("F0")) ₼</span>
+                                </div>
+                            </div>
+                            <div class="middle-line"></div>
+                            <div class="final-price">
+                                <span>Toplam :</span>
+                                <span>@Model.Total.ToString("F0") ₼</span>
+                            </div>
+                            <div class="finish-order">
+                                <button>Sifarişi rəsmiləşdir</button>
+                            </div>
+                        </div>
+                        <div class="promocode">
+                            <div class="main-part">
+                                <span>Promokod tətbiq edin</span>
+                                <div class="add-promo-item">
+                                    <i class="fa-solid fa-plus add"></i>
+                                    <i class="fa-solid fa-minus remove d-none"></i>
+                                </div>
+                            </div>
+                            <div class="add-promocode d-none">
+                                <div class="get-promo">
+                                    <input class="promo-input" type="text">
+                                </div>
+                                <div class="confirm-code">
+                                    <button>Tətbiq et</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+@section js {
+    <script src="~/assets/js/basket.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+}

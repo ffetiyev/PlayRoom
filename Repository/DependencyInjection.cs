@@ -22,6 +22,10 @@ namespace Repository
             services.AddScoped<IAccessoryRepository, AccessoryRepository>();
             services.AddScoped<IAccessoryImageRepository, AccessoryImageRepository>();
             services.AddScoped<INewsRepository, NewsRepository>();
+            services.AddScoped<ISettingRepository, SettingRepository>();
+            services.AddScoped<IDeliveryPaymentRepository, DeliveryPaymentRepository>();
+            services.AddScoped<IWarrantyRepository, WarrantyRepository>();
+            services.AddScoped<IPrivacyRepository, PrivacyRepository>();
 
             return services;
         }

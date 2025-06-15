@@ -302,7 +302,23 @@ body {
                     gap: 24px;
                     color: white;
                     font-size: 20px;
+
                 }
+                    body header .navbar .container-xxl .row .navbar-end .search-like-basket .basket-link {
+                        position:relative;
+                    }
+                    body header .navbar .container-xxl .row .navbar-end .search-like-basket .basket-count {
+                        position: absolute;
+                        top: -5px;
+                        right: -10px;
+                        background-color: red;
+                        color: white;
+                        font-size: 12px;
+                        border-radius: 50%;
+                        padding: 9px 6px;
+                        min-width: 18px;
+                        text-align: center;
+                    }
 
                     body header .navbar .container-xxl .row .navbar-end .search-like-basket .search {
                         cursor: pointer;
@@ -366,9 +382,10 @@ body {
 
                 body header .navbar .container-xxl .row .navbar-end .login {
                     margin-left: auto;
+                    text-decoration:none;
                 }
 
-                    body header .navbar .container-xxl .row .navbar-end .login button {
+                    body header .navbar .container-xxl .row .navbar-end .login .login-btn {
                         padding: 8px 35px 8px 35px;
                         background-color: inherit;
                         border-radius: 20px;

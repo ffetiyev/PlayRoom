@@ -81,5 +81,22 @@ burger.addEventListener('click', () => {
   }
 });
 
+let addBasketBtns = document.querySelectorAll(".add-basket-btn");
+
+addBasketBtns.forEach((btn => {
+    btn.addEventListener("click", function () {
+        let id = parseInt(this.getAttribute("data-id"));
+        let productType = this.getAttribute("product-type"); // <-- get type
+
+        fetch(`http://localhost:5125/Home/AddProductToBasket?id=${id}&productType=${productType}`, {
+            method: "POST"
+        })
+            .then(response => response.text()).then(res => {
+                document.querySelector(".basket .basket-link .basket-count").innerText = res;
+            })
+    })
+
+}))
+
 
 

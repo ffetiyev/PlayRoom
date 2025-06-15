@@ -1,0 +1,28 @@
+﻿@model PrivacyVM
+
+@section css {
+    <link rel="stylesheet" href="~/assets/css/news/news.css">
+}
+
+<main>
+    <section id="main-top" style="">
+        <div class="container-xxl">
+            <div class="path">
+                <a asp-controller="Home" asp-action="Index">Ana səhifə</a>
+                <span> > </span>
+                <span>@Model.Title</span>>
+            </div>
+            <div class="page-topic">
+                <h3>@Model.Title</h3>
+            </div>
+
+            <div class="main-content" style="padding-top: 44px;padding-bottom: 50px;padding-left: 24px;">
+                <p>
+                    @Html.Raw(Model.Content)
+                </p>
+            </div>
+
+
+        </div>
+    </section>
+</main>

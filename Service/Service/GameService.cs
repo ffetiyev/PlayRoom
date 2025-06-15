@@ -4,11 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Repository.Repository.Interfaces;
 using Service.Helpers.Responses;
 using Service.Service.Interfaces;
-using Service.ViewModels;
 using Service.ViewModels.Category;
 using Service.ViewModels.Discount;
 using Service.ViewModels.Game;
-using System.Linq;
 
 namespace Service.Service
 {

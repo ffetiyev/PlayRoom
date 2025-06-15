@@ -31,7 +31,7 @@
                     </td>
                     <td style="width:50% ;">@item.CreatedDate.ToString("MM/dd/yyyy")</td>
                     <td style="width:50%; margin-top: 0px; padding-top: 0px;">
-                        <img src="~/assets/images/Game-Images/@item.Images.FirstOrDefault(m=>m.IsMain==true).Name" style="width:200px;height:130px" />
+                        <img src="~/assets/images/Accessories/@item.Images.FirstOrDefault(m=>m.IsMain==true).Name" style="width:200px;height:130px" />
                     </td>
                     <td class="d-flex" style="border:none;justify-content:center; padding-top: 40px;border-top:1px solid gray">
                         <a asp-action="detail" asp-route-id="@item.Id" style="padding:5px 20px" class="btn btn-primary btn-icon-split ml-3">Detail</a>

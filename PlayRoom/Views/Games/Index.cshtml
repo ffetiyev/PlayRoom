@@ -103,7 +103,7 @@
                                 </div>
                                 <div class="card-bottom">
                                     <div class="game-name">
-                                        <a href="">
+                                        <a asp-action="Detail" asp-route-id="@item.Id">
                                             @item.Name
                                             @if (item.GameCategory.Any())
                                             {
@@ -135,7 +135,7 @@
 
                                 </div>
                                 <div class="add-basket">
-                                    <button>SƏBƏTƏ AT</button>
+                                    <button class="add-basket-btn" type="submit" product-type="game" data-id="@item.Id">SƏBƏTƏ AT</button>
                                 </div>
                             </div>
                         </div>
@@ -186,4 +186,5 @@
 
 @section js {
     <script src="~/assets/js/games.js"></script>
+    <script src="~/assets/js/home.js"></script>
 }

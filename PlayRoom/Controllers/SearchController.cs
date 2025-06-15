@@ -25,9 +25,12 @@ namespace PlayRoom.Controllers
             var consoles = await _consoleService.GetAllAsync();
             var accessories = await _accessoryService.GetAllAsync();
 
-            var filteredGames = games.Where(m=>m.Name.ToLower().Trim().Contains(searchText.ToLower().Trim())).ToList();
-            var filteredConsoles = consoles.Where(m => m.Name.ToLower().Trim().Contains(searchText.ToLower().Trim())).ToList();
-            var filteredAccessories = accessories.Where(m => m.Name.ToLower().Trim().Contains(searchText.ToLower().Trim())).ToList();
+            var keyword = searchText.ToLower().Trim();
+
+            var filteredGames = games.Where(m => m.Name.ToLower().Trim().Contains(keyword)).ToList();
+            var filteredConsoles = consoles.Where(m => m.Name.ToLower().Trim().Contains(keyword)).ToList();
+            var filteredAccessories = accessories.Where(m => m.Name.ToLower().Trim().Contains(keyword)).ToList();
+
 
             SearchVM model = new SearchVM()
             {

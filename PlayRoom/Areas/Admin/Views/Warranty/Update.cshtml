@@ -1,0 +1,24 @@
+﻿@model WarrantyVM
+
+<div class="container">
+    <form class="user mt-5" method="post" asp-action="Update" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="Title">Enter title</label>
+            <textarea asp-for="Title" class="form-control"></textarea>
+            <span class="text-danger" asp-validation-for="Title"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Content">Enter Content</label>
+            <textarea asp-for="Content" class="form-control" rows="20"></textarea>
+            <span class="text-danger" asp-validation-for="Content"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-user btn-block">
+            Submit
+        </button>
+        <a asp-action="index" class="btn btn-danger btn-user btn-block">
+            Cancel
+        </a>
+        <hr>
+    </form>
+</div>

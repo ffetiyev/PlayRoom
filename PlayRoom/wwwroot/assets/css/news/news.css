@@ -22,6 +22,11 @@
   box-sizing: border-box;
 }
 
+p{
+    margin:0;
+    padding:0;
+}
+
 body {
   font-family: Lucida, sans-serif !important;
 }

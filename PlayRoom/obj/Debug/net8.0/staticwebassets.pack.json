@@ -7489,6 +7489,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\Accessories\\0daf3e36-75dc-4830-b58a-cec111daf69a_Charging-station-(PS5).png"
     },
     {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Accessories\\0e1c9d10-d73f-495a-9a57-d8eaa2940638_hoffman_tv.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Accessories\\0e1c9d10-d73f-495a-9a57-d8eaa2940638_hoffman_tv.png"
+    },
+    {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Accessories\\23676b31-1652-4f5e-9c6e-4e6a8c86aa42_HyperX-Stinger-2-PS4).png",
       "PackagePath": "staticwebassets\\assets\\images\\Accessories\\23676b31-1652-4f5e-9c6e-4e6a8c86aa42_HyperX-Stinger-2-PS4).png"
     },
@@ -7541,12 +7545,24 @@
       "PackagePath": "staticwebassets\\assets\\images\\Accessories\\PS-VR2-Sense.png"
     },
     {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Accessories\\a9926cb2-e21d-493e-8d21-5ba10034a8e0_Dualsense5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Accessories\\a9926cb2-e21d-493e-8d21-5ba10034a8e0_Dualsense5.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Accessories\\bc221259-0c39-4585-bb1a-dca529ecd344_PS-VR2-Sense.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Accessories\\bc221259-0c39-4585-bb1a-dca529ecd344_PS-VR2-Sense.png"
+    },
+    {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Accessories\\cad2bc14-c1ac-40b0-a3a4-c52e5092e8a7_DS4-qoruyucu.png",
       "PackagePath": "staticwebassets\\assets\\images\\Accessories\\cad2bc14-c1ac-40b0-a3a4-c52e5092e8a7_DS4-qoruyucu.png"
     },
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Accessories\\d2df15cb-18e6-407c-a619-0daca8ea63cf_HDMI-cabel.png",
       "PackagePath": "staticwebassets\\assets\\images\\Accessories\\d2df15cb-18e6-407c-a619-0daca8ea63cf_HDMI-cabel.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Accessories\\e8d54fe2-143f-443b-8f86-0e1a04641573_HyperX-Stinger-2-PS4).png",
+      "PackagePath": "staticwebassets\\assets\\images\\Accessories\\e8d54fe2-143f-443b-8f86-0e1a04641573_HyperX-Stinger-2-PS4).png"
     },
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Accessories\\eaf0fb87-a5b1-4c5c-ac58-9df1f20eb1cf_PS-VR2-Sense.png",
@@ -7697,6 +7713,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\ce634c40-6531-4650-aa8b-8a9bfac86b92_Xbox-series-S.png"
     },
     {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\e2a463bf-21f5-491b-98a7-822e22b97a21_Ps5-Slim(1TB).png",
+      "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\e2a463bf-21f5-491b-98a7-822e22b97a21_Ps5-Slim(1TB).png"
+    },
+    {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Console-Images\\e4d0ed5c-afa7-419b-99af-de58f1b64c42_Ps5-Slim(1TB).png",
       "PackagePath": "staticwebassets\\assets\\images\\Console-Images\\e4d0ed5c-afa7-419b-99af-de58f1b64c42_Ps5-Slim(1TB).png"
     },
@@ -7727,6 +7747,10 @@
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\3186716c-1ec1-4f76-8cdd-5ea299a2f7f4_Tomb-Raider.png",
       "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\3186716c-1ec1-4f76-8cdd-5ea299a2f7f4_Tomb-Raider.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\33d3f851-1ec2-49e0-a23b-422a563afb3a_God-Of-War.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\33d3f851-1ec2-49e0-a23b-422a563afb3a_God-Of-War.png"
     },
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\364bce9d-1c05-460f-9179-53c6b67d6750_RDR2.png",
@@ -7771,6 +7795,10 @@
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\Gear-Club.png",
       "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\Gear-Club.png"
+    },
+    {
+      "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\God-Of-War.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Game-Images\\God-Of-War.png"
     },
     {
       "Id": "C:\\Users\\ffati\\OneDrive\\Desktop\\PB402\\Backend-MVC\\PlayRoom\\PlayRoom\\wwwroot\\assets\\images\\Game-Images\\Mortal-Kombat-1.png",

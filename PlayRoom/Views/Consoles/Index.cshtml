@@ -102,7 +102,7 @@
                                 </div>
                                 <div class="card-bottom">
                                     <div class="game-name">
-                                        <a href="">
+                                        <a asp-action="Detail" asp-route-id="@item.Id">
                                             @item.Name
                                             @if (item.Categories.Any())
                                             {
@@ -134,7 +134,7 @@
 
                                 </div>
                                 <div class="add-basket">
-                                    <button>SƏBƏTƏ AT</button>
+                                    <button class="add-basket-btn" type="submit" product-type="console" data-id="@item.Id">SƏBƏTƏ AT</button>
                                 </div>
                             </div>
                         </div>
@@ -143,38 +143,47 @@
                 </div>
             </div>
 
+            @{
+                List<string> selectedCategories = ViewBag.SelectedCategory as List<string> ?? new List<string>();
+                string selectedPriceRange = ViewBag.SelectedPriceRange ?? "";
+                string selectedOrderBy = ViewBag.SelectedOrderBy ?? "";
+
+                string BuildPageUrl(int page)
+                {
+                    var baseUrl = Url.Action("Index", "Consoles") + $"?page={page}";
+
+                    foreach (var cat in selectedCategories)
+                    {
+                        baseUrl += $"&category={cat}";
+                    }
+
+                    if (!string.IsNullOrEmpty(selectedPriceRange))
+                    {
+                        baseUrl += $"&priceRange={selectedPriceRange}";
+                    }
+
+                    if (!string.IsNullOrEmpty(selectedOrderBy))
+                    {
+                        baseUrl += $"&orderBy={selectedOrderBy}";
+                    }
+
+                    return baseUrl;
+                }
+            }
             <div class="pagination-part">
                 <div class="pagination">
-                    <a asp-controller="consoles"
-                       asp-action="Index"
-                       asp-route-page="@(Model.CurrentPage > 1 ? Model.CurrentPage - 1 : 1)"
-                       asp-route-category="@ViewBag.SelectedCategory"
-                       asp-route-priceRange="@ViewBag.SelectedPriceRange"
-                       asp-route-orderBy="@ViewBag.SelectedOrderBy"
-                       class="page-arrow">
+                    <a href="@BuildPageUrl(Model.CurrentPage > 1 ? Model.CurrentPage - 1 : 1)" class="page-arrow">
                         <i class="fa-solid fa-arrow-left"></i>
                     </a>
 
                     @for (int i = 1; i <= Model.TotalPage; i++)
                     {
-                        <a asp-controller="consoles"
-                           asp-action="Index"
-                           asp-route-page="@i"
-                           asp-route-category="@ViewBag.SelectedCategory"
-                           asp-route-priceRange="@ViewBag.SelectedPriceRange"
-                           asp-route-orderBy="@ViewBag.SelectedOrderBy"
-                           class="page-value @(Model.CurrentPage == i ? "active" : "")" data-id="@i">
+                        <a href="@BuildPageUrl(i)" class="page-value @(Model.CurrentPage == i ? "active" : "")" data-id="@i">
                             @i
                         </a>
                     }
 
-                    <a asp-controller="consoles"
-                       asp-action="Index"
-                       asp-route-page="@(Model.CurrentPage < Model.TotalPage ? Model.CurrentPage + 1 : Model.TotalPage)"
-                       asp-route-category="@ViewBag.SelectedCategory"
-                       asp-route-priceRange="@ViewBag.SelectedPriceRange"
-                       asp-route-orderBy="@ViewBag.SelectedOrderBy"
-                       class="page-arrow">
+                    <a href="@BuildPageUrl(Model.CurrentPage < Model.TotalPage ? Model.CurrentPage + 1 : Model.TotalPage)" class="page-arrow">
                         <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
@@ -187,4 +196,5 @@
 
 @section js {
     <script src="~/assets/js/consoles.js"></script>
+    <script src="~/assets/js/home.js"></script>
 }

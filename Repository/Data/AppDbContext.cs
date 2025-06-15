@@ -27,6 +27,9 @@ namespace Repository.Data
         public DbSet<AccessoryDiscount> AccessoryDiscounts { get; set; }
         public DbSet<AccessoryImage> AccessoryImages { get; set; }
         public DbSet<News> News { get; set; }
-
+        public DbSet<Setting> Settings { get; set; }
+        public DbSet<DeliveryPayment> DeliveyPayment { get; set; }
+        public DbSet<Warranty> Warranty { get; set; }
+        public DbSet<Privacy> Privacy { get; set; }
     }
 }
