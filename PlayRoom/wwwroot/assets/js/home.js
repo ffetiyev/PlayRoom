@@ -1,4 +1,4 @@
-"use strict"
+﻿"use strict"
 
 let languageChanger = document.querySelector("body .navbar .language .main-language");
 
@@ -83,20 +83,38 @@ burger.addEventListener('click', () => {
 
 let addBasketBtns = document.querySelectorAll(".add-basket-btn");
 
-addBasketBtns.forEach((btn => {
+addBasketBtns.forEach(btn => {
     btn.addEventListener("click", function () {
         let id = parseInt(this.getAttribute("data-id"));
-        let productType = this.getAttribute("product-type"); // <-- get type
+        let productType = this.getAttribute("product-type");
 
         fetch(`http://localhost:5125/Home/AddProductToBasket?id=${id}&productType=${productType}`, {
-            method: "POST"
+            method: "POST",
+            headers: {
+                "Content-type": "application/json; charset=UTF-8"
+            }
         })
-            .then(response => response.text()).then(res => {
+            .then(response => response.text())
+            .then(res => {
                 document.querySelector(".basket .basket-link .basket-count").innerText = res;
-            })
-    })
 
-}))
+                Swal.fire({
+                    toast: true,
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'Səbətə əlavə olundu',
+                    showConfirmButton: false,
+                    timer: 1500,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.addEventListener('mouseenter', Swal.stopTimer);
+                        toast.addEventListener('mouseleave', Swal.resumeTimer);
+                    }
+                });
+            });
+    });
+});
+
 
 
 

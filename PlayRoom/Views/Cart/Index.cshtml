@@ -2,13 +2,15 @@
     <link rel="stylesheet" href="~/assets/css/basket/basket.css">
 }
 
+@model BasketDetailVM
+
 <main>
     <section id="main-top" style="padding-bottom:70px">
         <div class="container-xxl">
             <div class="path">
-                <a href="./home.html">Ana səhifə</a>
+                <a asp-controller="Home" asp-action="Index">Ana səhifə</a>
                 <span> > </span>
-                <a href="./consoles.html">Səbətim</a>
+                <span>Səbətim</span>
             </div>
 
             <div class="basket-main">
@@ -17,7 +19,7 @@
                         <div class="basket">
                             <div class="basket-count">
                                 <span>
-                                    Səbətim (@(Model.Games.Count + Model.Accessories.Count + Model.Consoles.Count))
+                                    Səbətim (@(Model.Games.Sum(m => m.Value) + Model.Accessories.Sum(m => m.Value) + Model.Consoles.Sum(m => m.Value)))
                                 </span>
 
                             </div>
@@ -46,7 +48,7 @@
                                                         -
                                                     </button>
                                                     <input class="product-qty" type="number" name="product-qty" min="1"
-                                                           max="10" value="1">
+                                                           max="10" value="@item.Value">
                                                     <button class="qty-count qty-count--add" data-action="add"
                                                             type="button">
                                                         +
@@ -78,8 +80,7 @@
                                                 <span>İstək siyahısına əlavə edin</span>
                                             </div>
                                             <div class="delete">
-                                                <i class="fa-solid fa-trash"></i>
-                                                <span>Sil</span>
+                                                <button class="basket-delete-btn" data-id="@item.Key.Id" product-type="game"> <i class="fa-solid fa-trash"></i> Sil</button>
                                             </div>
                                         </div>
                                     </div>
@@ -107,7 +108,7 @@
                                                         -
                                                     </button>
                                                     <input class="product-qty" type="number" name="product-qty" min="1"
-                                                           max="10" value="1">
+                                                           max="10" value="@item.Value">
                                                     <button class="qty-count qty-count--add" data-action="add"
                                                             type="button">
                                                         +
@@ -139,8 +140,8 @@
                                                 <span>İstək siyahısına əlavə edin</span>
                                             </div>
                                             <div class="delete">
-                                                <i class="fa-solid fa-trash"></i>
-                                                <span>Sil</span>
+
+                                                <button class="basket-delete-btn" data-id="@item.Key.Id" product-type="console"> <i class="fa-solid fa-trash"> </i>Sil</button>
                                             </div>
                                         </div>
                                     </div>
@@ -168,7 +169,7 @@
                                                         -
                                                     </button>
                                                     <input class="product-qty" type="number" name="product-qty" min="1"
-                                                           max="10" value="1">
+                                                           max="10" value="@item.Value">
                                                     <button class="qty-count qty-count--add" data-action="add"
                                                             type="button">
                                                         +
@@ -200,8 +201,7 @@
                                                 <span>İstək siyahısına əlavə edin</span>
                                             </div>
                                             <div class="delete">
-                                                <i class="fa-solid fa-trash"></i>
-                                                <span>Sil</span>
+                                                <button class="basket-delete-btn" data-id="@item.Key.Id" product-type="accessory"> <i class="fa-solid fa-trash"> </i> Sil</button>
                                             </div>
                                         </div>
                                     </div>

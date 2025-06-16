@@ -26,17 +26,17 @@ namespace PlayRoom.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            List<BasketVM> basketDatas= new List<BasketVM>();
+            List<BasketVM> basketDatas = new List<BasketVM>();
             if (_contextAccessor.HttpContext.Request.Cookies["basket"] != null)
             {
                 basketDatas = JsonConvert.DeserializeObject<List<BasketVM>>(_contextAccessor.HttpContext.Request.Cookies["basket"]);
             }
-            Dictionary<GameVM,int> games = new Dictionary<GameVM,int>();
+            Dictionary<GameVM, int> games = new Dictionary<GameVM, int>();
 
-            foreach(var item in basketDatas.Where(m=>m.ProductType=="game"))
+            foreach (var item in basketDatas.Where(m => m.ProductType == "game"))
             {
                 var game = await _gameService.GetByIdAsync(item.ProductId);
-                games.Add(game,item.ProductCount);
+                games.Add(game, item.ProductCount);
             }
 
             Dictionary<ConsoleVM, int> consoles = new Dictionary<ConsoleVM, int>();
@@ -103,7 +103,24 @@ namespace PlayRoom.Controllers
             decimal totalDiscountless = gamesOwnPrice + consolesOwnPrice + accessoriesOwnPrice;
 
 
-            return View(new BasketDetailVM { Accessories=accessories,Consoles=consoles,Games=games,Total=totalPrice,TotalDiscountless=totalDiscountless});
+            return View(new BasketDetailVM { Accessories = accessories, Consoles = consoles, Games = games, Total = totalPrice, TotalDiscountless = totalDiscountless });
+        }
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id,string type)
+        {
+            List<BasketVM> basketDatas = new List<BasketVM>();
+            if (_contextAccessor.HttpContext.Request.Cookies["basket"] != null)
+            {
+                basketDatas = JsonConvert.DeserializeObject<List<BasketVM>>(_contextAccessor.HttpContext.Request.Cookies["basket"]);
+            }
+            
+            var existBasketDatas = basketDatas.Where(m=>m.ProductType == type && m.ProductCount==id);
+            basketDatas.RemoveAll(m => m.ProductType == type && m.ProductId == id);
+            _contextAccessor.HttpContext.Response.Cookies.Append("basket", JsonConvert.SerializeObject(basketDatas));
+
+            int basketCount = basketDatas.Sum(m => m.ProductCount);
+            decimal total = 
+            return Ok();
         }
 
     }

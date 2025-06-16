@@ -65,6 +65,7 @@
 //})();
 
 // Toggle promo code section
+
 let addPromoCodeBtn = document.querySelector("#main-top .basket-main .promocode .main-part .add-promo-item .add");
 let removePromoCodeBtn = addPromoCodeBtn.nextElementSibling;
 let promocodeSection = document.querySelector("#main-top .basket-main .promocode .add-promocode");
@@ -110,3 +111,36 @@ applyButton.addEventListener("click", async function () {
     }
 });
 
+let deleteBasketBtns = document.querySelectorAll(".basket-delete-btn");
+
+deleteBasketBtns.forEach((btn => {
+    btn.addEventListener("click", function () {
+        let id = parseInt(this.getAttribute("data-id"));
+        let productType = this.getAttribute("product-type");
+
+        fetch(`http://localhost:5125/Cart/Delete?id=${id}&type=${productType}`, {
+            method: "POST",
+            headers: {
+                "Content-type": "application/json; charset=UTF-8"
+            }
+        })
+            .then(response => response.text()).then(res => {
+                this.parentNode.parentNode.parentNode.parentNode.remove();
+                Swal.fire({
+                    toast: true,
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'Məhsul səbətdən silindi!',
+                    showConfirmButton: false,
+                    timer: 1500,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.addEventListener('mouseenter', Swal.stopTimer)
+                        toast.addEventListener('mouseleave', Swal.resumeTimer)
+                    }
+                });
+
+            })
+    })
+
+}))

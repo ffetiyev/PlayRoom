@@ -87,13 +87,14 @@ body main #main-top .basket-main .basket .product .product-details .product-name
   align-items: center;
   position: relative;
 }
-body main #main-top .basket-main .basket .product .product-details .product-name-count a {
-  font-size: 32px;
-  line-height: 36px;
-  font-weight: 500;
-  color: #4361ee;
-  text-decoration: none;
-}
+    body main #main-top .basket-main .basket .product .product-details .product-name-count a {
+        font-size: 32px;
+        line-height: 36px;
+        font-weight: 500;
+        color: #4361ee;
+        text-decoration: none;
+        max-width: 480px;
+    }
 body main #main-top .basket-main .basket .product .product-details .product-name-count .product-count {
   position: absolute;
   right: 0px;
@@ -188,6 +189,14 @@ body main #main-top .basket-main .basket .product .product-details .like-delete 
   margin-top: 30px;
   display: flex;
 }
+    body main #main-top .basket-main .basket .product .product-details .like-delete .basket-delete-btn {
+        background: none;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
 body main #main-top .basket-main .basket .product .product-details .like-delete .like {
   display: flex;
   align-items: center;
