@@ -95,7 +95,11 @@
                                             <span>ENDIRIM</span>
                                         </div>
                                     }
-                                    <div class="like">
+                                    @{
+                                        var favorites = ViewBag.Favorites as List<(int Id, string Type)>;
+                                        bool isFavorite = favorites?.Any(x => x.Id == item.Id && x.Type == "console") == true;
+                                    }
+                                    <div class="like @(isFavorite ? "liked" : "")" product-type="console" data-id="@item.Id">
                                         <i class="fa-solid fa-heart"></i>
                                     </div>
 
@@ -197,4 +201,5 @@
 @section js {
     <script src="~/assets/js/consoles.js"></script>
     <script src="~/assets/js/home.js"></script>
+    <script src="~/assets/js/favorites.js"></script>
 }

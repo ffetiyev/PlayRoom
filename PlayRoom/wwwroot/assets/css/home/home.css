@@ -309,7 +309,7 @@ body {
                     }
                     body header .navbar .container-xxl .row .navbar-end .search-like-basket .basket-count {
                         position: absolute;
-                        top: -5px;
+                        top: -9px;
                         right: -10px;
                         background-color: red;
                         color: white;
@@ -322,6 +322,21 @@ body {
 
                     body header .navbar .container-xxl .row .navbar-end .search-like-basket .search {
                         cursor: pointer;
+                    }
+                    body header .navbar .container-xxl .row .navbar-end .search-like-basket .favorites {
+                        position: relative;
+                    }
+                    body header .navbar .container-xxl .row .navbar-end .search-like-basket .favorites .favorites-count {
+                        position: absolute;
+                        top: -5px;
+                        right: -10px;
+                        background-color: red;
+                        color: white;
+                        font-size: 12px;
+                        border-radius: 50%;
+                        padding: 9px 6px;
+                        min-width: 18px;
+                        text-align: center;
                     }
 
                     body header .navbar .container-xxl .row .navbar-end .search-like-basket a {
@@ -1166,8 +1181,8 @@ body {
         margin-left: auto;
     }
 
-        body .login button {
-            padding: 0px 35px 8px 15px !important;
+        body .login .login-btn {
+            padding: 7px 15px 8px 15px !important;
         }
 }
 
@@ -1186,8 +1201,8 @@ body {
         border-radius: 25px;
     }
 
-        body .login button {
-            display: none;
+        body .login .login-btn {
+            display: none !important;
         }
 
         body .login i {

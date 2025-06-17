@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using Service.Service.Interfaces;
+using Service.ViewModels.Favorites;
 
 namespace PlayRoom.Controllers
 {
@@ -7,10 +9,12 @@ namespace PlayRoom.Controllers
     {
         private readonly IConsoleService _consoleService;
         private readonly ICategoryService _categoryService;
-        public ConsolesController(IConsoleService consoleService,ICategoryService categoryService)
+        private readonly IHttpContextAccessor _contextAccessor;
+        public ConsolesController(IConsoleService consoleService,ICategoryService categoryService, IHttpContextAccessor contextAccessor)
         {
             _consoleService = consoleService;
             _categoryService = categoryService;
+            _contextAccessor = contextAccessor;
         }
 
         public async Task<IActionResult> Index(List<string>? category, string? priceRange, string? orderBy, int? page = 1)
@@ -27,6 +31,17 @@ namespace PlayRoom.Controllers
             var categories = await _categoryService.GetAllAsync();
 
             ViewBag.Category = categories;
+
+            List<FavoritesVM> favoriteDatas = new();
+            if (_contextAccessor.HttpContext.Request.Cookies["favorites"] != null)
+            {
+                favoriteDatas = JsonConvert.DeserializeObject<List<FavoritesVM>>(_contextAccessor.HttpContext.Request.Cookies["favorites"]);
+            }
+
+            ViewBag.Favorites = favoriteDatas
+                .Select(f => (f.ProductId, f.ProductType))
+                .ToList();
+
             return View(data);
         }
         public async Task<IActionResult> Detail(int? id)
@@ -34,6 +49,17 @@ namespace PlayRoom.Controllers
             if (id == null) return BadRequest();
             var existData = await _consoleService.GetByIdAsync((int)id);
             if (existData == null) return NotFound();
+
+            List<FavoritesVM> favoriteDatas = new();
+            if (_contextAccessor.HttpContext.Request.Cookies["favorites"] != null)
+            {
+                favoriteDatas = JsonConvert.DeserializeObject<List<FavoritesVM>>(_contextAccessor.HttpContext.Request.Cookies["favorites"]);
+            }
+
+            ViewBag.Favorites = favoriteDatas
+                .Select(f => (f.ProductId, f.ProductType))
+                .ToList();
+
             return View(existData);
         }
     }

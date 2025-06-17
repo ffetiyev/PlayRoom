@@ -52,15 +52,15 @@ public class HomeController : Controller
             basketDatas = JsonConvert.DeserializeObject<List<BasketVM>>(_contextAccessor.HttpContext.Request.Cookies["basket"]);
         }
 
-        var existData = basketDatas.FirstOrDefault(m=>m.ProductId==id);
-        if (existData == null)
+        var existBasketDatas = basketDatas.FirstOrDefault(m => m.ProductType == productType && m.ProductCount == id);
+        if (existBasketDatas == null)
         {
 
             basketDatas.Add(new() { ProductId = id, ProductCount = 1,ProductType=productType });
         }
         else
         {
-            existData.ProductCount++;
+            existBasketDatas.ProductCount++;
         }
 
         _contextAccessor.HttpContext.Response.Cookies.Append("basket",JsonConvert.SerializeObject(basketDatas));

@@ -26,18 +26,6 @@ searchButton.addEventListener("click",function(){
     
 })
 
-var productLikeButton = document.querySelectorAll(" .products .product .card-main .card-top .like");
-
-productLikeButton.forEach(element => {
-    element.addEventListener("click",function(){
-    if(element.style.color==='red'){
-        element.style.color='gray'
-    }
-    else {
-         element.style.color='red'
-    }
-})
-});
 
 window.addEventListener('DOMContentLoaded', () => {
     const list = document.querySelector('#companies .list');

@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using Service.ViewModels;
 using Service.ViewModels.Basket;
+using Service.ViewModels.Favorites;
 
 namespace PlayRoom.Views.ViewComponents
 {
@@ -15,19 +16,28 @@ namespace PlayRoom.Views.ViewComponents
         public async Task<IViewComponentResult> InvokeAsync()
         {
             List<BasketVM> basketDatas = new();
-            int totalProducts = 0;
+            int totalBasketProducts = 0;
             if (_contextAccessor.HttpContext.Request.Cookies["basket"] != null)
             {
                 basketDatas = JsonConvert.DeserializeObject<List<BasketVM>>(_contextAccessor.HttpContext.Request.Cookies["basket"]);
             }
 
-            totalProducts = basketDatas.Sum(m => m.ProductCount);
+            totalBasketProducts = basketDatas.Sum(m => m.ProductCount);
 
+
+            List<FavoritesVM> favoriteDatas = new();
+            int totalFavoritesProducts = 0;
+            if (_contextAccessor.HttpContext.Request.Cookies["favorites"] != null)
+            {
+                favoriteDatas = JsonConvert.DeserializeObject<List<FavoritesVM>>(_contextAccessor.HttpContext.Request.Cookies["favorites"]);
+            }
+
+            totalFavoritesProducts = favoriteDatas.Count();
 
             return View(new HeaderVM
             {
-
-                BasketProductCount = totalProducts
+                FavoritesCount = totalFavoritesProducts,
+                BasketProductCount = totalBasketProducts
             });
         }
     }

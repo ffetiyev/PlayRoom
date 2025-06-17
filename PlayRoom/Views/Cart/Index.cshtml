@@ -42,7 +42,7 @@
                                             </a>
                                             <div class="product-count">
                                                 <span>Miqdar</span>
-                                                <div class="qty-input">
+                                                <div data-id="@item.Key.Id" product-type="game" class="qty-input">
                                                     <button class="qty-count qty-count--minus" data-action="minus"
                                                             type="button">
                                                         -
@@ -59,6 +59,7 @@
                                         <div class="product-price">
                                             @if (item.Key.GameDiscounts != null && item.Key.GameDiscounts.Any())
                                             {
+                                                <span class="basket-old-price">@item.Key.Price.ToString("F0") ₼</span>
 
                                                 decimal discountedPrice = item.Key.Price;
                                                 foreach (var discount in item.Key.GameDiscounts)
@@ -102,7 +103,7 @@
                                             </a>
                                             <div class="product-count">
                                                 <span>Miqdar</span>
-                                                <div class="qty-input">
+                                                <div data-id="@item.Key.Id" product-type="console" class="qty-input">
                                                     <button class="qty-count qty-count--minus" data-action="minus"
                                                             type="button">
                                                         -
@@ -119,7 +120,7 @@
                                         <div class="product-price">
                                             @if (item.Key.Discounts != null && item.Key.Discounts.Any())
                                             {
-
+                                                <span class="basket-old-price">@item.Key.Price.ToString("F0") ₼</span>
                                                 decimal discountedPrice = item.Key.Price;
                                                 foreach (var discount in item.Key.Discounts)
                                                 {
@@ -163,7 +164,7 @@
                                             </a>
                                             <div class="product-count">
                                                 <span>Miqdar</span>
-                                                <div class="qty-input">
+                                                <div data-id="@item.Key.Id" product-type="accessory" class="qty-input">
                                                     <button class="qty-count qty-count--minus" data-action="minus"
                                                             type="button">
                                                         -
@@ -180,6 +181,7 @@
                                         <div class="product-price">
                                             @if (item.Key.Discounts != null && item.Key.Discounts.Any())
                                             {
+                                                <span class="basket-old-price">@item.Key.Price.ToString("F0") ₼</span>
 
                                                 decimal discountedPrice = item.Key.Price;
                                                 foreach (var discount in item.Key.Discounts)
@@ -211,46 +213,48 @@
                         </div>
                     </div>
                     <div class="col-lg-3 mt-lg-0 mt-5">
-                        <div class="total">
-                            <div class="total-header">
-                                <span>Toplam</span>
-                            </div>
-                            <div class="calculation">
-                                <div class="total-price">
-                                    <span>Ara cəmi :</span>
-                                    <span>@Model.TotalDiscountless.ToString("F0") ₼</span>
+                       <div class="total-promo" style="position:sticky;top:120px">
+                            <div class="total">
+                                <div class="total-header">
+                                    <span>Toplam</span>
                                 </div>
-                                <div class="discount">
-                                    <span>Endirim :</span>
-                                    <span>@((Model.TotalDiscountless - Model.Total).ToString("F0")) ₼</span>
+                                <div class="calculation">
+                                    <div class="total-price">
+                                        <span>Ara cəmi :</span>
+                                        <span class="total-discountless">@Model.TotalDiscountless.ToString("F0") ₼</span>
+                                    </div>
+                                    <div class="discount">
+                                        <span>Endirim :</span>
+                                        <span class="dicount-value">@((Model.TotalDiscountless - Model.Total).ToString("F0")) ₼</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="middle-line"></div>
-                            <div class="final-price">
-                                <span>Toplam :</span>
-                                <span>@Model.Total.ToString("F0") ₼</span>
-                            </div>
-                            <div class="finish-order">
-                                <button>Sifarişi rəsmiləşdir</button>
-                            </div>
-                        </div>
-                        <div class="promocode">
-                            <div class="main-part">
-                                <span>Promokod tətbiq edin</span>
-                                <div class="add-promo-item">
-                                    <i class="fa-solid fa-plus add"></i>
-                                    <i class="fa-solid fa-minus remove d-none"></i>
+                                <div class="middle-line"></div>
+                                <div class="final-price">
+                                    <span>Toplam :</span>
+                                    <span class="res-price">@Model.Total.ToString("F0") ₼</span>
+                                </div>
+                                <div class="finish-order">
+                                    <button>Sifarişi rəsmiləşdir</button>
                                 </div>
                             </div>
-                            <div class="add-promocode d-none">
-                                <div class="get-promo">
-                                    <input class="promo-input" type="text">
+                            <div class="promocode">
+                                <div class="main-part">
+                                    <span>Promokod tətbiq edin</span>
+                                    <div class="add-promo-item">
+                                        <i class="fa-solid fa-plus add"></i>
+                                        <i class="fa-solid fa-minus remove d-none"></i>
+                                    </div>
                                 </div>
-                                <div class="confirm-code">
-                                    <button>Tətbiq et</button>
+                                <div class="add-promocode d-none">
+                                    <div class="get-promo">
+                                        <input class="promo-input" type="text">
+                                    </div>
+                                    <div class="confirm-code">
+                                        <button>Tətbiq et</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                       </div>
                     </div>
                 </div>
             </div>

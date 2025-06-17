@@ -1,5 +1,5 @@
 ﻿@section css {
-    <link rel="stylesheet" href="~/assets/css/productDetail/productDetail.css">
+<link rel="stylesheet" href="~/assets/css/productDetail/productDetail.css">
 }
 
 @model AccessoryVM
@@ -37,8 +37,17 @@
                             }
                             <p class="product-name">@Model.Name </p>
                             <div class="like-product">
-                                <i class="fa-solid fa-heart"></i>
-                                <span>İstək siyahısına əlavə edildi</span>
+                                @{
+                                    var favorites = ViewBag.Favorites as List<(int Id, string Type)>;
+                                    bool isFavorite = favorites?.Any(x => x.Id == Model.Id && x.Type == "accessory") == true;
+                                }
+                                <div class="like @(isFavorite ? "liked" : "")" product-type="accessory" data-id="@Model.Id">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                @if (isFavorite)
+                                {
+                                    <span>İstək siyahısına əlavə edildi</span>
+                                }
                             </div>
                             <div class="product-desc" bis_skin_checked="1">
                                 <p>

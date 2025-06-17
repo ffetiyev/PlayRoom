@@ -422,3 +422,8 @@ body main #main-top .pagination-part .pagination a:hover:not(.active):not(:first
     margin-top: 0px;
   }
 }/*# sourceMappingURL=accessories.css.map */
+
+
+.liked {
+    color: red !important;
+}

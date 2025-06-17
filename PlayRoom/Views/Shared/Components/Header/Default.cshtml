@@ -13,7 +13,7 @@
             <div class="container-xxl">
 
                 <div class="row">
-                    <div class="col-lg-1 col-5 navbar-start">
+                    <div class="col-lg-1 col-4 navbar-start">
                         <div class="sidebar">
                             <!-- Navigation -->
                             <div class="b-nav">
@@ -62,7 +62,7 @@
                             <a asp-area="admin" asp-controller="Dashboard" asp-action="index">Admin</a>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-7 navbar-end">
+                    <div class="col-lg-5 col-8 navbar-end">
                         <div class="search-like-basket">
                             <div class="search">
                                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -73,7 +73,10 @@
                                 </form>
                             </div>
                             <div class="favorites">
-                                <a href="./favorites.html"><i class="fa-regular fa-heart"></i></a>
+                                <a asp-controller="Favorites" asp-action="Index">
+                                    <i class="fa-regular fa-heart"></i>
+                                   <sup class="favorites-count">@Model.FavoritesCount</sup>
+                                </a>
                             </div>
                             <div class="basket">
                                 <a class="basket-link" asp-controller="Cart" asp-action="Index">

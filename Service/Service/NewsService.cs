@@ -34,7 +34,9 @@ namespace Service.Service
 
         public async Task<IEnumerable<NewsVM>> GetAllAsync()
         {
-           return _mapper.Map<IEnumerable<NewsVM>>(await _newsRepository.GetAllAsync());
+            var datas = await _newsRepository.GetAllAsync();
+            var sortedDatas=datas.OrderByDescending(x => x.CreatedDate);
+           return _mapper.Map<IEnumerable<NewsVM>>(sortedDatas);
         }
 
         public async Task<NewsVM> GetByIdAsync(int id)

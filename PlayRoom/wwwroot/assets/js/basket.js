@@ -124,8 +124,14 @@ deleteBasketBtns.forEach((btn => {
                 "Content-type": "application/json; charset=UTF-8"
             }
         })
-            .then(response => response.text()).then(res => {
+            .then(response => response.json()).then(res => {
                 this.parentNode.parentNode.parentNode.parentNode.remove();
+                debugger;
+                document.querySelector(".total-price .total-discountless").innerText = `${Math.round(res[2])} ₼`;
+                document.querySelector(".discount .dicount-value").innerText = `${Math.round(res[3])} ₼`;
+                document.querySelector(".final-price .res-price").innerText = `${Math.round(res[1])} ₼`;
+                document.querySelector(".basket .basket-link .basket-count").innerText = res[0];
+                document.querySelector(".basket-count span").innerText = `Səbətim (${res[0]})`;
                 Swal.fire({
                     toast: true,
                     position: 'top-end',
@@ -144,3 +150,67 @@ deleteBasketBtns.forEach((btn => {
     })
 
 }))
+
+
+document.querySelectorAll(".qty-input .qty-count--add").forEach(btn => {
+    btn.addEventListener("click", function () {
+        let parent = this.closest(".qty-input");
+        let id = parseInt(parent.getAttribute("data-id"));
+        let productType = parent.getAttribute("product-type");
+        let input = parent.querySelector(".product-qty");
+
+        let currentValue = parseInt(input.value);
+        let maxValue = parseInt(input.max);
+
+        if (currentValue < maxValue) {
+            input.value = currentValue + 1;
+
+            fetch(`http://localhost:5125/Cart/IncreaseProductCount?id=${id}&type=${productType}`, {
+                method: "POST",
+                headers: {
+                    "Content-type": "application/json; charset=UTF-8"
+                }
+            })
+                .then(response => response.json())
+                .then(res => {
+                    document.querySelector(".total-price .total-discountless").innerText = `${Math.round(res[2])} ₼`;
+                    document.querySelector(".discount .dicount-value").innerText = `${Math.round(res[3])} ₼`;
+                    document.querySelector(".final-price .res-price").innerText = `${Math.round(res[1])} ₼`;
+                    document.querySelector(".basket .basket-link .basket-count").innerText = res[0];
+                    document.querySelector(".basket-count span").innerText = `Səbətim (${res[0]})`;
+                });
+        }
+    });
+});
+
+
+document.querySelectorAll(".qty-input .qty-count--minus").forEach(btn => {
+    btn.addEventListener("click", function () {
+        let parent = this.closest(".qty-input");
+        let id = parseInt(parent.getAttribute("data-id"));
+        let productType = parent.getAttribute("product-type");
+        let input = parent.querySelector(".product-qty");
+
+        let currentValue = parseInt(input.value);
+        let minValue = 1;
+
+        if (currentValue > minValue) {
+            input.value = currentValue - 1;
+
+            fetch(`http://localhost:5125/Cart/DecreaseProductCount?id=${id}&type=${productType}`, {
+                method: "POST",
+                headers: {
+                    "Content-type": "application/json; charset=UTF-8"
+                }
+            })
+                .then(response => response.json())
+                .then(res => {
+                    document.querySelector(".total-price .total-discountless").innerText = `${Math.round(res[2])} ₼`;
+                    document.querySelector(".discount .dicount-value").innerText = `${Math.round(res[3])} ₼`;
+                    document.querySelector(".final-price .res-price").innerText = `${Math.round(res[1])} ₼`;
+                    document.querySelector(".basket .basket-link .basket-count").innerText = res[0];
+                    document.querySelector(".basket-count span").innerText = `Səbətim (${res[0]})`;
+                });
+        }
+    });
+});

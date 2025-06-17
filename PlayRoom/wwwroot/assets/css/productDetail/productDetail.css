@@ -109,9 +109,10 @@ body main #main-top .product-section .product-info .like-product {
   display: flex;
   gap: 12px;
 }
-body main #main-top .product-section .product-info .like-product i {
-  color: red;
+body main #main-top .product-section .product-info .like-product .like {
+  color: gray;
   font-size: 20px;
+  cursor:pointer;
 }
 body main #main-top .product-section .product-info .like-product span {
   font-feature-settings: "case" on;
@@ -317,3 +318,7 @@ body main #main-top .product-section .product-payment .add-to-cart .product-coun
     flex: 0 0 auto;
   }
 }/*# sourceMappingURL=productDetail.css.map */
+
+ .liked{
+     color:red !important;
+ }

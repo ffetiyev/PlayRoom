@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlayRoom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b63bd74cb3c3c699db5231a0b0b10eb1d0b2c142")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7196fd36e87b86d389be298af734d7172a7eb07")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlayRoom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlayRoom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
