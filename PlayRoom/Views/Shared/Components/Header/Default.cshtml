@@ -5,117 +5,124 @@
     var companies = await _companyService.GetAllAsync();
     var settings = await _settingService.GetAllAsync();
 }
- 
+
 <header>
-        <div class="navbar-overlay">
-        </div>
-        <div class="navbar">
-            <div class="container-xxl">
+    <div class="navbar-overlay">
+    </div>
+    <div class="navbar">
+        <div class="container-xxl">
 
-                <div class="row">
-                    <div class="col-lg-1 col-4 navbar-start">
-                        <div class="sidebar">
-                            <!-- Navigation -->
-                            <div class="b-nav">
-                                <li><a class="b-link" asp-controller="consoles" asp-action="index" target="_blank">Oyun konsolları</a></li>
-                                <li><a class="b-link" asp-controller="games" asp-action="index" target="_blank">Oyunlar</a></li>
-                                <li><a class="b-link" asp-controller="accessories" asp-action="index" target="_blank">Aksesuarlar</a></li>
-                                <li><a class="b-link" asp-controller="gamepads" asp-action="index" target="_blank">Oyun sükanları</a></li>
-                                <li><a class="b-link" href="" target="_blank">Şirkət haqqında</a></li>
-                                <li><a class="b-link" href="" target="_blank">Çatdırılma və ödəniş</a></li>
-                                <li><a class="b-link" href="" target="_blank">Zəmanət və təmir şərtləri</a></li>
-                                <li><a class="b-link" asp-controller="news" asp-action="index" target="_blank">Xəbərlər</a></li>
-                                <li><a class="b-link" href="" target="_blank">Məxfilik siyasəti</a></li>
-                                <li><a class="b-link" href="" target="_blank">Əlaqə</a></li>
-                            </div>
-                            <!-- Burger-Icon -->
-                            <div class="b-container">
-                                <div class="b-menu d-none">
-                                    <i class="fa-solid fa-bars"></i>
-                                </div>
-                            </div>
-
-                            <div class="sidebar-overlay"></div>
-                            <!-- Burger-Icon -->
+            <div class="row">
+                <div class="col-lg-1 col-4 navbar-start">
+                    <div class="sidebar">
+                        <!-- Navigation -->
+                        <div class="b-nav">
+                            <li><a class="b-link" asp-controller="consoles" asp-action="index" target="_blank">Oyun konsolları</a></li>
+                            <li><a class="b-link" asp-controller="games" asp-action="index" target="_blank">Oyunlar</a></li>
+                            <li><a class="b-link" asp-controller="accessories" asp-action="index" target="_blank">Aksesuarlar</a></li>
+                            <li><a class="b-link" asp-controller="gamepads" asp-action="index" target="_blank">Oyun sükanları</a></li>
+                            <li><a class="b-link" href="" target="_blank">Şirkət haqqında</a></li>
+                            <li><a class="b-link" href="" target="_blank">Çatdırılma və ödəniş</a></li>
+                            <li><a class="b-link" href="" target="_blank">Zəmanət və təmir şərtləri</a></li>
+                            <li><a class="b-link" asp-controller="news" asp-action="index" target="_blank">Xəbərlər</a></li>
+                            <li><a class="b-link" href="" target="_blank">Məxfilik siyasəti</a></li>
+                            <li><a class="b-link" href="" target="_blank">Əlaqə</a></li>
                         </div>
-                        <div class="logo">
-                            <a asp-controller="home" asp-action="index"><img src="https://cdn.playroom.az/era_cms_assets/logolight.webp" alt=""></a>
+                        <!-- Burger-Icon -->
+                        <div class="b-container">
+                            <div class="b-menu d-none">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-overlay"></div>
+                        <!-- Burger-Icon -->
+                    </div>
+                    <div class="logo">
+                        <a asp-controller="home" asp-action="index"><img src="https://cdn.playroom.az/era_cms_assets/logolight.webp" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 navbar-links">
+                    <div class="game-consols">
+                        <a asp-controller="consoles" asp-action="index">Oyun konsolları</a>
+                    </div>
+                    <div class="games">
+                        <a asp-controller="games" asp-action="index">Oyunlar</a>
+                    </div>
+                    <div class="accessories">
+                        <a asp-controller="accessories" asp-action="index">Aksesuarlar</a>
+                    </div>
+                    <div class="news">
+                        <a asp-controller="news" asp-action="index">Xəbərlər</a>
+                    </div>
+                    <div class="news">
+                        <a asp-area="admin" asp-controller="Dashboard" asp-action="index">Admin</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-8 navbar-end">
+                    <div class="search-like-basket">
+                        <div class="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="search-form d-none">
+                            <form asp-controller="Search" asp-action="Index" class="search-wrapper" method="GET">
+                                <input type="text" name="searchText" placeholder="Axtar..." class="search-input" />
+                            </form>
+                        </div>
+                        <div class="favorites">
+                            <a asp-controller="Favorites" asp-action="Index">
+                                <i class="fa-regular fa-heart"></i>
+                                <sup class="favorites-count">@Model.FavoritesCount</sup>
+                            </a>
+                        </div>
+                        <div class="basket">
+                            <a class="basket-link" asp-controller="Cart" asp-action="Index">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                                <sup class="basket-count">@Model.BasketProductCount</sup>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-6 navbar-links">
-                        <div class="game-consols">
-                            <a asp-controller="consoles" asp-action="index">Oyun konsolları</a>
+                    <div class="language">
+                        <div class="main-language">
+                            <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Faz.png&w=48&q=75"
+                            alt=""><span>AZ</span>
+                            <i class="fa-solid fa-chevron-down open d-none"></i>
+                            <i class="fa-solid fa-chevron-up close"></i>
                         </div>
-                        <div class="games">
-                            <a asp-controller="games" asp-action="index">Oyunlar</a>
-                        </div>
-                        <div class="accessories">
-                            <a asp-controller="accessories" asp-action="index">Aksesuarlar</a>
-                        </div>
-                        <div class="gamepad">
-                            <a asp-controller="gamepads" asp-action="index">Oyun sükanları</a>
-                        </div>
-                        <div class="news">
-                            <a asp-controller="news" asp-action="index">Xəbərlər</a>
-                        </div>
-                        <div class="news">
-                            <a asp-area="admin" asp-controller="Dashboard" asp-action="index">Admin</a>
+                        <div class="all-languages d-none">
+                            <ul>
+                                <li class="azerbaijan">
+                                    <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Faz.png&w=48&q=75"
+                                    alt=""><span>AZ</span>
+                                </li>
+                                <li class="russian">
+                                    <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Fru.png&w=48&q=75"
+                                    alt=""><span>RU</span>
+                                </li>
+                                <li class="english">
+                                    <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Fuk.png&w=48&q=75"
+                                    alt=""><span>EN</span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-8 navbar-end">
-                        <div class="search-like-basket">
-                            <div class="search">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </div>
-                            <div class="search-form d-none">
-                                <form asp-controller="Search" asp-action="Index" class="search-wrapper" method="GET">
-                                    <input type="text" name="searchText" placeholder="Axtar..." class="search-input" />
-                                </form>
-                            </div>
-                            <div class="favorites">
-                                <a asp-controller="Favorites" asp-action="Index">
-                                    <i class="fa-regular fa-heart"></i>
-                                   <sup class="favorites-count">@Model.FavoritesCount</sup>
-                                </a>
-                            </div>
-                            <div class="basket">
-                                <a class="basket-link" asp-controller="Cart" asp-action="Index">
-                                    <i class="fa-solid fa-basket-shopping"></i>
-                                    <sup class="basket-count">@Model.BasketProductCount</sup>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="language">
-                            <div class="main-language">
-                                <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Faz.png&w=48&q=75"
-                                     alt=""><span>AZ</span>
-                                <i class="fa-solid fa-chevron-down open d-none"></i>
-                                <i class="fa-solid fa-chevron-up close"></i>
-                            </div>
-                            <div class="all-languages d-none">
-                                <ul>
-                                    <li class="azerbaijan">
-                                        <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Faz.png&w=48&q=75"
-                                             alt=""><span>AZ</span>
-                                    </li>
-                                    <li class="russian">
-                                        <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Fru.png&w=48&q=75"
-                                             alt=""><span>RU</span>
-                                    </li>
-                                    <li class="english">
-                                        <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Fuk.png&w=48&q=75"
-                                             alt=""><span>EN</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <a href="./Register.html" class="login">
-                        <span class="login-btn">Daxil olun</span>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <form method="post" asp-controller="Account" asp-action="Logout" class="login">
+                            <button type="submit" class="login-btn">Çıxış edin</button>
+                            <i class="fa-regular fa-user d-none"></i>
+                        </form>
+                    }
+                    else
+                    {
+                        <a asp-controller="Account" asp-action="Register" class="login">
+                            <span class="login-btn">Daxil olun</span>
                             <i class="fa-regular fa-user d-none"></i>
                         </a>
+                    }
 
-                    </div>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+</header>

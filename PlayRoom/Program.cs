@@ -5,6 +5,8 @@ using Repository.Data;
 using FluentValidation.AspNetCore;
 using FluentValidation;
 using Service.ViewModels.SpecialGameBanner;
+using Microsoft.AspNetCore.Identity;
+using Domain.Models.User;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +20,22 @@ var conString = builder.Configuration.GetConnectionString("BloggingDatabase") ??
     " not found.");
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(conString));
+
+builder.Services.AddIdentity<AppUser,IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    // Password settings.
+    options.Password.RequireDigit = true;
+    options.Password.RequireLowercase = true;
+    options.Password.RequireNonAlphanumeric = true;
+    options.Password.RequireUppercase = true;
+    options.Password.RequiredLength = 6;
+    options.Password.RequiredUniqueChars = 1;
+
+    options.User.RequireUniqueEmail = true;
+});
+
 
 
 var assemblies = AppDomain.CurrentDomain.GetAssemblies();
@@ -43,6 +61,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

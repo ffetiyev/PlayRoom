@@ -256,7 +256,7 @@ body {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                gap: 15px;
+                gap: 25px;
             }
 
                 body header .navbar .container-xxl .row .navbar-links a {
@@ -302,11 +302,12 @@ body {
                     gap: 24px;
                     color: white;
                     font-size: 20px;
-
                 }
+
                     body header .navbar .container-xxl .row .navbar-end .search-like-basket .basket-link {
-                        position:relative;
+                        position: relative;
                     }
+
                     body header .navbar .container-xxl .row .navbar-end .search-like-basket .basket-count {
                         position: absolute;
                         top: -9px;
@@ -323,21 +324,23 @@ body {
                     body header .navbar .container-xxl .row .navbar-end .search-like-basket .search {
                         cursor: pointer;
                     }
+
                     body header .navbar .container-xxl .row .navbar-end .search-like-basket .favorites {
                         position: relative;
                     }
-                    body header .navbar .container-xxl .row .navbar-end .search-like-basket .favorites .favorites-count {
-                        position: absolute;
-                        top: -5px;
-                        right: -10px;
-                        background-color: red;
-                        color: white;
-                        font-size: 12px;
-                        border-radius: 50%;
-                        padding: 9px 6px;
-                        min-width: 18px;
-                        text-align: center;
-                    }
+
+                        body header .navbar .container-xxl .row .navbar-end .search-like-basket .favorites .favorites-count {
+                            position: absolute;
+                            top: -5px;
+                            right: -10px;
+                            background-color: red;
+                            color: white;
+                            font-size: 12px;
+                            border-radius: 50%;
+                            padding: 9px 6px;
+                            min-width: 18px;
+                            text-align: center;
+                        }
 
                     body header .navbar .container-xxl .row .navbar-end .search-like-basket a {
                         color: white;
@@ -397,7 +400,7 @@ body {
 
                 body header .navbar .container-xxl .row .navbar-end .login {
                     margin-left: auto;
-                    text-decoration:none;
+                    text-decoration: none;
                 }
 
                     body header .navbar .container-xxl .row .navbar-end .login .login-btn {
@@ -514,6 +517,10 @@ body {
                     -o-object-fit: contain;
                     object-fit: contain;
                 }
+    body #make-shop .container .shop-card .card-main .card-image img {
+        width: 100% ;
+        height: 100% ;
+    }
 
                 body main #make-shop .container .shop-card .card-main a {
                     text-decoration: none;
@@ -1287,3 +1294,7 @@ body {
     }
 }
 /*# sourceMappingURL=home.css.map */
+
+.liked {
+    color: red !important;
+}

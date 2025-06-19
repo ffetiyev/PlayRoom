@@ -4,6 +4,7 @@ using Service.Service.Interfaces;
 using Service.ViewModels.Accessory;
 using Service.ViewModels.Basket;
 using Service.ViewModels.Console;
+using Service.ViewModels.Favorites;
 using Service.ViewModels.Game;
 using System.Threading.Tasks;
 
@@ -32,6 +33,17 @@ namespace PlayRoom.Controllers
             {
                 basketDatas = JsonConvert.DeserializeObject<List<BasketVM>>(_contextAccessor.HttpContext.Request.Cookies["basket"]);
             }
+
+            List<FavoritesVM> favoriteDatas = new();
+            if (_contextAccessor.HttpContext.Request.Cookies["favorites"] != null)
+            {
+                favoriteDatas = JsonConvert.DeserializeObject<List<FavoritesVM>>(_contextAccessor.HttpContext.Request.Cookies["favorites"]);
+            }
+
+            ViewBag.Favorites = favoriteDatas
+                .Select(f => (f.ProductId, f.ProductType))
+                .ToList();
+
             Dictionary<GameVM, int> games = new Dictionary<GameVM, int>();
 
             foreach (var item in basketDatas.Where(m => m.ProductType == "game"))

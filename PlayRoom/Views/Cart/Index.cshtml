@@ -76,10 +76,17 @@
                                             }
                                             </div>
                                         <div class="like-delete">
-                                            <div class="like">
+                                            @{
+                                                var favorites = ViewBag.Favorites as List<(int Id, string Type)>;
+                                                bool isFavorite = favorites?.Any(x => x.Id == item.Key.Id && x.Type == "game") == true;
+                                            }
+                                            <div class="like @(isFavorite ? "liked" : "")" product-type="game" data-id="@item.Key.Id">
                                                 <i class="fa-solid fa-heart"></i>
-                                                <span>İstək siyahısına əlavə edin</span>
                                             </div>
+                                            @if (isFavorite)
+                                            {
+                                                <span style="margin-left: 10px;">İstək siyahısına əlavə edildi</span>
+                                            }
                                             <div class="delete">
                                                 <button class="basket-delete-btn" data-id="@item.Key.Id" product-type="game"> <i class="fa-solid fa-trash"></i> Sil</button>
                                             </div>

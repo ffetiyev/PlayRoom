@@ -1,11 +1,13 @@
 ﻿using Domain.Models;
 using Domain.Models.Accessory;
 using Domain.Models.News;
+using Domain.Models.User;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Repository.Data
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<AppUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
@@ -31,5 +33,7 @@ namespace Repository.Data
         public DbSet<DeliveryPayment> DeliveyPayment { get; set; }
         public DbSet<Warranty> Warranty { get; set; }
         public DbSet<Privacy> Privacy { get; set; }
+        public DbSet<HomeShortcut> HomeShortcuts { get; set; }
+
     }
 }

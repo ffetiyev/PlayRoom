@@ -124,6 +124,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2FtZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ffati/OneDrive/Desktop/PB402/Backend-MVC/PlayRoom/PlayRoom/Areas/Admin/Views/HomeShortcut/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVNob3J0Y3V0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ffati/OneDrive/Desktop/PB402/Backend-MVC/PlayRoom/PlayRoom/Areas/Admin/Views/HomeShortcut/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVNob3J0Y3V0XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ffati/OneDrive/Desktop/PB402/Backend-MVC/PlayRoom/PlayRoom/Areas/Admin/Views/News/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -206,6 +214,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ffati/OneDrive/Desktop/PB402/Backend-MVC/PlayRoom/PlayRoom/Views/Accessories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzb3JpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ffati/OneDrive/Desktop/PB402/Backend-MVC/PlayRoom/PlayRoom/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ffati/OneDrive/Desktop/PB402/Backend-MVC/PlayRoom/PlayRoom/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ffati/OneDrive/Desktop/PB402/Backend-MVC/PlayRoom/PlayRoom/Views/Cart/Index.cshtml]

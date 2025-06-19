@@ -1,0 +1,29 @@
+﻿@model IEnumerable<HomeShortcutVM>
+
+<div class="table-responsive mt-5" style="display:inline; border-color:red">
+    <table class="table table-bordered" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Image</th>
+                <th>Option</th>
+
+            </tr>
+        </thead>
+        <tfoot>
+                @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.Description</td>
+                    <td><img src="~/assets/images/HomeShotcuts/@item.Image" alt="Alternate Text" style="width:230px;height:130px" /></td>
+                    <td class="d-flex" style="border:none; border-top:1px solid gray">
+                        <a asp-action="update" asp-route-id="@item.Id" style="padding:5px 20px" class="btn btn-warning btn-icon-split ml-3">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tfoot>
+
+    </table>
+</div>

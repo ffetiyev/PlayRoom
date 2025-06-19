@@ -26,6 +26,8 @@ namespace Service
             services.AddScoped<IWarrantyService, WarrantyService>();
             services.AddScoped<IPrivacyService, PrivacyService>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<IHomeShortcutService, HomeShortcutService>();
+            services.AddScoped<IAccountService, AccountService>();
 
             return services;
         }

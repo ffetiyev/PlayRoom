@@ -1980,6 +1980,14 @@ wwwroot\assets\images\Game-Images\Wukong.jpg
 wwwroot\assets\images\Game-Images\WWE-2K25.jpg
 wwwroot\assets\images\God-of-War-SG.webp
 wwwroot\assets\images\home_main_backround-image.webp
+wwwroot\assets\images\HomeShotcuts\5f6c2a9c-0112-4627-8a93-b09ac69c3a34Hogward.jpg
+wwwroot\assets\images\HomeShotcuts\71c30d66-e87c-409e-b11e-9bd397508daeaccessory-logo.jpg
+wwwroot\assets\images\HomeShotcuts\9c04315a-530d-4ba1-951b-112e6cd96e15Ps5-Icon.jpg
+wwwroot\assets\images\HomeShotcuts\accessory-logo.jpg
+wwwroot\assets\images\HomeShotcuts\c31d4e48-6012-4a1f-9f66-fcead1c0ed44ps5.png
+wwwroot\assets\images\HomeShotcuts\Hogward.jpg
+wwwroot\assets\images\HomeShotcuts\img8.jpg
+wwwroot\assets\images\HomeShotcuts\Ps5-Icon.jpg
 wwwroot\assets\images\news\20ac0df5-89da-424f-8f7e-b02db88ea33d-img5.jpg
 wwwroot\assets\images\news\2a6d69e1-ac4c-486e-a94e-fa8ff30b093d-img3.jpg
 wwwroot\assets\images\news\30cfd9a3-be0f-4ad1-be9a-57dcae8a372b-img6.jpg

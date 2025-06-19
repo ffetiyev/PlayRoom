@@ -16,70 +16,96 @@
         <div class="container">
             <h3 class="shop-message">Alış-veriş edin</h3>
             <div class="row">
-                <div class="col-xl-3 col-6 shop-card">
-                    <div class="card-main">
-                        <a href="">
-                            <div class="card-title">
-                                <p>Oyun konsolları</p>
-                                <p>Oyun konsolları kolleksiyamızı kəşf edin</p>
+                @{
+                    var consoleShortcut = Model.HomeShortcuts.FirstOrDefault(m => m.Type == "console");
+                }
+                @if (consoleShortcut != null)
+                {
+                    <div class="col-xl-3 col-6 shop-card">
+                        <div class="card-main">
+                            <a asp-controller="consoles" asp-action="index">
+                                <div class="card-title">
+                                    <p>@consoleShortcut.Title</p>
+                                    <p>@consoleShortcut.Description</p>
+                                </div>
+                                <div class="card-image">
+                                    <img src="~/assets/images/HomeShotcuts/@consoleShortcut.Image" alt="">
+                                </div>
+                            </a>
+                            <div class="all-products">
+                                <a asp-controller="consoles" asp-action="index">Hamısı</a>
                             </div>
-                            <div class="card-image">
-                                <img src="https://cdn.playroom.az/menu_icon/cat_icon_106.webp" alt="">
-                            </div>
-                        </a>
-                        <div class="all-products">
-                            <a href="">Hamısı</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-3 col-6 shop-card">
-                    <div class="card-main">
-                        <a href="">
-                            <div class="card-title">
-                                <p>Oyunlar</p>
-                                <p>Oyun kolleksiyamızı kəşf edin</p>
+                }
+                @{
+                    var gameShortcut = Model.HomeShortcuts.FirstOrDefault(m => m.Type == "game");
+                }
+                @if (gameShortcut != null)
+                {
+                    <div class="col-xl-3 col-6 shop-card">
+                        <div class="card-main">
+                            <a asp-controller="games" asp-action="index">
+                                <div class="card-title">
+                                    <p>@gameShortcut.Title</p>
+                                    <p>@gameShortcut.Description</p>
+                                </div>
+                                <div class="card-image">
+                                    <img src="~/assets/images/HomeShotcuts/@gameShortcut.Image" alt="">
+                                </div>
+                            </a>
+                            <div class="all-products">
+                                <a asp-controller="games" asp-action="index">Hamısı</a>
                             </div>
-                            <div class="card-image">
-                                <img src="https://cdn.playroom.az/menu_icon/cat_icon_148.webp" alt="">
-                            </div>
-                        </a>
-                        <div class="all-products">
-                            <a href="">Hamısı</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-3 col-6 shop-card">
-                    <div class="card-main">
-                        <a href="">
-                            <div class="card-title">
-                                <p>Aksesuarlar</p>
-                                <p>Aksesuar kolleksiyamızı kəşf edin</p>
+                }
+
+                @{
+                    var accessoryShortcut = Model.HomeShortcuts.FirstOrDefault(m => m.Type == "accessory");
+                }
+                @if (accessoryShortcut != null)
+                {
+                    <div class="col-xl-3 col-6 shop-card">
+                        <div class="card-main">
+                            <a asp-controller="Accessories" asp-action="index">
+                                <div class="card-title">
+                                    <p>@accessoryShortcut.Title</p>
+                                    <p>@accessoryShortcut.Description</p>
+                                </div>
+                                <div class="card-image">
+                                    <img src="~/assets/images/HomeShotcuts/@accessoryShortcut.Image" alt="">
+                                </div>
+                            </a>
+                            <div class="all-products">
+                                <a asp-controller="Accessories" asp-action="index">Hamısı</a>
                             </div>
-                            <div class="card-image">
-                                <img src="https://cdn.playroom.az/menu_icon/cat_icon_115.webp" alt="">
-                            </div>
-                        </a>
-                        <div class="all-products">
-                            <a href="">Hamısı</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-3 col-6 shop-card">
-                    <div class="card-main">
-                        <a href="">
-                            <div class="card-title">
-                                <p>Oyun sükanları</p>
-                                <p>Oyun sükanları kolleksiyamızı kəşf edin</p>
+                }
+
+                @{
+                    var newsShortcut = Model.HomeShortcuts.FirstOrDefault(m => m.Type == "news");
+                }
+                @if (newsShortcut != null)
+                {
+                    <div class="col-xl-3 col-6 shop-card">
+                        <div class="card-main">
+                            <a asp-controller="news" asp-action="index">
+                                <div class="card-title">
+                                    <p>@newsShortcut.Title</p>
+                                    <p>@newsShortcut.Description</p>
+                                </div>
+                                <div class="card-image">
+                                    <img src="~/assets/images/HomeShotcuts/@newsShortcut.Image" alt="">
+                                </div>
+                            </a>
+                            <div class="all-products">
+                                <a asp-controller="news" asp-action="index">Hamısı</a>
                             </div>
-                            <div class="card-image">
-                                <img src="https://cdn.playroom.az/menu_icon/cat_icon_160.webp" alt="">
-                            </div>
-                        </a>
-                        <div class="all-products">
-                            <a href="">Hamısı</a>
                         </div>
                     </div>
-                </div>
+                }
             </div>
         </div>
     </section>
@@ -100,149 +126,75 @@
 
     <section id="best-sellers">
         <div class="container-xxl">
-            <h3 class="title ">Bizim bestsellerlərimiz</h3>
+            <h3 class="title ">Ən yaxşı endirimlər</h3>
             <div class="products">
                 <div class="row">
-                    <div class="col-lg-3 col-6 product">
-                        <div class="card-main">
-                            <div class="card-top">
-                                <a href="">
-                                    <img src="https://cdn.playroom.az/productimg/158/597/playroom_img_23_1730803860.png.webp"
-                                    alt="">
-                                </a>
-                                <div class="new">
-                                    <span>YENI</span>
-                                </div>
-                                <div class="discount">
-                                    <span>ENDIRIM</span>
-                                </div>
-                                <div class="like">
-                                    <i class="fa-solid fa-heart"></i>
-                                </div>
-                                <!-- <div class="not-like">
-                                <i class="fa-regular fa-heart"></i>
-                                </div> -->
-                            </div>
-                            <div class="card-bottom">
-                                <div class="game-name">
-                                    <a href="">
-                                        Call of Duty: Black Ops 6 (PS4)
+                    @foreach (var item in Model.Games
+                    .OrderBy(m => m.GameDiscounts.Any() ? m.GameDiscounts.Max(d => d.Value) : 0).TakeLast(4))
+                    {
+                        <div class="col-lg-3 col-6 product">
+                            <div class="card-main">
+                                <div class="card-top">
+                                    <a asp-controller="Games" asp-action="Detail" asp-route-id="@item.Id">
+                                        <img src="~/assets/images/Game-Images/@item.GameImages.FirstOrDefault(m=>m.IsMain==true).Name"
+                                             alt="">
                                     </a>
+                                    @if (item.CreatedDate > DateTime.Now.AddYears(-1))
+                                    {
+                                        <div class="new">
+                                            <span>YENI</span>
+                                        </div>
+                                    }
+                                    @if (item.GameDiscounts != null && item.GameDiscounts.Any())
+                                    {
+                                        <div class="discount">
+                                            <span>ENDIRIM</span>
+                                        </div>
+                                    }
+                                    @{
+                                        var favorites = ViewBag.Favorites as List<(int Id, string Type)>;
+                                        bool isFavorite = favorites?.Any(x => x.Id == item.Id && x.Type == "game") == true;
+                                    }
+                                    <div class="like @(isFavorite ? "liked" : "")" product-type="game" data-id="@item.Id">
+                                        <i class="fa-solid fa-heart"></i>
+                                    </div>
                                 </div>
-                                <div class="game-price mt-4">
-                                    <span class="old-price">149 ₼</span>
-                                    <span class="price">119 ₼</span>
-                                </div>
-                            </div>
-                            <div class="add-basket">
-                                <button>SƏBƏTƏ AT</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6 product">
-                        <div class="card-main">
-                            <div class="card-top">
-                                <a href="">
-                                    <img src="https://cdn.playroom.az/productimg/157/627/playroom_img_41_1744119114.jpg.webp"
-                                    alt="">
-                                </a>
-                                <div class="new">
-                                    <span>YENI</span>
-                                </div>
-                                <div class="discount">
-                                    <span>ENDIRIM</span>
-                                </div>
-                                <div class="like">
-                                    <i class="fa-solid fa-heart"></i>
-                                </div>
-                            </div>
-                            <div class="card-bottom">
-                                <div class="game-name">
-                                    <a href="">
-                                        Call of Duty: Black Ops 6 (PS4)
-                                    </a>
-                                </div>
-                                <div class="game-price mt-4">
-                                    <span class="old-price">149 ₼</span>
-                                    <span class="price">119 ₼</span>
-                                </div>
-                            </div>
-                            <div class="add-basket">
-                                <button>SƏBƏTƏ AT</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6 product">
-                        <div class="card-main">
-                            <div class="card-top">
-                                <a href="">
-                                    <img src="https://cdn.playroom.az/productimg/157/595/playroom_img_30_1730803041.jpg.webp"
-                                    alt="">
-                                </a>
-                                <div class="new">
-                                    <span>YENI</span>
-                                </div>
-                                <div class="discount">
-                                    <span>ENDIRIM</span>
-                                </div>
-                                <div class="like">
-                                    <i class="fa-solid fa-heart"></i>
-                                </div>
-                            </div>
-                            <div class="card-bottom">
-                                <div class="game-name">
-                                    <a href="">
-                                        Call of Duty: Black Ops 6 (PS4)
-                                    </a>
-                                </div>
-                                <div class="game-price mt-4">
-                                    <span class="old-price">149 ₼</span>
-                                    <span class="price">119 ₼</span>
-                                </div>
-                            </div>
-                            <div class="add-basket">
-                                <button>SƏBƏTƏ AT</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6 product">
-                        <div class="card-main">
-                            <div class="card-top">
-                                <a href="">
-                                    <img src="https://cdn.playroom.az/productimg/157/600/playroom_img_81_1744109859.jpg.webp"
-                                    alt="">
-                                </a>
-                                <div class="new">
-                                    <span>YENI</span>
-                                </div>
-                                <div class="discount">
-                                    <span>ENDIRIM</span>
-                                </div>
-                                <div class="like">
-                                    <i class="fa-solid fa-heart"></i>
-                                </div>
+                                <div class="card-bottom">
+                                    <div class="game-name">
+                                        <a href="">
+                                            @item.Name
+                                            @if (item.GameCategory.Any())
+                                            {
+                                                @($" ({string.Join(", ", item.GameCategory.Select(c => c.Name))})")
+                                            }
+                                        </a>
+                                    </div>
+                                    <div class="game-price mt-4">
+                                        @if (item.GameDiscounts != null && item.GameDiscounts.Any())
+                                        {
+                                            <span class="old-price">@item.Price.ToString("F0") ₼</span>
+                                            <span class="price">
+                                                @((item.Price - item.GameDiscounts.Max(m => m.Value) * item.Price / 100).ToString("F0")) ₼
+                                            </span>
+                                        }
+                                        else
+                                        {
+                                            <span class="price">@item.Price.ToString("F0") ₼</span>
+                                        }
 
-                            </div>
-                            <div class="card-bottom">
-                                <div class="game-name">
-                                    <a href="">
-                                        Call of Duty: Black Ops 6 (PS4)
-                                    </a>
+                                    </div>
                                 </div>
-                                <div class="game-price mt-4">
-                                    <span class="old-price">149 ₼</span>
-                                    <span class="price">119 ₼</span>
+                                <div class="add-basket">
+                                    <button class="add-basket-btn" type="submit" product-type="game" data-id="@item.Id">SƏBƏTƏ AT</button>
                                 </div>
-                            </div>
-                            <div class="add-basket">
-                                <button>SƏBƏTƏ AT</button>
                             </div>
                         </div>
-                    </div>
+                    }
+
                 </div>
             </div>
             <div class="see-all">
-                <a href="">BÜTÜN MƏHSULLARA BAXIN <i class="fa-solid fa-arrow-right-long"></i></a>
+                <a asp-asp-controller="Games" asp-action="Index">BÜTÜN MƏHSULLARA BAXIN <i class="fa-solid fa-arrow-right-long"></i></a>
             </div>
         </div>
     </section>
@@ -257,7 +209,7 @@
                         <div class="col-lg-3 col-6 product">
                             <div class="card-main">
                                 <div class="card-top">
-                                    <a asp-controller="Games" asp-action="Index" asp-route-id="@item.Id">
+                                    <a asp-controller="Games" asp-action="Detail" asp-route-id="@item.Id">
                                         <img src="~/assets/images/Game-Images/@item.GameImages.FirstOrDefault(m=>m.IsMain==true).Name"
                                         alt="">
                                     </a>
@@ -273,9 +225,13 @@
                                             <span>ENDIRIM</span>
                                         </div>
                                     }
-                                    <div class="like">
-                                        <i class="fa-solid fa-heart"></i>
-                                    </div>
+                                        @{
+                                            var favorites = ViewBag.Favorites as List<(int Id, string Type)>;
+                                            bool isFavorite = favorites?.Any(x => x.Id == item.Id && x.Type == "game") == true;
+                                        }
+                                        <div class="like @(isFavorite ? "liked" : "")" product-type="game" data-id="@item.Id">
+                                            <i class="fa-solid fa-heart"></i>
+                                        </div>
                                 </div>
                                 <div class="card-bottom">
                                     <div class="game-name">

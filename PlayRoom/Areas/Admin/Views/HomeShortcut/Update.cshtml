@@ -1,0 +1,27 @@
+﻿@model HomeShortcutUpdateVM
+
+<div class="container">
+    <img src="~/assets/images/HomeShotcuts/@Model.Image" alt="Alternate Text" style="width:230px;height:130px" />
+    <form class="user mt-5" method="post" asp-action="Update" enctype="multipart/form-data">
+        <div class="form-group">
+            <input asp-for="Title" type="text" class="form-control form-control-user" placeholder="Enter slider new title...">
+            <span class="text-danger" asp-validation-for="Title"></span>
+        </div>
+        <div class="form-group">
+            <input asp-for="Description" type="text" class="form-control form-control-user" placeholder="Enter slider new desctiption...">
+            <span class="text-danger" asp-validation-for="Description"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="UploadImage">Choose Image</label>
+            <input asp-for="UploadImage" type="file" class="form-control-file" />
+            <span class="text-danger" asp-validation-for="UploadImage"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-user btn-block">
+            Submit
+        </button>
+        <a asp-action="index" class="btn btn-danger btn-user btn-block">
+            Cancel
+        </a>
+        <hr>
+    </form>
+</div>

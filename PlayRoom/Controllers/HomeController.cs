@@ -6,6 +6,8 @@ using Service.ViewModels.SpecialGameBanner;
 using Service.ViewModels.Game;
 using Newtonsoft.Json;
 using Service.ViewModels.Basket;
+using Service.ViewModels.Favorites;
+using Service.ViewModels.HomeShortcut;
 
 namespace PlayRoom.Controllers;
 
@@ -16,30 +18,45 @@ public class HomeController : Controller
     private readonly IGameService _gameService;
     private readonly ISpecialGameBannerService _specialGameBannerService;
     private readonly IHttpContextAccessor _contextAccessor;
+    private readonly IHomeShortcutService _homeShortcutService;
     public HomeController(IWelcomeBannerService welcomeBannerService,
                           IGameService gameService,
                           ISpecialGameBannerService specialGameBannerService,
-                          IHttpContextAccessor contextAccessor)
+                          IHttpContextAccessor contextAccessor,
+                          IHomeShortcutService homeShortcutService)
     {
         _welcomeBannerService = welcomeBannerService;
         _gameService = gameService;
         _specialGameBannerService = specialGameBannerService;
         _contextAccessor = contextAccessor;
+        _homeShortcutService = homeShortcutService;
     }
     public async Task<IActionResult> Index()
     {
         WelcomeBannerVM welcomeBanners = await _welcomeBannerService.GetAsync();
         IEnumerable<GameVM> games = await _gameService.GetAllAsync();
         IEnumerable<SpecialGameBannerVM> specialGameBanners = await _specialGameBannerService.GetAllAsync();
+        IEnumerable<HomeShortcutVM> homeShortcuts = await _homeShortcutService.GetAllAsync();
 
         HomeVM models = new()
         {
             WelcomeBanner=welcomeBanners,
             Games=games,
-            SpecialGameBanners=specialGameBanners
+            SpecialGameBanners=specialGameBanners,
+            HomeShortcuts=homeShortcuts
         };
 
-           return View(models);
+        List<FavoritesVM> favoriteDatas = new();
+        if (_contextAccessor.HttpContext.Request.Cookies["favorites"] != null)
+        {
+            favoriteDatas = JsonConvert.DeserializeObject<List<FavoritesVM>>(_contextAccessor.HttpContext.Request.Cookies["favorites"]);
+        }
+
+        ViewBag.Favorites = favoriteDatas
+            .Select(f => (f.ProductId, f.ProductType))
+            .ToList();
+
+        return View(models);
     }
 
     [HttpPost]
