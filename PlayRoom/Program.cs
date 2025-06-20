@@ -7,6 +7,10 @@ using FluentValidation;
 using Service.ViewModels.SpecialGameBanner;
 using Microsoft.AspNetCore.Identity;
 using Domain.Models.User;
+using Service.Service;
+using Service.Helpers;
+using PlayRoom.Middlewares;
+using Serilog;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,7 +25,17 @@ var conString = builder.Configuration.GetConnectionString("BloggingDatabase") ??
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(conString));
 
+// Configure Serilog
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .Enrich.FromLogContext()
+    .CreateLogger();
+
+builder.Host.UseSerilog();
+
 builder.Services.AddIdentity<AppUser,IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("Smtp"));
 
 builder.Services.Configure<IdentityOptions>(options =>
 {
@@ -33,9 +47,9 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequiredLength = 6;
     options.Password.RequiredUniqueChars = 1;
 
+    options.SignIn.RequireConfirmedEmail = true;
     options.User.RequireUniqueEmail = true;
 });
-
 
 
 var assemblies = AppDomain.CurrentDomain.GetAssemblies();
@@ -46,13 +60,14 @@ builder.Services.AddServiceLayer();
 // Add FluentValidation
 builder.Services.AddFluentValidationAutoValidation();
 
-var app = builder.Build();
+builder.Services.AddProblemDetails(); 
 
-// Configure the HTTP request pipeline.
+var app = builder.Build();
+app.UseMiddleware<GlobalExceptionHandler>();
+
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseExceptionHandler("/Home/Error"); // still acts as fallback
     app.UseHsts();
 }
 

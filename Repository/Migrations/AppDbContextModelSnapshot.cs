@@ -161,7 +161,7 @@ namespace Repository.Migrations
                     b.ToTable("Companies");
                 });
 
-            modelBuilder.Entity("Domain.Models.Console", b =>
+            modelBuilder.Entity("Domain.Models.Console.Console", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -194,7 +194,7 @@ namespace Repository.Migrations
                     b.ToTable("Consoles");
                 });
 
-            modelBuilder.Entity("Domain.Models.ConsoleCategory", b =>
+            modelBuilder.Entity("Domain.Models.Console.ConsoleCategory", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -217,7 +217,7 @@ namespace Repository.Migrations
                     b.ToTable("ConsoleCategories");
                 });
 
-            modelBuilder.Entity("Domain.Models.ConsoleDiscount", b =>
+            modelBuilder.Entity("Domain.Models.Console.ConsoleDiscount", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -240,7 +240,7 @@ namespace Repository.Migrations
                     b.ToTable("ConsoleDiscounts");
                 });
 
-            modelBuilder.Entity("Domain.Models.ConsoleImage", b =>
+            modelBuilder.Entity("Domain.Models.Console.ConsoleImage", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -302,7 +302,7 @@ namespace Repository.Migrations
                     b.ToTable("Discounts");
                 });
 
-            modelBuilder.Entity("Domain.Models.Game", b =>
+            modelBuilder.Entity("Domain.Models.Game.Game", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -332,7 +332,7 @@ namespace Repository.Migrations
                     b.ToTable("Games");
                 });
 
-            modelBuilder.Entity("Domain.Models.GameCategory", b =>
+            modelBuilder.Entity("Domain.Models.Game.GameCategory", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -355,7 +355,7 @@ namespace Repository.Migrations
                     b.ToTable("GameCategories");
                 });
 
-            modelBuilder.Entity("Domain.Models.GameDiscount", b =>
+            modelBuilder.Entity("Domain.Models.Game.GameDiscount", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -378,7 +378,7 @@ namespace Repository.Migrations
                     b.ToTable("GameDiscounts");
                 });
 
-            modelBuilder.Entity("Domain.Models.GameImage", b =>
+            modelBuilder.Entity("Domain.Models.Game.GameImage", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -482,6 +482,26 @@ namespace Repository.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Privacy");
+                });
+
+            modelBuilder.Entity("Domain.Models.Promocode", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Value")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Promocodes");
                 });
 
             modelBuilder.Entity("Domain.Models.Setting", b =>
@@ -840,7 +860,7 @@ namespace Repository.Migrations
                     b.Navigation("Accessory");
                 });
 
-            modelBuilder.Entity("Domain.Models.ConsoleCategory", b =>
+            modelBuilder.Entity("Domain.Models.Console.ConsoleCategory", b =>
                 {
                     b.HasOne("Domain.Models.Category", "Category")
                         .WithMany("ConsoleCategories")
@@ -848,7 +868,7 @@ namespace Repository.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Domain.Models.Console", "Console")
+                    b.HasOne("Domain.Models.Console.Console", "Console")
                         .WithMany("ConsoleCategories")
                         .HasForeignKey("ConsoleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -859,9 +879,9 @@ namespace Repository.Migrations
                     b.Navigation("Console");
                 });
 
-            modelBuilder.Entity("Domain.Models.ConsoleDiscount", b =>
+            modelBuilder.Entity("Domain.Models.Console.ConsoleDiscount", b =>
                 {
-                    b.HasOne("Domain.Models.Console", "Console")
+                    b.HasOne("Domain.Models.Console.Console", "Console")
                         .WithMany("ConsoleDiscounts")
                         .HasForeignKey("ConsoleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -878,9 +898,9 @@ namespace Repository.Migrations
                     b.Navigation("Discount");
                 });
 
-            modelBuilder.Entity("Domain.Models.ConsoleImage", b =>
+            modelBuilder.Entity("Domain.Models.Console.ConsoleImage", b =>
                 {
-                    b.HasOne("Domain.Models.Console", "Console")
+                    b.HasOne("Domain.Models.Console.Console", "Console")
                         .WithMany("ConsoleImages")
                         .HasForeignKey("ConsoleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -889,7 +909,7 @@ namespace Repository.Migrations
                     b.Navigation("Console");
                 });
 
-            modelBuilder.Entity("Domain.Models.GameCategory", b =>
+            modelBuilder.Entity("Domain.Models.Game.GameCategory", b =>
                 {
                     b.HasOne("Domain.Models.Category", "Category")
                         .WithMany("GameCategories")
@@ -897,7 +917,7 @@ namespace Repository.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Domain.Models.Game", "Game")
+                    b.HasOne("Domain.Models.Game.Game", "Game")
                         .WithMany("GameCategories")
                         .HasForeignKey("GameId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -908,7 +928,7 @@ namespace Repository.Migrations
                     b.Navigation("Game");
                 });
 
-            modelBuilder.Entity("Domain.Models.GameDiscount", b =>
+            modelBuilder.Entity("Domain.Models.Game.GameDiscount", b =>
                 {
                     b.HasOne("Domain.Models.Discount", "Discount")
                         .WithMany("GameDiscounts")
@@ -916,7 +936,7 @@ namespace Repository.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Domain.Models.Game", "Game")
+                    b.HasOne("Domain.Models.Game.Game", "Game")
                         .WithMany("GameDiscounts")
                         .HasForeignKey("GameId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -927,9 +947,9 @@ namespace Repository.Migrations
                     b.Navigation("Game");
                 });
 
-            modelBuilder.Entity("Domain.Models.GameImage", b =>
+            modelBuilder.Entity("Domain.Models.Game.GameImage", b =>
                 {
-                    b.HasOne("Domain.Models.Game", "Game")
+                    b.HasOne("Domain.Models.Game.Game", "Game")
                         .WithMany("GameImages")
                         .HasForeignKey("GameId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -1007,7 +1027,7 @@ namespace Repository.Migrations
                     b.Navigation("GameCategories");
                 });
 
-            modelBuilder.Entity("Domain.Models.Console", b =>
+            modelBuilder.Entity("Domain.Models.Console.Console", b =>
                 {
                     b.Navigation("ConsoleCategories");
 
@@ -1025,7 +1045,7 @@ namespace Repository.Migrations
                     b.Navigation("GameDiscounts");
                 });
 
-            modelBuilder.Entity("Domain.Models.Game", b =>
+            modelBuilder.Entity("Domain.Models.Game.Game", b =>
                 {
                     b.Navigation("GameCategories");
 

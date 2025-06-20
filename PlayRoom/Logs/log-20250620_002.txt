@@ -1,0 +1,64 @@
+2025-06-20 19:58:07.383 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Accessory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-20 19:58:07.428 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Console'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-20 19:58:07.428 +04:00 [WRN] No store type was specified for the decimal property 'Value' on entity type 'Discount'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-20 19:58:07.428 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Game'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-20 19:58:07.732 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Accessory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-20 19:58:07.732 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Console'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-20 19:58:07.732 +04:00 [WRN] No store type was specified for the decimal property 'Value' on entity type 'Discount'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-20 19:58:07.732 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Game'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-20 19:58:37.906 +04:00 [INF] User profile is available. Using 'C:\Users\fetiy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-20 19:58:38.074 +04:00 [INF] Now listening on: http://localhost:5125
+2025-06-20 19:58:38.108 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-20 19:58:38.108 +04:00 [INF] Hosting environment: Development
+2025-06-20 19:58:38.108 +04:00 [INF] Content root path: C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom
+2025-06-20 19:58:38.238 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5125/games - null null
+2025-06-20 19:58:38.410 +04:00 [WRN] Failed to determine the https port for redirect.
+2025-06-20 19:58:38.636 +04:00 [INF] Executing endpoint 'PlayRoom.Controllers.GamesController.Index (PlayRoom)'
+2025-06-20 19:58:38.658 +04:00 [INF] Route matched with {action = "Index", controller = "Games", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller PlayRoom.Controllers.GamesController (PlayRoom).
+2025-06-20 19:58:39.647 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Accessory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-20 19:58:39.648 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Console'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-20 19:58:39.648 +04:00 [WRN] No store type was specified for the decimal property 'Value' on entity type 'Discount'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-20 19:58:39.648 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Game'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-20 19:58:40.626 +04:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-06-20 19:58:41.073 +04:00 [INF] Executed DbCommand (115ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Description], [g].[Name], [g].[Price], [g].[StockCount], [g].[CreatedDate], [g0].[IsMain], [g0].[Name], [g0].[Id], [t].[Value], [t].[Id], [t].[Id0], [t0].[Id], [t0].[Name], [t0].[Id0]
+FROM [Games] AS [g]
+LEFT JOIN [GameImages] AS [g0] ON [g].[Id] = [g0].[GameId]
+LEFT JOIN (
+    SELECT [d].[Value], [g1].[Id], [d].[Id] AS [Id0], [g1].[GameId]
+    FROM [GameDiscounts] AS [g1]
+    INNER JOIN [Discounts] AS [d] ON [g1].[DiscountId] = [d].[Id]
+) AS [t] ON [g].[Id] = [t].[GameId]
+LEFT JOIN (
+    SELECT [c].[Id], [c].[Name], [g2].[Id] AS [Id0], [g2].[GameId]
+    FROM [GameCategories] AS [g2]
+    INNER JOIN [Categories] AS [c] ON [g2].[CategoryId] = [c].[Id]
+) AS [t0] ON [g].[Id] = [t0].[GameId]
+ORDER BY [g].[Id], [g0].[Id], [t].[Id], [t].[Id0], [t0].[Id0]
+2025-06-20 19:58:41.162 +04:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Games] AS [g]
+2025-06-20 19:58:41.236 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-06-20 19:58:41.410 +04:00 [INF] Executing ViewResult, running view Index.
+2025-06-20 19:58:41.555 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Image], [c].[Name]
+FROM [Companies] AS [c]
+2025-06-20 19:58:41.586 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Key], [s].[Value]
+FROM [Settings] AS [s]
+2025-06-20 19:58:41.659 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Image], [c].[Name]
+FROM [Companies] AS [c]
+2025-06-20 19:58:41.667 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Key], [s].[Value]
+FROM [Settings] AS [s]
+2025-06-20 19:58:41.721 +04:00 [INF] Executed ViewResult - view Index executed in 311.0036ms.
+2025-06-20 19:58:41.726 +04:00 [INF] Executed action PlayRoom.Controllers.GamesController.Index (PlayRoom) in 3067.3954ms
+2025-06-20 19:58:41.726 +04:00 [INF] Executed endpoint 'PlayRoom.Controllers.GamesController.Index (PlayRoom)'
+2025-06-20 19:58:41.737 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5125/games - 200 null text/html; charset=utf-8 3499.9577ms
+2025-06-20 19:58:42.876 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5125/_vs/browserLink - null null
+2025-06-20 19:58:42.878 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5125/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-20 19:58:42.880 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5125/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 1.7495ms
+2025-06-20 19:58:42.909 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5125/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.4076ms

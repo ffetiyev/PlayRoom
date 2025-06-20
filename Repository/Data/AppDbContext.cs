@@ -1,5 +1,7 @@
 ﻿using Domain.Models;
 using Domain.Models.Accessory;
+using Domain.Models.Console;
+using Domain.Models.Game;
 using Domain.Models.News;
 using Domain.Models.User;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -20,7 +22,7 @@ namespace Repository.Data
         public DbSet<GameImage> GameImages { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Company> Companies { get; set; }
-        public DbSet<Domain.Models.Console> Consoles { get; set; }
+        public DbSet<Domain.Models.Console.Console> Consoles { get; set; }
         public DbSet<ConsoleCategory> ConsoleCategories { get; set; }
         public DbSet<ConsoleImage> ConsoleImages { get; set; }
         public DbSet<ConsoleDiscount> ConsoleDiscounts { get; set; }
@@ -34,6 +36,7 @@ namespace Repository.Data
         public DbSet<Warranty> Warranty { get; set; }
         public DbSet<Privacy> Privacy { get; set; }
         public DbSet<HomeShortcut> HomeShortcuts { get; set; }
+        public DbSet<Promocode> Promocodes { get; set; }
 
     }
 }

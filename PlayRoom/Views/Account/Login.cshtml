@@ -14,7 +14,7 @@
                 <div class="col-lg-6 col-12 register-part">
                     <div class="register">
                         <div class="form-header">
-                            <h3>Qeydiyyatdan keç</h3>
+                            <h3>Daxik ol</h3>
                         </div>
                         <form asp-controller="Account" asp-action="login" method="post" class="register-form">
                             <div class="text-danger" asp-validation-summary="All"></div>
@@ -27,6 +27,7 @@
                                 <label asp-for="Password">Şifrə</label>
                                 <input asp-for="Password">
                             </div>
+                            <a asp-action="ForgotPassword" style="text-decoration:none;">Şifrəmi unutdum</a>
                             <button type="submit" class="submit-btn">Daxil olun</button>
                             <p>Hesabın yoxdu? <a asp-action="Register">Qeydiyyatdan keç</a></p>
                         </form>

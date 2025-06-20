@@ -115,12 +115,11 @@
                             </a>
                         </div>
                         <div class="about">
-                            <a href="">Şirkət haqqında</a>
                             <a asp-controller="DeliveryPayment" asp-action="Index">Çatdırılma və ödəniş</a>
                             <a asp-controller="Warranty" asp-action="Index">Zəmanət və təmir şərtləri</a>
                             <a asp-controller="News" asp-action="Index">Xəbərlər</a>
                             <a asp-controller="Privacy" asp-action="Index">Məxfilik siyasəti</a>
-                            <a href="">Əlaqə</a>
+                            <span style="color: hsla(0, 0%, 100%, 0.5);margin-left:10px">Əlaqə: @settings.FirstOrDefault(m => m.Key == "Phone")?.Value</span>
                         </div>
                     </div>
                 </div>

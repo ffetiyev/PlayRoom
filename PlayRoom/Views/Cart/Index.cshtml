@@ -238,7 +238,8 @@
                                 <div class="middle-line"></div>
                                 <div class="final-price">
                                     <span>Toplam :</span>
-                                    <span class="res-price">@Model.Total.ToString("F0") ₼</span>
+                                    <span class="res-price" id="totalPrice" data-original="@Model.Total">@Model.Total.ToString("F0") ₼</span>
+
                                 </div>
                                 <div class="finish-order">
                                     <button>Sifarişi rəsmiləşdir</button>
@@ -254,11 +255,12 @@
                                 </div>
                                 <div class="add-promocode d-none">
                                     <div class="get-promo">
-                                        <input class="promo-input" type="text">
+                                        <input class="promo-input" type="text" id="promoInput">
                                     </div>
                                     <div class="confirm-code">
-                                        <button>Tətbiq et</button>
+                                        <button type="button" class="apply-promo" id="applyPromo">Tətbiq et</button>
                                     </div>
+                                    <span id="promoMessage" class="text-danger mt-2 d-block"></span>
                                 </div>
                             </div>
                        </div>

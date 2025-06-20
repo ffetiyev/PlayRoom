@@ -21,12 +21,10 @@
                             <li><a class="b-link" asp-controller="games" asp-action="index" target="_blank">Oyunlar</a></li>
                             <li><a class="b-link" asp-controller="accessories" asp-action="index" target="_blank">Aksesuarlar</a></li>
                             <li><a class="b-link" asp-controller="gamepads" asp-action="index" target="_blank">Oyun sükanları</a></li>
-                            <li><a class="b-link" href="" target="_blank">Şirkət haqqında</a></li>
-                            <li><a class="b-link" href="" target="_blank">Çatdırılma və ödəniş</a></li>
-                            <li><a class="b-link" href="" target="_blank">Zəmanət və təmir şərtləri</a></li>
+                            <li><a class="b-link" asp-controller="DeliveryPayment" asp-action="Index" target="_blank">Çatdırılma və ödəniş</a></li>
+                            <li><a class="b-link" asp-controller="Warranty" asp-action="Index" target="_blank">Zəmanət və təmir şərtləri</a></li>
                             <li><a class="b-link" asp-controller="news" asp-action="index" target="_blank">Xəbərlər</a></li>
-                            <li><a class="b-link" href="" target="_blank">Məxfilik siyasəti</a></li>
-                            <li><a class="b-link" href="" target="_blank">Əlaqə</a></li>
+                            <li><a class="b-link" asp-controller="Privacy" asp-action="Index" target="_blank">Məxfilik siyasəti</a></li>
                         </div>
                         <!-- Burger-Icon -->
                         <div class="b-container">
@@ -42,7 +40,7 @@
                         <a asp-controller="home" asp-action="index"><img src="https://cdn.playroom.az/era_cms_assets/logolight.webp" alt=""></a>
                     </div>
                 </div>
-                <div class="col-lg-6 navbar-links">
+                <div class="col-lg-5 navbar-links">
                     <div class="game-consols">
                         <a asp-controller="consoles" asp-action="index">Oyun konsolları</a>
                     </div>
@@ -55,11 +53,14 @@
                     <div class="news">
                         <a asp-controller="news" asp-action="index">Xəbərlər</a>
                     </div>
-                    <div class="news">
-                        <a asp-area="admin" asp-controller="Dashboard" asp-action="index">Admin</a>
-                    </div>
+                    @if (User.IsInRole("SuperAdmin") || User.IsInRole("Admin"))
+                    {
+                        <div class="news">
+                            <a asp-area="admin" asp-controller="Dashboard" asp-action="index">Admin</a>
+                        </div>
+                    }
                 </div>
-                <div class="col-lg-5 col-8 navbar-end">
+                <div class="col-lg-6 col-8 navbar-end">
                     <div class="search-like-basket">
                         <div class="search">
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -85,7 +86,7 @@
                     <div class="language">
                         <div class="main-language">
                             <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Faz.png&w=48&q=75"
-                            alt=""><span>AZ</span>
+                                 alt=""><span>AZ</span>
                             <i class="fa-solid fa-chevron-down open d-none"></i>
                             <i class="fa-solid fa-chevron-up close"></i>
                         </div>
@@ -93,15 +94,15 @@
                             <ul>
                                 <li class="azerbaijan">
                                     <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Faz.png&w=48&q=75"
-                                    alt=""><span>AZ</span>
+                                         alt=""><span>AZ</span>
                                 </li>
                                 <li class="russian">
                                     <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Fru.png&w=48&q=75"
-                                    alt=""><span>RU</span>
+                                         alt=""><span>RU</span>
                                 </li>
                                 <li class="english">
                                     <img src="https://playroom.az/_next/image?url=https%3A%2F%2Fcdn.playroom.az%2Fera_cms_assets%2Fflags%2Fuk.png&w=48&q=75"
-                                    alt=""><span>EN</span>
+                                         alt=""><span>EN</span>
                                 </li>
                             </ul>
                         </div>
@@ -109,6 +110,7 @@
                     @if (User.Identity.IsAuthenticated)
                     {
                         <form method="post" asp-controller="Account" asp-action="Logout" class="login">
+                            <span style="color:white;margin-right: 15px;font-size: 17px;">@User.Identity.Name</span>
                             <button type="submit" class="login-btn">Çıxış edin</button>
                             <i class="fa-regular fa-user d-none"></i>
                         </form>

@@ -1,4 +1,4 @@
-﻿using Domain.Models;
+﻿using Domain.Models.Game;
 using Microsoft.EntityFrameworkCore;
 using Repository.Data;
 using Repository.Repository.Interfaces;

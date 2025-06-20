@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Service.Service;
 using Service.Service.Interfaces;
@@ -11,6 +12,7 @@ using System.Threading.Tasks;
 namespace PlayRoom.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public class ConsoleController : Controller
     {
         private readonly IConsoleService _consoleService;
@@ -18,22 +20,26 @@ namespace PlayRoom.Areas.Admin.Controllers
         private readonly ICategoryService _categoryService;
         private readonly IDiscountService _discountService;
         private readonly IConsoleImageService _consoleImageService;
+        private readonly ILogger<ConsoleController> _logger;
         public ConsoleController(IConsoleService consoleService, 
                                  IWebHostEnvironment env,
                                  ICategoryService categoryService,
                                  IDiscountService discountService,
-                                 IConsoleImageService consoleImageService)
+                                 IConsoleImageService consoleImageService,
+                                 ILogger<ConsoleController> logger)
         {
             _consoleService = consoleService;
             _env = env;
             _categoryService = categoryService;
             _discountService = discountService;
             _consoleImageService = consoleImageService;
+            _logger = logger;
         }
         [HttpGet]
         public async Task<IActionResult> Index()
         {
             var datas = await _consoleService.GetAllAsync();
+            _logger.LogInformation("Console/Index called at {Time}", DateTime.UtcNow);
             return View(datas);
         }
         [HttpGet]
@@ -58,7 +64,11 @@ namespace PlayRoom.Areas.Admin.Controllers
                 Text = m.Name,
             }).ToList();
 
-            if (!ModelState.IsValid) return View(request);
+            if (!ModelState.IsValid)
+            {
+                _logger.LogError("Console/Create get error at {Time}", DateTime.UtcNow);
+                return View(request);
+            }
 
             foreach(var image in request.UploadImages)
             {
@@ -97,24 +107,41 @@ namespace PlayRoom.Areas.Admin.Controllers
             request.Images = images;
 
             await _consoleService.CreateAsync(request);
-
+            _logger.LogInformation("Console/Create called at {Time}", DateTime.UtcNow);
             return RedirectToAction(nameof(Index));
         }
 
         [HttpGet]
         public async Task<IActionResult> Detail(int? id)
         {
-            if (id == null) return BadRequest();
+            if (id == null)
+            {
+                _logger.LogError("Console/Detail get error at {Time}", DateTime.UtcNow);
+                return BadRequest();
+            }
             var existConsole= await _consoleService.GetByIdAsync((int)id);
-            if (existConsole == null) return NotFound();
+            if (existConsole == null)
+            {
+                _logger.LogError("Console/Detail get error at {Time}", DateTime.UtcNow);
+                  return NotFound();
+            }
+            _logger.LogInformation("Console/Detail called at {Time}", DateTime.UtcNow);
             return View(existConsole);
         }
         [HttpPost]
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null) return BadRequest();
+            if (id == null)
+            {
+                _logger.LogError("Console/Delete get error at {Time}", DateTime.UtcNow);
+                return BadRequest();
+            }
             var existData = await _consoleService.GetByIdAsync((int)id);
-            if (existData == null) return NotFound();
+            if (existData == null)
+            {
+                _logger.LogError("Console/Delete get error at {Time}", DateTime.UtcNow);
+                return NotFound();
+            }
             await _consoleService.DeleteAsync((int)id);
 
             foreach (var item in existData.Images)
@@ -125,7 +152,7 @@ namespace PlayRoom.Areas.Admin.Controllers
                     System.IO.File.Delete(filePath);
                 }
             }
-
+            _logger.LogInformation("Console/Delete called at {Time}", DateTime.UtcNow);
             return Ok();
         }
 
@@ -174,10 +201,18 @@ namespace PlayRoom.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(int? id, ConsoleUpdateVM request)
         {
-            if (id == null) return BadRequest();
+            if (id == null)
+            {
+                _logger.LogError("Console/Update get error at {Time}", DateTime.UtcNow);
+                return BadRequest();
+            }
 
             var existData = await _consoleService.GetByIdAsync((int)id);
-            if (existData == null) return NotFound();
+            if (existData == null)
+            {
+                _logger.LogError("Console/Update get error at {Time}", DateTime.UtcNow);
+                return NotFound();
+            }
 
             var categories = await _categoryService.GetAllAsync();
             ViewBag.Categories = categories.Select(m => new SelectListItem
@@ -201,6 +236,7 @@ namespace PlayRoom.Areas.Admin.Controllers
                     IsMain = img.IsMain,
                     Name = img.Name
                 }).ToList();
+                _logger.LogError("Console/Update get error at {Time}", DateTime.UtcNow);
 
                 return View(request);
             }
@@ -244,15 +280,23 @@ namespace PlayRoom.Areas.Admin.Controllers
             }
 
             await _consoleService.UpdateAsync((int)id, request);
-
+            _logger.LogInformation("Console/Update called at {Time}", DateTime.UtcNow);
             return RedirectToAction(nameof(Index));
         }
         [HttpPost]
-        public async Task<IActionResult> DeleteGameImage(int? id)
+        public async Task<IActionResult> DeleteConsoleImage(int? id)
         {
-            if (id == null) return BadRequest();
+            if (id == null)
+            {
+                _logger.LogError("Console/SetMainImage get error at {Time}", DateTime.UtcNow);
+                return BadRequest();
+            }
             var existImage = await _consoleImageService.GetByIdAsync((int)id);
-            if (existImage == null) return NotFound();
+            if (existImage == null)
+            {
+                _logger.LogError("Console/SetMainImage get error at {Time}", DateTime.UtcNow);
+                return NotFound();
+            }
 
             if (existImage.IsMain == true)
             {
@@ -266,16 +310,27 @@ namespace PlayRoom.Areas.Admin.Controllers
             }
 
             await _consoleImageService.DeleteAsync((int)id);
+            _logger.LogInformation("Console/DeleteConsoleImage called at {Time}", DateTime.UtcNow);
             return Ok();
         }
 
         [HttpPost]
         public async Task<IActionResult> SetMainImage(int? id)
         {
-            if (id == null) return BadRequest();
+            if (id == null)
+            {
+                _logger.LogError("Console/SetMainImage get error at {Time}", DateTime.UtcNow);
+                return BadRequest();
+            }
             var existImage = await _consoleImageService.GetByIdAsync((int)id);
-            if (existImage == null) return NotFound();
+            if (existImage == null)
+            {
+                _logger.LogError("Console/SetMainImage get error at {Time}", DateTime.UtcNow);
+                return NotFound();
+            }
             await _consoleImageService.SetMainImage((int)id);
+            _logger.LogInformation("Console/SetMainImage called at {Time}", DateTime.UtcNow);
+
             return Ok();
         }
 

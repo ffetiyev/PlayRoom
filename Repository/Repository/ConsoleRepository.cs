@@ -1,11 +1,11 @@
-﻿using Domain.Models;
+﻿using Domain.Models.Console;
 using Microsoft.EntityFrameworkCore;
 using Repository.Data;
 using Repository.Repository.Interfaces;
 
 namespace Repository.Repository
 {
-    public class ConsoleRepository : BaseRepository<Domain.Models.Console>,IConsoleRepository
+    public class ConsoleRepository : BaseRepository<Domain.Models.Console.Console>,IConsoleRepository
     {
         private readonly AppDbContext _context;
         public ConsoleRepository(AppDbContext context) : base(context) 
@@ -27,7 +27,7 @@ namespace Repository.Repository
             await _context.SaveChangesAsync();
         }
 
-        public IQueryable<Domain.Models.Console> GetAllQueryable()
+        public IQueryable<Domain.Models.Console.Console> GetAllQueryable()
         {
             return _context.Consoles
                 .Include(m => m.ConsoleCategories).ThenInclude(m => m.Category)

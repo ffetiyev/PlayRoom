@@ -1,0 +1,53 @@
+﻿@model IEnumerable<UserRolesDto>
+
+<div class="table-responsive mt-5" style="display:inline; border-color:red">
+
+    @if (TempData["RoleMessage"] != null)
+    {
+        <div class="alert @(Convert.ToBoolean(TempData["RoleSuccess"]) ? "alert-success" : "alert-danger")">
+            @TempData["RoleMessage"]
+        </div>
+    }
+
+    <table class="table table-bordered" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>FullName</th>
+                <th>Email</th>
+                <th>Username</th>
+                <th>Roles</th>
+                <th>Option</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.FullName</td>
+                    <td>@item.Email</td>
+                    <td>@item.UserName</td>
+                    <td>@String.Join(", ", item.Roles)</td>
+                    <td style="border:none; justify-content:center; border-top:1px solid gray">
+                        @if (User.IsInRole("SuperAdmin"))
+                        {
+                            <form method="post" asp-action="AddRoleToUser" asp-route-userId="@item.Id" style="display:inline">
+                                <button type="submit" class="btn btn-success btn-sm">Add Admin</button>
+                            </form>
+
+                            @if (item.Roles.Contains("Admin") && item.Roles.Count()==2)
+                            {
+                                <form method="post" asp-action="RemoveAdminRoleFromUser" asp-route-userId="@item.Id" style="display:inline; margin-left:5px;">
+                                    <button type="submit" class="btn btn-danger btn-sm">Remove Admin</button>
+                                </form>
+                            }
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section js {
+    <script src="~/admin/js/Custom.js"></script>
+}

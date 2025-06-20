@@ -1,4 +1,5 @@
 ﻿using Domain.Models;
+using Domain.Models.Game;
 
 namespace Repository.Repository.Interfaces
 {

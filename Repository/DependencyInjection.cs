@@ -27,6 +27,7 @@ namespace Repository
             services.AddScoped<IWarrantyRepository, WarrantyRepository>();
             services.AddScoped<IPrivacyRepository, PrivacyRepository>();
             services.AddScoped<IHomeShortcutRepository, HomeShortcutRepository>();
+            services.AddScoped<IPromocodeRepository, PromocodeRepository>();
 
             return services;
         }

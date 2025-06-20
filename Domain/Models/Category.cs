@@ -1,5 +1,7 @@
 ﻿using Domain.Commons;
 using Domain.Models.Accessory;
+using Domain.Models.Console;
+using Domain.Models.Game;
 
 namespace Domain.Models
 {

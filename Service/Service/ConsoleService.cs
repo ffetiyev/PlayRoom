@@ -4,11 +4,8 @@ using Service.Service.Interfaces;
 using Service.ViewModels.Category;
 using Service.ViewModels.Console;
 using Service.ViewModels.Discount;
-using Domain.Models;
-using Repository.Repository;
 using Service.Helpers.Responses;
-using Service.ViewModels.Game;
-using Service.ViewModels;
+using Domain.Models.Console;
 
 
 namespace Service.Service
@@ -23,7 +20,7 @@ namespace Service.Service
 
         public async Task CreateAsync(ConsoleCreateVM model)
         {
-            Domain.Models.Console console= new ()
+            Domain.Models.Console.Console console= new ()
             {
                 Memory = (int)model.Memory,
                 Name = model.Name,

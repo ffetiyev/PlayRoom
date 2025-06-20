@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Service.Service.Interfaces;
 using Service.ViewModels.Accessory;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 namespace PlayRoom.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public class GameController : Controller
     {
         private readonly IGameService _gameService;
@@ -16,22 +18,26 @@ namespace PlayRoom.Areas.Admin.Controllers
         private readonly IWebHostEnvironment _env;
         private readonly IDiscountService _discountService;
         private readonly IGameImageService _gameImageService;
+        private readonly ILogger<GameController> _logger;
         public GameController(IGameService gameService,
                               ICategoryService categoryService,
                               IWebHostEnvironment env,
                               IDiscountService discountService,
-                              IGameImageService gameImageService)
+                              IGameImageService gameImageService,
+                              ILogger<GameController> logger)
         {
             _gameService = gameService;
             _categoryService = categoryService;
             _env = env;
             _discountService = discountService;
             _gameImageService = gameImageService;
+            _logger = logger;
         }
         [HttpGet]
         public async Task<IActionResult> Index()
         {
             var datas = await _gameService.GetAllAsync();
+            _logger.LogInformation("Game/Index called at {Time}", DateTime.UtcNow);
             return View(datas);
         }
         [HttpGet]
@@ -40,6 +46,7 @@ namespace PlayRoom.Areas.Admin.Controllers
             if (id == null) return BadRequest();
             var existData = await _gameService.GetByIdAsync((int)id);
             if (existData == null) return NotFound();
+            _logger.LogInformation("Game/Detail called at {Time}", DateTime.UtcNow);
             return View(existData);
         }
         [HttpGet]
@@ -106,6 +113,7 @@ namespace PlayRoom.Areas.Admin.Controllers
 
 
             await _gameService.CreateAsync(request);
+            _logger.LogInformation("Game/Create called at {Time}", DateTime.UtcNow);
             return RedirectToAction(nameof(Index));
         }
         [HttpPost]
@@ -123,6 +131,8 @@ namespace PlayRoom.Areas.Admin.Controllers
                 }
             }
             await _gameService.DeleteAsync((int)id);
+            _logger.LogInformation("Game/Delete called at {Time}", DateTime.UtcNow);
+
             return Ok();
         }
         [HttpGet]
@@ -239,6 +249,7 @@ namespace PlayRoom.Areas.Admin.Controllers
             }
            
             await _gameService.UpdateAsync((int)id,request);
+            _logger.LogInformation("Game/Update called at {Time}", DateTime.UtcNow);
 
             return RedirectToAction(nameof(Index));
         }
@@ -262,6 +273,8 @@ namespace PlayRoom.Areas.Admin.Controllers
             }
 
             await _gameImageService.DeleteAsync((int)id);
+            _logger.LogInformation("Game/DeleteGameImage called at {Time}", DateTime.UtcNow);
+
             return Ok();
         }
         [HttpPost]
@@ -271,6 +284,8 @@ namespace PlayRoom.Areas.Admin.Controllers
             var existImage = await _gameImageService.GetByIdAsync((int)id);
             if (existImage == null) return NotFound();
             await _gameImageService.SetMainImage((int)id);
+            _logger.LogInformation("Game/SetMainImage called at {Time}", DateTime.UtcNow);
+
             return Ok();
         }
     }

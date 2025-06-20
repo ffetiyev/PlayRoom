@@ -270,7 +270,7 @@ let consoleImageDeleteBtns = document.querySelectorAll(".console-image-delete-bt
 consoleImageDeleteBtns.forEach((btn => {
     btn.addEventListener("click", function () {
         let imageId = parseInt(this.parentNode.getAttribute("data-id"));
-        fetch("http://localhost:5125/Admin/console/DeleteGameImage?id=" + imageId, {
+        fetch("http://localhost:5125/Admin/console/DeleteConsoleImage?id=" + imageId, {
 
             method: "POST",
 
@@ -319,48 +319,41 @@ accessoryImageDeleteBtns.forEach((btn => {
 }))
 
 
-function accessorySetMainButtons() {
-    let accessoryImageSetMainBtns = document.querySelectorAll(".accessory-image-set-main-btn");
+document.addEventListener("click", function (e) {
+    if (e.target.classList.contains("accessory-image-set-main-btn")) {
+        const btn = e.target;
+        const imageId = parseInt(btn.closest(".buttons").getAttribute("data-id"));
 
-    accessoryImageSetMainBtns.forEach(btn => {
-        btn.addEventListener("click", function () {
-            let imageId = parseInt(this.closest(".buttons").getAttribute("data-id"));
-
-            fetch("/Admin/Accessory/SetMainImage?id=" + imageId, {
-                method: "POST"
+        fetch("/Admin/Accessory/SetMainImage?id=" + imageId, {
+            method: "POST"
+        })
+            .then(response => {
+                if (!response.ok) throw new Error("Failed to set main image.");
+                return response.text();
             })
-                .then(response => {
-                    if (!response.ok) throw new Error("Failed to set main image.");
-                    return response.text();
-                })
-                .then(() => {
-                    document.querySelectorAll(".image-edit-game").forEach(el => {
-                        el.classList.remove("image-edit-game");
-                        el.querySelector(".main-image-show")?.remove();
+            .then(() => {
+                document.querySelectorAll(".image-edit-game").forEach(el => {
+                    el.classList.remove("image-edit-game");
+                    el.querySelector(".main-image-show")?.remove();
 
-                        const buttons = el.querySelector(".buttons");
-                        buttons.innerHTML = `
-                            <button class="btn btn-danger game-image-delete-btn">Delete</button>
-                            <button class="btn btn-success game-image-set-main-btn">Set main</button>
-                        `;
-                    });
-
-                    const imageContainer = this.closest(".image-edit");
-                    imageContainer.classList.add("image-edit-game");
-
-                    const buttons = this.closest(".buttons");
-                    buttons.innerHTML = `<span class="badge badge-success main-image-show">Main Image</span>`;
-
-                    accessorySetMainButtons();
-                })
-                .catch(err => {
-                    console.error("Set main image error:", err);
+                    const buttons = el.querySelector(".buttons");
+                    buttons.innerHTML = `
+                        <button class="btn btn-danger accessory-image-delete-btn">Delete</button>
+                        <button class="btn btn-success accessory-image-set-main-btn">Set main</button>
+                    `;
                 });
-        });
-    });
-}
 
-accessorySetMainButtons();
+                const imageContainer = btn.closest(".image-edit");
+                imageContainer.classList.add("image-edit-game");
+
+                const buttons = btn.closest(".buttons");
+                buttons.innerHTML = `<span class="badge badge-success main-image-show">Main Image</span>`;
+            })
+            .catch(err => {
+                console.error("Set main image error:", err);
+            });
+    }
+});
 
 
 
@@ -370,6 +363,24 @@ newsImageDeleteBtns.forEach((btn => {
     btn.addEventListener("click", function () {
         let newsId = parseInt(this.parentNode.getAttribute("data-id"));
         fetch("http://localhost:5125/Admin/News/Delete?id=" + newsId, {
+
+            method: "POST",
+
+        })
+            .then(response => response.text()).then(res => {
+                this.parentNode.parentNode.remove()
+            })
+    })
+
+}))
+
+
+let promocodeDeleteBtns = document.querySelectorAll(".promocode-delete-btn");
+
+promocodeDeleteBtns.forEach((btn => {
+    btn.addEventListener("click", function () {
+        let newsId = parseInt(this.getAttribute("data-id"));
+        fetch("http://localhost:5125/Admin/Promocode/Delete?id=" + newsId, {
 
             method: "POST",
 

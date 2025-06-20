@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using Service.ViewModels.Basket;
 using Service.ViewModels.Favorites;
 using Service.ViewModels.HomeShortcut;
+using Microsoft.AspNetCore.Diagnostics;
 
 namespace PlayRoom.Controllers;
 
@@ -30,6 +31,19 @@ public class HomeController : Controller
         _specialGameBannerService = specialGameBannerService;
         _contextAccessor = contextAccessor;
         _homeShortcutService = homeShortcutService;
+    }
+    [Route("Home/Error")]
+    public IActionResult Error()
+    {
+        var exceptionFeature = HttpContext.Features.Get<IExceptionHandlerFeature>();
+
+        if (exceptionFeature != null)
+        {
+            var exception = exceptionFeature.Error;
+            ViewData["ErrorMessage"] = exception.Message;
+        }
+
+        return View(); 
     }
     public async Task<IActionResult> Index()
     {
@@ -69,7 +83,7 @@ public class HomeController : Controller
             basketDatas = JsonConvert.DeserializeObject<List<BasketVM>>(_contextAccessor.HttpContext.Request.Cookies["basket"]);
         }
 
-        var existBasketDatas = basketDatas.FirstOrDefault(m => m.ProductType == productType && m.ProductCount == id);
+        var existBasketDatas = basketDatas.FirstOrDefault(m => m.ProductType == productType && m.ProductId == id);
         if (existBasketDatas == null)
         {
 

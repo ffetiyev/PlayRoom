@@ -1868,6 +1868,7 @@ wwwroot\assets\css\register\register.scss
 wwwroot\assets\images\157f47e8-b91e-454e-8722-85a9fa94bad1-COD-BO6.png.webp
 wwwroot\assets\images\32e5fdf0-06bd-4b4a-aa73-1ac1fa031e8b-home_main_backround-image.webp
 wwwroot\assets\images\65e1d214-d8bb-4907-af4a-1d853e7f3922-home_main_backround-image.webp
+wwwroot\assets\images\8224bcb7-f73e-448b-8ac3-3ab29260b247-home_main_backround-image.webp
 wwwroot\assets\images\Accessories\0daf3e36-75dc-4830-b58a-cec111daf69a_Charging-station-(PS5).png
 wwwroot\assets\images\Accessories\0e1c9d10-d73f-495a-9a57-d8eaa2940638_hoffman_tv.png
 wwwroot\assets\images\Accessories\23676b31-1652-4f5e-9c6e-4e6a8c86aa42_HyperX-Stinger-2-PS4).png
@@ -1946,9 +1947,9 @@ wwwroot\assets\images\Console-Images\PlayStation4Slim.png
 wwwroot\assets\images\Console-Images\Ps5-Slim(1TB).png
 wwwroot\assets\images\Console-Images\PS-VR2.png
 wwwroot\assets\images\Console-Images\Xbox-series-S.png
-wwwroot\assets\images\e23b2566-6e78-49d7-8244-40f47778e6da-home_main_backround-image.webp
 wwwroot\assets\images\Game-Images\0317d4cc-d4e1-46cb-938a-4744c39b627b_Assassains-Creed-Shadows.png
 wwwroot\assets\images\Game-Images\1cd4171c-61fc-4f5c-8928-8505c0b4291a_Dead-Space.jpg
+wwwroot\assets\images\Game-Images\2517c465-2863-45b1-b23b-494d2a8aa97e_The-Last-of-Us-1.png
 wwwroot\assets\images\Game-Images\2941a299-3258-49a7-a0bf-75a5c3204701_Resident-Evil-7.jpg
 wwwroot\assets\images\Game-Images\2e5fa7a5-570b-46ba-9c31-bc294cede5c5_Astro-bot.png
 wwwroot\assets\images\Game-Images\3186716c-1ec1-4f76-8cdd-5ea299a2f7f4_Tomb-Raider.png
@@ -1995,7 +1996,6 @@ wwwroot\assets\images\news\333f290e-7bb6-4820-912a-8470b36f5712-img10.jpg
 wwwroot\assets\images\news\3e9004b4-8b97-4525-b3b6-b65ecbcce73e-img4.jpg
 wwwroot\assets\images\news\439ef0c5-0448-4045-bce4-b3b6cf491800-img12.jpg
 wwwroot\assets\images\news\49068201-948b-4875-9564-ab469bb97e1c-img6.jpg
-wwwroot\assets\images\news\5d0d2a47-41a8-4b89-8695-793e222c3ed0-img2.jpg
 wwwroot\assets\images\news\972b09d7-a408-4de6-84ae-1227473bac86-img8.jpg
 wwwroot\assets\images\news\c9a64413-df8b-490b-8e6f-519c8285b987-img6.jpg
 wwwroot\assets\images\news\d34c3dde-9d3b-41f8-b93e-fe44efd8f15e-img1.jpg
@@ -2084,3 +2084,5 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\templates\emailConfirm.html
+wwwroot\templates\resetPassword.html

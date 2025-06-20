@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Domain.Models;
+using Domain.Models.Game;
 using Microsoft.EntityFrameworkCore;
 using Repository.Repository.Interfaces;
 using Service.Helpers.Responses;

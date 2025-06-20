@@ -1,11 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using PlayRoom.Controllers;
 using Service.Service.Interfaces;
 using Service.ViewModels.Accessory;
 
 namespace PlayRoom.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public class AccessoryController : Controller
     {
         private readonly IAccessoryService _accessoryService;
@@ -13,22 +16,26 @@ namespace PlayRoom.Areas.Admin.Controllers
         private readonly IWebHostEnvironment _env;
         private readonly IDiscountService _discountService;
         private readonly IAccessoryImageService _accessoryImageService;
+        private readonly ILogger<AccessoryController> _logger;
         public AccessoryController(IAccessoryService accessoryService, 
                                    ICategoryService categoryService,
                                    IWebHostEnvironment env,
                                    IDiscountService discountService,
-                                   IAccessoryImageService accessoryImageService)
+                                   IAccessoryImageService accessoryImageService,
+                                    ILogger<AccessoryController> logger)
         {
             _accessoryService = accessoryService;
             _categoryService = categoryService;
             _env = env;
             _discountService = discountService;
             _accessoryImageService = accessoryImageService;
+            _logger = logger;
         }
         [HttpGet]
         public async Task<IActionResult> Index()
         {
             var datas = await _accessoryService.GetAllAsync();
+            _logger.LogInformation("Accessory/Index called at {Time}", DateTime.UtcNow);
             return View(datas);
         }
         [HttpGet]
@@ -94,22 +101,38 @@ namespace PlayRoom.Areas.Admin.Controllers
 
 
             await _accessoryService.CreateAsync(request);
+
+            _logger.LogInformation("Accessory/Create called at {Time}", DateTime.UtcNow);
+
             return RedirectToAction(nameof(Index));
         }
         [HttpGet]
         public async Task<IActionResult> Detail(int? id)
         {
-            if (id == null) return BadRequest();
+            if (id == null)
+            {
+                _logger.LogError("Accessory/Detail get error at {Time}", DateTime.UtcNow);
+                return BadRequest();
+            }
             var existData = await _accessoryService.GetByIdAsync((int)id);
             if (existData == null) return NotFound();
+            _logger.LogInformation("Accessory/Detail called at {Time}", DateTime.UtcNow);
             return View(existData);
         }
         [HttpPost]
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null) return BadRequest();
+            if (id == null)
+            {
+                _logger.LogError("Accessory/Delete get error at {Time}", DateTime.UtcNow);
+                return BadRequest();
+            }
             var existData = await _accessoryService.GetByIdAsync((int)id);
-            if (existData == null) return NotFound();
+            if (existData == null)
+            {
+                _logger.LogError("Accessory/Update get error at {Time}", DateTime.UtcNow);
+                return NotFound();
+            }
             foreach (var item in existData.Images)
             {
                 string filePath = Path.Combine(_env.WebRootPath, "assets", "images", "Accessories", item.Name);
@@ -119,16 +142,24 @@ namespace PlayRoom.Areas.Admin.Controllers
                 }
             }
             await _accessoryService.DeleteAsync((int)id);
+            _logger.LogInformation("Accessory/Delete called at {Time}", DateTime.UtcNow);
             return Ok();
         }
         [HttpGet]
         public async Task<IActionResult> Update(int? id)
         {
-            if (id == null) return BadRequest();
-
+            if (id == null)
+            {
+                _logger.LogError("Accessory/Update get error at {Time}", DateTime.UtcNow);
+                return BadRequest();
+            }
 
             var existData = await _accessoryService.GetByIdAsync((int)id);
-            if (existData == null) return NotFound();
+            if (existData == null)
+            {
+                _logger.LogError("Accessory/Update get error at {Time}", DateTime.UtcNow);
+                return NotFound();
+            }
 
             var categories = await _categoryService.GetAllAsync();
             ViewBag.Categories = categories.Select(m => new SelectListItem
@@ -169,7 +200,11 @@ namespace PlayRoom.Areas.Admin.Controllers
             if (id == null) return BadRequest();
 
             var existData = await _accessoryService.GetByIdAsync((int)id);
-            if (existData == null) return NotFound();
+            if (existData == null)
+            {
+                _logger.LogError("Accessory/Update get error at {Time}", DateTime.UtcNow);
+                return NotFound();
+            }
 
             var categories = await _categoryService.GetAllAsync();
             ViewBag.Categories = categories.Select(m => new SelectListItem
@@ -236,15 +271,23 @@ namespace PlayRoom.Areas.Admin.Controllers
             }
 
             await _accessoryService.UpdateAsync((int)id, request);
-
+            _logger.LogInformation("Accessory/Update called at {Time}", DateTime.UtcNow);
             return RedirectToAction(nameof(Index));
         }
         [HttpPost]
         public async Task<IActionResult> DeleteGameImage(int? id)
         {
-            if (id == null) return BadRequest();
+            if (id == null)
+            {
+                _logger.LogError("Accessory/DeleteGameImage get error at {Time}", DateTime.UtcNow);
+                return BadRequest();
+            }
             var existImage = await _accessoryImageService.GetByIdAsync((int)id);
-            if (existImage == null) return NotFound();
+            if (existImage == null)
+            {
+                _logger.LogError("Accessory/DeleteGameImage get error at {Time}", DateTime.UtcNow);
+                return NotFound();
+            }
 
             if (existImage.IsMain == true)
             {
@@ -258,15 +301,21 @@ namespace PlayRoom.Areas.Admin.Controllers
             }
 
             await _accessoryImageService.DeleteAsync((int)id);
+            _logger.LogInformation("Accessory/DeleteGameImage called at {Time}", DateTime.UtcNow);
             return Ok();
         }
         [HttpPost]
         public async Task<IActionResult> SetMainImage(int? id)
         {
-            if (id == null) return BadRequest();
+            if (id == null)
+            {
+                _logger.LogError("Accessory/SetMainImage get error at {Time}", DateTime.UtcNow);
+                return BadRequest();
+            }
             var existImage = await _accessoryImageService.GetByIdAsync((int)id);
             if (existImage == null) return NotFound();
             await _accessoryImageService.SetMainImage((int)id);
+            _logger.LogInformation("Accessory/SetMainImage called at {Time}", DateTime.UtcNow);
             return Ok();
         }
     }

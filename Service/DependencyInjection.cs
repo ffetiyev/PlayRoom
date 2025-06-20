@@ -28,6 +28,8 @@ namespace Service
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<IHomeShortcutService, HomeShortcutService>();
             services.AddScoped<IAccountService, AccountService>();
+            services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<IPromocodeService, PromocodeService>();
 
             return services;
         }

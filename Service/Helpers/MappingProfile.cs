@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using Domain.Models;
 using Domain.Models.Accessory;
+using Domain.Models.Console;
+using Domain.Models.Game;
 using Domain.Models.News;
 using Service.ViewModels.Accessory;
 using Service.ViewModels.Category;

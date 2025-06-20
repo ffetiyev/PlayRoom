@@ -16,15 +16,18 @@ namespace PlayRoom.Controllers
         private readonly IGameService _gameService;
         private readonly IConsoleService _consoleService;
         private readonly IAccessoryService _accessoryService;
+        private readonly IPromocodeService _promocodeService;
         public CartController(IHttpContextAccessor contextAccessor,
                               IGameService gameService,
                               IConsoleService consoleService,
-                              IAccessoryService accessoryService)
+                              IAccessoryService accessoryService,
+                              IPromocodeService promocodeService)
         {
             _contextAccessor = contextAccessor;
             _gameService = gameService;
             _consoleService = consoleService;
             _accessoryService = accessoryService;
+            _promocodeService = promocodeService;
         }
         public async Task<IActionResult> Index()
         {
@@ -395,6 +398,22 @@ namespace PlayRoom.Controllers
             return Ok(data);
 
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AddPromocode(string promocode)
+        {
+            if (string.IsNullOrWhiteSpace(promocode))
+                return Ok("There is no such promocode!");
+
+            var promocodes = await _promocodeService.GetAllAsync();
+            var existPromocode = promocodes.FirstOrDefault(m => m.Name == promocode);
+
+            if (existPromocode == null)
+                return Ok("There is no such promocode!");
+
+            return Ok(existPromocode.Value.ToString());
+        }
+
 
     }
 }

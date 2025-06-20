@@ -214,3 +214,77 @@ document.querySelectorAll(".qty-input .qty-count--minus").forEach(btn => {
         }
     });
 });
+
+
+document.querySelector(".apply-promo").addEventListener("click", function () {
+    const promoInput = document.querySelector("#promoInput");
+    const promoCode = promoInput.value.trim();
+    const messageSpan = document.querySelector("#promoMessage");
+    const totalPriceSpan = document.querySelector("#totalPrice");
+
+    // Read original total
+    let originalTotal = parseFloat(totalPriceSpan.getAttribute("data-original"));
+    if (isNaN(originalTotal)) {
+        const rawText = totalPriceSpan.textContent.replace(/[^\d.]/g, "");
+        originalTotal = parseFloat(rawText);
+        console.warn("Fallback originalTotal:", originalTotal);
+    }
+
+    if (!promoCode) {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Boş promokod!',
+            text: 'Zəhmət olmasa, promokodu daxil edin.'
+        });
+        return;
+    }
+
+    fetch(`http://localhost:5125/Cart/AddPromocode?promocode=${promoCode}`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+    })
+        .then(res => res.text())
+        .then(res => {
+            if (res.includes("There is no such promocode")) {
+                totalPriceSpan.textContent = `${originalTotal.toFixed(0)} ₼`;
+
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Promokod tapılmadı',
+                    text: 'Belə bir promokod mövcud deyil.'
+                });
+            } else {
+                const discount = parseInt(res);
+                const newTotal = originalTotal - (originalTotal * discount / 100);
+                totalPriceSpan.textContent = `${newTotal.toFixed(0)} ₼`;
+
+                Swal.fire({
+                    toast: true,
+                    position: 'top-end',
+                    icon: 'success',
+                    title: `-${discount}% endirim tətbiq olundu.`,
+                    showConfirmButton: false,
+                    timer: 3000,
+                    timerProgressBar: true
+                });
+
+
+                promoInput.disabled = true;
+                this.disabled = true;
+            }
+        })
+        .catch(err => {
+            console.error("Xəta baş verdi:", err);
+            Swal.fire({
+                toast: true,
+                position: 'top-end',
+                icon: 'error',
+                title: `Promokode tapilmadi`,
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true
+            });
+        });
+});

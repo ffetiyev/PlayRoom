@@ -278,3 +278,17 @@ C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\ne
 C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\MailKit.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\MimeKit.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\Serilog.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\ffati\OneDrive\Desktop\PB402\Backend-MVC\PlayRoom\PlayRoom\bin\Debug\net8.0\Serilog.Sinks.File.dll
